@@ -1,0 +1,55 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "manufacturer": "Mahindra",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER_PARTIAL_VARIANTS",
+  "sourceKeys": [
+    "MAHINDRA_BE6_XEV9E"
+  ],
+  "dataPolicy": {
+    "purchasePrice": "USER_INPUT",
+    "actualEfficiencyKmPerKWh": "USER_INPUT_OR_REAL_USAGE",
+    "onlyStoreRangesDirectlyVerifiedFromCurrentManufacturerSources": true
+  },
+  "models": [
+    {
+      "model": "BE 6",
+      "variants": [
+        {
+          "name": "79 kWh",
+          "batteryKWh": 79,
+          "midcP1P2RangeKm": 683,
+          "dcFastCharge20To80Minutes": 20,
+          "dcFastChargerKW": 175
+        },
+        {
+          "name": "59 kWh",
+          "batteryKWh": 59,
+          "midcP1P2RangeKm": null,
+          "note": "Battery option is manufacturer-confirmed; range intentionally null until directly verified from a current official specification source."
+        }
+      ]
+    },
+    {
+      "model": "XEV 9e",
+      "variants": [
+        {
+          "name": "79 kWh",
+          "batteryKWh": 79,
+          "midcP1P2RangeKm": 656,
+          "dcFastCharge20To80Minutes": 20,
+          "dcFastChargerKW": 175
+        },
+        {
+          "name": "59 kWh",
+          "batteryKWh": 59,
+          "midcP1P2RangeKm": null,
+          "note": "Battery option is manufacturer-confirmed; range intentionally null until directly verified from a current official specification source."
+        }
+      ]
+    }
+  ]
+}

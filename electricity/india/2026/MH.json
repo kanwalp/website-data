@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "stateCode": "MH",
+  "stateName": "Maharashtra",
+  "regulator": "MERC",
+  "tariffYear": "FY 2026-27",
+  "effectiveFrom": "2026-04-01",
+  "effectiveTo": "2027-03-31",
+  "calculationEngine": "MAHARASHTRA_TELESCOPIC_WHEELING",
+  "verificationStatus": "VERIFIED_OFFICIAL",
+  "productionEnabled": true,
+  "sourceKeys": [
+    "MERC_CASE_75_2025"
+  ],
+  "distributionCompany": "MSEDCL",
+  "domestic": {
+    "category": "LT-I(B) Residential",
+    "billingPeriodMonths": 1,
+    "billingMethod": "TELESCOPIC",
+    "slabs": [
+      {
+        "fromKWh": 0,
+        "toKWh": 100,
+        "energyRatePerKWh": 3.96,
+        "wheelingRatePerKWh": 1.6,
+        "totalVariableRatePerKWh": 5.56
+      },
+      {
+        "fromKWh": 100,
+        "toKWh": 300,
+        "energyRatePerKWh": 10.8,
+        "wheelingRatePerKWh": 1.6,
+        "totalVariableRatePerKWh": 12.4
+      },
+      {
+        "fromKWh": 300,
+        "toKWh": 500,
+        "energyRatePerKWh": 15.03,
+        "wheelingRatePerKWh": 1.6,
+        "totalVariableRatePerKWh": 16.64
+      },
+      {
+        "fromKWh": 500,
+        "toKWh": null,
+        "energyRatePerKWh": 17.53,
+        "wheelingRatePerKWh": 1.6,
+        "totalVariableRatePerKWh": 19.13
+      }
+    ],
+    "billingRateField": "totalVariableRatePerKWh",
+    "fixedCharge": {
+      "type": "PER_CONNECTION_PER_MONTH",
+      "singlePhase": 130,
+      "threePhase": 435
+    }
+  },
+  "bpl": {
+    "category": "LT-I(A) Residential-BPL",
+    "fixedChargePerConnectionPerMonth": 35,
+    "energyRatePerKWh": 1.48
+  },
+  "evChargingStation": {
+    "category": "LT-VIII",
+    "energyRatePerKVAh": 7.73,
+    "wheelingRatePerKVAh": 1.52,
+    "totalVariableRatePerKVAh": 9.26
+  },
+  "dynamicCharges": {
+    "electricityDuty": {
+      "included": false,
+      "dynamic": true
+    },
+    "statutoryCharges": {
+      "included": false,
+      "dynamic": true
+    }
+  }
+}

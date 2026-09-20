@@ -1,0 +1,272 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "manufacturer": "Tata Motors",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
+  "sourceKeys": [
+    "TATA_EV_SUPPORT"
+  ],
+  "dataPolicy": {
+    "purchasePrice": "USER_INPUT",
+    "actualEfficiencyKmPerKWh": "USER_INPUT_OR_REAL_USAGE",
+    "certifiedRangeMustNotBeTreatedAsRealWorldEfficiency": true
+  },
+  "models": [
+    {
+      "model": "Sierra.ev",
+      "variants": [
+        {
+          "name": "63 RWD",
+          "batteryKWh": 63,
+          "midcP1P2RangeKm": 535,
+          "c75RangeKm": {
+            "min": 440,
+            "max": 460
+          }
+        },
+        {
+          "name": "75 RWD",
+          "batteryKWh": 75,
+          "midcP1P2RangeKm": 665,
+          "c75RangeKm": {
+            "min": 510,
+            "max": 530
+          }
+        },
+        {
+          "name": "75 QWD",
+          "batteryKWh": 75,
+          "midcP1P2RangeKm": 624,
+          "c75RangeKm": {
+            "min": 480,
+            "max": 500
+          }
+        }
+      ]
+    },
+    {
+      "model": "Tiago.ev",
+      "variants": [
+        {
+          "name": "MR",
+          "batteryKWh": 19.2,
+          "midcP1RangeKm": 261,
+          "midcP1P2RangeKm": 221,
+          "c75RangeKm": {
+            "min": 150,
+            "max": 160
+          }
+        },
+        {
+          "name": "LR",
+          "batteryKWh": 24,
+          "midcP1RangeKm": 315,
+          "midcP1P2RangeKm": 275,
+          "c75RangeKm": {
+            "min": 190,
+            "max": 210
+          }
+        }
+      ]
+    },
+    {
+      "model": "Tigor.ev",
+      "variants": [
+        {
+          "name": "XpresT",
+          "batteryKWh": 21.5,
+          "midcP1RangeKm": 213,
+          "midcP1P2RangeKm": null,
+          "midcP1P2Status": "NOT_TESTED",
+          "c75RangeKm": {
+            "min": 150,
+            "max": 170
+          }
+        },
+        {
+          "name": "ET++",
+          "batteryKWh": 25.5,
+          "midcP1RangeKm": 277,
+          "midcP1P2RangeKm": null,
+          "midcP1P2Status": "NOT_TESTED",
+          "c75RangeKm": {
+            "min": 190,
+            "max": 210
+          }
+        },
+        {
+          "name": "Ziptron 26",
+          "batteryKWh": 26,
+          "midcP1RangeKm": 315,
+          "midcP1P2RangeKm": 265,
+          "c75RangeKm": {
+            "min": 200,
+            "max": 220
+          }
+        },
+        {
+          "name": "Ziptron 24",
+          "batteryKWh": 24,
+          "midcP1RangeKm": 315,
+          "midcP1P2RangeKm": 250,
+          "c75RangeKm": {
+            "min": 190,
+            "max": 210
+          }
+        },
+        {
+          "name": "Xpress T 24",
+          "batteryKWh": 24,
+          "midcP1RangeKm": null,
+          "midcP1P2RangeKm": 261,
+          "c75RangeKm": {
+            "min": 170,
+            "max": 190
+          }
+        }
+      ]
+    },
+    {
+      "model": "Punch.ev",
+      "variants": [
+        {
+          "name": "30",
+          "batteryKWh": 30,
+          "midcP1P2RangeKm": {
+            "min": 365,
+            "max": 375
+          },
+          "midcP1P2Status": "UNDER_CERTIFICATION",
+          "c75RangeKm": {
+            "min": 260,
+            "max": 275
+          }
+        },
+        {
+          "name": "40",
+          "batteryKWh": 40,
+          "midcP1P2RangeKm": 468,
+          "c75RangeKm": {
+            "min": 335,
+            "max": 355
+          }
+        }
+      ]
+    },
+    {
+      "model": "Nexon.ev",
+      "variants": [
+        {
+          "name": "Prime",
+          "batteryKWh": 30.2,
+          "midcP1RangeKm": 312,
+          "midcP1P2RangeKm": 265,
+          "c75RangeKm": {
+            "min": 190,
+            "max": 210
+          }
+        },
+        {
+          "name": "Max",
+          "batteryKWh": 40.5,
+          "midcP1RangeKm": 453,
+          "midcP1P2RangeKm": 375,
+          "c75RangeKm": {
+            "min": 280,
+            "max": 300
+          }
+        },
+        {
+          "name": "MR",
+          "batteryKWh": 30,
+          "midcP1RangeKm": 325,
+          "midcP1P2RangeKm": 275,
+          "c75RangeKm": {
+            "min": 210,
+            "max": 230
+          }
+        },
+        {
+          "name": "LR",
+          "batteryKWh": 40.5,
+          "midcP1RangeKm": 465,
+          "midcP1P2RangeKm": 390,
+          "c75RangeKm": {
+            "min": 290,
+            "max": 310
+          }
+        },
+        {
+          "name": "45",
+          "batteryKWh": 45,
+          "midcP1RangeKm": null,
+          "midcP1P2RangeKm": 489,
+          "c75RangeKm": {
+            "min": 350,
+            "max": 375
+          }
+        }
+      ]
+    },
+    {
+      "model": "Curvv.ev",
+      "variants": [
+        {
+          "name": "45",
+          "batteryKWh": 45,
+          "midcP1RangeKm": 502,
+          "midcP1P2RangeKm": 430,
+          "c75RangeKm": {
+            "min": 330,
+            "max": 350
+          }
+        },
+        {
+          "name": "55",
+          "batteryKWh": 55,
+          "midcP1RangeKm": 585,
+          "midcP1P2RangeKm": 502,
+          "c75RangeKm": {
+            "min": 400,
+            "max": 425
+          }
+        }
+      ]
+    },
+    {
+      "model": "Harrier.ev",
+      "variants": [
+        {
+          "name": "65 RWD",
+          "batteryKWh": 65,
+          "midcP1P2RangeKm": 538,
+          "c75RangeKm": {
+            "min": 420,
+            "max": 445
+          }
+        },
+        {
+          "name": "75 RWD",
+          "batteryKWh": 75,
+          "midcP1P2RangeKm": 627,
+          "c75RangeKm": {
+            "min": 480,
+            "max": 505
+          }
+        },
+        {
+          "name": "75 QWD",
+          "batteryKWh": 75,
+          "midcP1P2RangeKm": 622,
+          "c75RangeKm": {
+            "min": 460,
+            "max": 490
+          }
+        }
+      ]
+    }
+  ]
+}

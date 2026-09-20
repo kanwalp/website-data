@@ -1,0 +1,43 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "manufacturer": "Hyundai",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
+  "sourceKeys": [
+    "HYUNDAI_CRETA_EV_SPEC"
+  ],
+  "dataPolicy": {
+    "purchasePrice": "USER_INPUT",
+    "actualEfficiencyKmPerKWh": "USER_INPUT_OR_REAL_USAGE",
+    "certifiedRangeMustNotBeTreatedAsRealWorldEfficiency": true
+  },
+  "models": [
+    {
+      "model": "CRETA Electric",
+      "chargingStandard": "CCS2",
+      "variants": [
+        {
+          "name": "42 kWh",
+          "batteryKWh": 42,
+          "midcP1P2RangeKm": 420,
+          "motorMaxPowerKW": 99,
+          "acChargerKW": 7.4,
+          "acCharge10To100Minutes": 360,
+          "dcCharge10To80Minutes": 39
+        },
+        {
+          "name": "Long Range 51.4 kWh",
+          "batteryKWh": 51.4,
+          "midcP1P2RangeKm": 510,
+          "motorMaxPowerKW": 126,
+          "acChargerKW": 7.4,
+          "acCharge10To100Minutes": 435,
+          "dcCharge10To80Minutes": 39
+        }
+      ]
+    }
+  ]
+}

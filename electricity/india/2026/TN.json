@@ -1,0 +1,64 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "stateCode": "TN",
+  "stateName": "Tamil Nadu",
+  "regulator": "TNERC",
+  "tariffYear": "Base tariff effective from 1 July 2025",
+  "effectiveFrom": "2025-07-01",
+  "effectiveTo": null,
+  "calculationEngine": "TAMIL_NADU_BIMONTHLY",
+  "verificationStatus": "PARTIAL_DIRECT_FY2026_27_SOURCE_PENDING",
+  "productionEnabled": false,
+  "sourceKeys": [
+    "TNERC_ORDER_6_2025"
+  ],
+  "distributionCompany": "TNPDCL",
+  "domestic": {
+    "category": "LT-IA Domestic",
+    "billingPeriodMonths": 2,
+    "baseTariffReferenceOnly": true,
+    "baseEnergySlabs": [
+      {
+        "fromKWh": 0,
+        "toKWh": 400,
+        "ratePerKWh": 4.95
+      },
+      {
+        "fromKWh": 400,
+        "toKWh": 500,
+        "ratePerKWh": 6.65
+      },
+      {
+        "fromKWh": 500,
+        "toKWh": 600,
+        "ratePerKWh": 8.8
+      },
+      {
+        "fromKWh": 600,
+        "toKWh": 800,
+        "ratePerKWh": 9.95
+      },
+      {
+        "fromKWh": 800,
+        "toKWh": 1000,
+        "ratePerKWh": 11.05
+      },
+      {
+        "fromKWh": 1000,
+        "toKWh": null,
+        "ratePerKWh": 12.15
+      }
+    ],
+    "fixedCharge": 0,
+    "currentSubsidyPolicy": {
+      "productionEnabled": false,
+      "verificationStatus": "PENDING_DIRECT_FY2026_27_ORDER_ARTIFACT",
+      "message": "Do not calculate final consumer payable Tamil Nadu domestic bills until the current FY2026-27 TNERC/GoTN subsidy artifact is captured and verified."
+    }
+  },
+  "fallbackMode": "CUSTOM_RATE"
+}

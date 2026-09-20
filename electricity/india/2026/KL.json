@@ -1,0 +1,146 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "stateCode": "KL",
+  "stateName": "Kerala",
+  "regulator": "KSERC",
+  "tariffYear": "Current schedule through FY 2026-27",
+  "effectiveFrom": "2024-12-05",
+  "effectiveTo": "2027-03-31",
+  "calculationEngine": "KERALA_LT1_HYBRID",
+  "verificationStatus": "VERIFIED_OFFICIAL",
+  "productionEnabled": true,
+  "sourceKeys": [
+    "KSERC_CURRENT_TARIFF_SCHEDULE"
+  ],
+  "distributionCompany": "KSEB Ltd",
+  "domestic": {
+    "category": "LT-I Domestic",
+    "billingPeriodMonths": 1,
+    "rules": [
+      {
+        "condition": {
+          "totalMonthlyConsumptionMaxKWh": 250
+        },
+        "billingMethod": "TELESCOPIC",
+        "energySlabs": [
+          {
+            "fromKWh": 0,
+            "toKWh": 50,
+            "ratePerKWh": 3.35
+          },
+          {
+            "fromKWh": 50,
+            "toKWh": 100,
+            "ratePerKWh": 4.25
+          },
+          {
+            "fromKWh": 100,
+            "toKWh": 150,
+            "ratePerKWh": 5.35
+          },
+          {
+            "fromKWh": 150,
+            "toKWh": 200,
+            "ratePerKWh": 7.2
+          },
+          {
+            "fromKWh": 200,
+            "toKWh": 250,
+            "ratePerKWh": 8.5
+          }
+        ],
+        "fixedChargeByTotalConsumption": [
+          {
+            "upToKWh": 50,
+            "singlePhase": 50,
+            "threePhase": 130
+          },
+          {
+            "upToKWh": 100,
+            "singlePhase": 85,
+            "threePhase": 175
+          },
+          {
+            "upToKWh": 150,
+            "singlePhase": 105,
+            "threePhase": 205
+          },
+          {
+            "upToKWh": 200,
+            "singlePhase": 140,
+            "threePhase": 215
+          },
+          {
+            "upToKWh": 250,
+            "singlePhase": 160,
+            "threePhase": 235
+          }
+        ]
+      },
+      {
+        "condition": {
+          "totalMonthlyConsumptionMinExclusiveKWh": 250
+        },
+        "billingMethod": "NON_TELESCOPIC_TOTAL_CONSUMPTION_BAND",
+        "bands": [
+          {
+            "upToKWh": 300,
+            "ratePerKWh": 6.75,
+            "singlePhaseFixed": 220,
+            "threePhaseFixed": 240
+          },
+          {
+            "upToKWh": 350,
+            "ratePerKWh": 7.6,
+            "singlePhaseFixed": 240,
+            "threePhaseFixed": 250
+          },
+          {
+            "upToKWh": 400,
+            "ratePerKWh": 7.95,
+            "singlePhaseFixed": 260,
+            "threePhaseFixed": 260
+          },
+          {
+            "upToKWh": 500,
+            "ratePerKWh": 8.25,
+            "singlePhaseFixed": 285,
+            "threePhaseFixed": 285
+          },
+          {
+            "upToKWh": null,
+            "ratePerKWh": 8.2,
+            "singlePhaseFixed": 310,
+            "threePhaseFixed": 310
+          }
+        ]
+      }
+    ],
+    "bpl": {
+      "monthlyConsumptionMaxKWh": 40,
+      "connectedLoadMaxWatts": 1000,
+      "ratePerKWh": 1.5,
+      "fixedCharge": 0
+    },
+    "timeOfDay": {
+      "applicableToThreePhaseDomesticAboveKWhPerMonth": 250,
+      "calculationEnabled": false,
+      "message": "Additional ToD rules may apply. TechVodka does not calculate ToD without time-bucket consumption data."
+    }
+  },
+  "dynamicCharges": {
+    "electricityDuty": {
+      "included": false,
+      "dynamic": true
+    },
+    "surchargeCessTaxes": {
+      "included": false,
+      "dynamic": true
+    }
+  },
+  "sourceDiscrepancyNote": "The detailed LT-I tariff schedule page shows ₹8.20/unit above 500 units; TechVodka uses the detailed schedule value."
+}

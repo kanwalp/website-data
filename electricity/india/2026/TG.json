@@ -1,0 +1,203 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "stateCode": "TG",
+  "stateName": "Telangana",
+  "regulator": "TGERC",
+  "tariffYear": "FY 2026-27",
+  "effectiveFrom": "2026-04-01",
+  "effectiveTo": "2027-03-31",
+  "calculationEngine": "TELANGANA_LT1_BANDED",
+  "verificationStatus": "VERIFIED_OFFICIAL",
+  "productionEnabled": true,
+  "sourceKeys": [
+    "TGSPDCL_RST_FY2026_27",
+    "TGSPDCL_RST_PRIOR_CUSTOMER_CHARGES"
+  ],
+  "discoms": [
+    "TGSPDCL",
+    "TGNPDCL",
+    "CESS Sircilla"
+  ],
+  "domestic": {
+    "category": "LT-I Domestic",
+    "billingPeriodMonths": 1,
+    "bandSelectionRule": "Choose the domestic band using TOTAL monthly consumption, then apply the slabs inside that band.",
+    "bands": [
+      {
+        "id": "LT-I(A)",
+        "totalConsumption": {
+          "minExclusive": null,
+          "maxInclusive": 100
+        },
+        "slabs": [
+          {
+            "fromKWh": 0,
+            "toKWh": 50,
+            "ratePerKWh": 1.95
+          },
+          {
+            "fromKWh": 50,
+            "toKWh": 100,
+            "ratePerKWh": 3.1
+          }
+        ],
+        "fixedCharge": {
+          "unit": "INR_PER_KW_PER_MONTH",
+          "rate": 10
+        }
+      },
+      {
+        "id": "LT-I(B)(i)",
+        "totalConsumption": {
+          "minExclusive": 100,
+          "maxInclusive": 200
+        },
+        "slabs": [
+          {
+            "fromKWh": 0,
+            "toKWh": 100,
+            "ratePerKWh": 3.4
+          },
+          {
+            "fromKWh": 100,
+            "toKWh": 200,
+            "ratePerKWh": 4.8
+          }
+        ],
+        "fixedCharge": {
+          "unit": "INR_PER_KW_PER_MONTH",
+          "rate": 10
+        }
+      },
+      {
+        "id": "LT-I(B)(ii)",
+        "totalConsumption": {
+          "minExclusive": 200,
+          "maxInclusive": null
+        },
+        "slabs": [
+          {
+            "fromKWh": 0,
+            "toKWh": 200,
+            "ratePerKWh": 5.1
+          },
+          {
+            "fromKWh": 200,
+            "toKWh": 300,
+            "ratePerKWh": 7.7
+          },
+          {
+            "fromKWh": 300,
+            "toKWh": 400,
+            "ratePerKWh": 9.0
+          },
+          {
+            "fromKWh": 400,
+            "toKWh": 800,
+            "ratePerKWh": 9.5
+          },
+          {
+            "fromKWh": 800,
+            "toKWh": null,
+            "ratePerKWh": 10.0
+          }
+        ],
+        "fixedChargeRules": [
+          {
+            "totalConsumptionMaxKWh": 800,
+            "ratePerKWPerMonth": 10
+          },
+          {
+            "totalConsumptionMinExclusiveKWh": 800,
+            "ratePerKWPerMonth": 50
+          }
+        ]
+      }
+    ],
+    "customerCharges": [
+      {
+        "totalConsumptionMaxKWh": 50,
+        "chargePerMonth": 40
+      },
+      {
+        "totalConsumptionMinExclusiveKWh": 50,
+        "totalConsumptionMaxKWh": 100,
+        "chargePerMonth": 70
+      },
+      {
+        "totalConsumptionMinExclusiveKWh": 100,
+        "totalConsumptionMaxKWh": 200,
+        "chargePerMonth": 90
+      },
+      {
+        "totalConsumptionMinExclusiveKWh": 200,
+        "totalConsumptionMaxKWh": 300,
+        "chargePerMonth": 100
+      },
+      {
+        "totalConsumptionMinExclusiveKWh": 300,
+        "totalConsumptionMaxKWh": 400,
+        "chargePerMonth": 120
+      },
+      {
+        "totalConsumptionMinExclusiveKWh": 400,
+        "totalConsumptionMaxKWh": 800,
+        "chargePerMonth": 140
+      },
+      {
+        "totalConsumptionMinExclusiveKWh": 800,
+        "chargePerMonth": 160
+      }
+    ],
+    "customerChargeStatus": "CARRIED_FORWARD_UNCHANGED_BY_FY2026_27_ORDER"
+  },
+  "evChargingStations": {
+    "LT": {
+      "category": "LT-IX",
+      "energyRatePerKWh": 6.0,
+      "fixedDemandCharge": 0
+    },
+    "HT": {
+      "category": "HT-IX",
+      "energyRatePerKWh": 6.0,
+      "demandChargePerKVAperMonth": 100,
+      "timeOfDay": [
+        {
+          "from": "06:00",
+          "to": "10:00",
+          "adjustmentPerKWh": 1.5
+        },
+        {
+          "from": "10:00",
+          "to": "18:00",
+          "adjustmentPerKWh": -0.5
+        },
+        {
+          "from": "18:00",
+          "to": "22:00",
+          "adjustmentPerKWh": 1.5
+        },
+        {
+          "from": "22:00",
+          "to": "06:00",
+          "adjustmentPerKWh": 0.0
+        }
+      ]
+    }
+  },
+  "dynamicCharges": {
+    "fsaFca": {
+      "included": false,
+      "dynamic": true,
+      "message": "Fuel Surcharge Adjustment / Fuel Cost Adjustment is extra and changes under the applicable regulation."
+    },
+    "electricityDuty": {
+      "included": false,
+      "dynamic": true
+    }
+  }
+}

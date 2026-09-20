@@ -1,0 +1,58 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL",
+  "sourceKeys": [
+    "MOP_EVCI_2024",
+    "MOP_ANNUAL_REPORT_2024_25"
+  ],
+  "guidelineEffectiveFrom": "2024-09-17",
+  "homeCharging": {
+    "existingDomesticConnectionCanBeUsed": true,
+    "domesticElectricityTariffApplies": true,
+    "increaseSanctionedLoadIfRequired": true
+  },
+  "publicCharging": {
+    "supplyTariffCeilingValidTo": "2028-03-31",
+    "maximumSupplyTariff": "AVERAGE_COST_OF_SUPPLY",
+    "discomTariffMultipliers": {
+      "solarHours": {
+        "from": "09:00",
+        "to": "16:00",
+        "acosMultiplier": 0.7
+      },
+      "nonSolarHours": {
+        "from": "16:00",
+        "to": "09:00",
+        "acosMultiplier": 1.3
+      }
+    },
+    "serviceChargeCeiling": {
+      "validTo": "2028-03-31",
+      "excludingGSTAndLandCost": true,
+      "AC_SLOW": {
+        "solarHoursINRPerKWh": 3.0,
+        "nonSolarHoursINRPerKWh": 4.0
+      },
+      "DC_FAST": {
+        "solarHoursINRPerKWh": 11.0,
+        "nonSolarHoursINRPerKWh": 13.0
+      }
+    },
+    "finalCustomerFeeComponents": [
+      "electricity_supply_tariff",
+      "service_charge",
+      "land_cost",
+      "applicable_GST"
+    ],
+    "important": "Service-charge ceiling is not the final retail charging price."
+  },
+  "calculatorPolicy": {
+    "publicChargingFinalPriceMode": "USER_INPUT_OR_VERIFIED_OPERATOR_DATA",
+    "doNotInferFinalRetailPriceFromServiceChargeCeiling": true
+  }
+}

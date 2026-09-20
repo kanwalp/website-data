@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "manufacturer": "JSW MG Motor India",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
+  "sourceKeys": [
+    "MG_WINDSOR_CURRENT"
+  ],
+  "dataPolicy": {
+    "purchasePrice": "USER_INPUT",
+    "actualEfficiencyKmPerKWh": "USER_INPUT_OR_REAL_USAGE",
+    "certifiedRangeMustNotBeTreatedAsRealWorldEfficiency": true
+  },
+  "models": [
+    {
+      "model": "Windsor EV",
+      "variants": [
+        {
+          "name": "38 kWh",
+          "batteryKWh": 38,
+          "certifiedRangeKm": 332
+        },
+        {
+          "name": "PRO 52.9 kWh",
+          "batteryKWh": 52.9,
+          "certifiedRangeKm": 449
+        }
+      ]
+    }
+  ]
+}

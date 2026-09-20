@@ -1,0 +1,111 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "stateCode": "DL",
+  "stateName": "Delhi",
+  "regulator": "DERC",
+  "tariffYear": "Current base tariff published by BSES",
+  "effectiveFrom": "2025-01-01",
+  "effectiveTo": null,
+  "calculationEngine": "DELHI_TELESCOPIC",
+  "verificationStatus": "VERIFIED_BASE_DYNAMIC_PARTIAL",
+  "productionEnabled": true,
+  "sourceKeys": [
+    "BSES_DELHI_INFO_GUIDE_2025",
+    "BRPL_FPPAS_CURRENT"
+  ],
+  "discoms": [
+    "BRPL",
+    "BYPL",
+    "TPDDL"
+  ],
+  "domestic": {
+    "category": "Domestic Individual Connection",
+    "billingPeriodMonths": 1,
+    "billingMethod": "TELESCOPIC",
+    "energySlabs": [
+      {
+        "fromKWh": 0,
+        "toKWh": 200,
+        "ratePerKWh": 3.0
+      },
+      {
+        "fromKWh": 200,
+        "toKWh": 400,
+        "ratePerKWh": 4.5
+      },
+      {
+        "fromKWh": 400,
+        "toKWh": 800,
+        "ratePerKWh": 6.5
+      },
+      {
+        "fromKWh": 800,
+        "toKWh": 1200,
+        "ratePerKWh": 7.0
+      },
+      {
+        "fromKWh": 1200,
+        "toKWh": null,
+        "ratePerKWh": 8.0
+      }
+    ],
+    "fixedChargeBySanctionedLoad": [
+      {
+        "upToKW": 2,
+        "ratePerKWPerMonth": 20
+      },
+      {
+        "aboveKW": 2,
+        "upToKW": 5,
+        "ratePerKWPerMonth": 50
+      },
+      {
+        "aboveKW": 5,
+        "upToKW": 15,
+        "ratePerKWPerMonth": 100
+      },
+      {
+        "aboveKW": 15,
+        "upToKW": 25,
+        "ratePerKWPerMonth": 200
+      },
+      {
+        "aboveKW": 25,
+        "upToKW": null,
+        "ratePerKWPerMonth": 250
+      }
+    ]
+  },
+  "evChargingStation": {
+    "LT": {
+      "energyRatePerKWh": 4.5
+    },
+    "HT": {
+      "energyRatePerKVAh": 4.0
+    }
+  },
+  "dynamicCharges": {
+    "fppas": {
+      "applyOnlyWhenDiscomAndDateMatch": true,
+      "snapshots": [
+        {
+          "discom": "BRPL",
+          "ratePercent": 10.0,
+          "validFrom": "2026-09-01",
+          "validTo": "2026-09-30",
+          "sourceKey": "BRPL_FPPAS_CURRENT"
+        }
+      ],
+      "message": "FPPAS changes by DISCOM and period. A missing current snapshot must be shown as not included, not as zero."
+    }
+  },
+  "domesticSubsidy": {
+    "productionEnabled": false,
+    "verificationStatus": "FY2026_27_GNCTD_ORDER_NOT_VERIFIED",
+    "message": "Do not apply older FY2025-26 domestic subsidy rules to FY2026-27 without a current GNCTD order."
+  }
+}

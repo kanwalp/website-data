@@ -1,0 +1,38 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "fields": {
+    "petrolPricePerLitre": {
+      "hardcode": false,
+      "mode": "USER_INPUT_OR_DATE_STAMPED_VERIFIED_FEED",
+      "reason": "Fuel price varies by city and date."
+    },
+    "dieselPricePerLitre": {
+      "hardcode": false,
+      "mode": "USER_INPUT_OR_DATE_STAMPED_VERIFIED_FEED",
+      "reason": "Fuel price varies by city and date."
+    },
+    "publicEVChargingFinalPricePerKWh": {
+      "hardcode": false,
+      "mode": "USER_INPUT_OR_VERIFIED_OPERATOR_DATA",
+      "reason": "Final retail charging price varies by operator, charger, electricity tariff, land cost and GST."
+    },
+    "evPurchasePrice": {
+      "hardcode": false,
+      "mode": "USER_INPUT",
+      "reason": "Price varies by variant, city, registration, offers and financing model."
+    },
+    "solarInstalledMarketCost": {
+      "hardcode": false,
+      "mode": "USER_QUOTE_OR_DATE_STAMPED_LOCAL_GUIDANCE",
+      "reason": "Installer pricing and system specification vary."
+    },
+    "electricityDynamicAdjustments": {
+      "hardcode": false,
+      "mode": "STATE_DISCOM_DATE_SCOPED_DATA",
+      "reason": "FPPAS/FSA/FCA and statutory levies can change independently of base tariffs."
+    }
+  }
+}

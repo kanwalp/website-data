@@ -1,0 +1,188 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "sources": {
+    "TGSPDCL_RST_FY2026_27": {
+      "publisher": "TGSPDCL / Telangana Electricity Regulatory Commission",
+      "title": "Retail Supply Tariff schedule, Cross Subsidy Surcharge for FY 2026-27",
+      "url": "https://tgsouthernpower.org/resources/PDF/Tariffs/69tarifffile.pdf",
+      "sourceType": "OFFICIAL_TARIFF_SCHEDULE",
+      "effectiveFrom": "2026-04-01",
+      "effectiveTo": "2027-03-31",
+      "verifiedOn": "2026-09-20"
+    },
+    "TGSPDCL_RST_PRIOR_CUSTOMER_CHARGES": {
+      "publisher": "TGSPDCL / Telangana Electricity Regulatory Commission",
+      "title": "Retail Supply Tariff schedule - prior schedule used only for customer charges carried forward unchanged",
+      "url": "https://tgsouthernpower.org/resources/PDF/Tariffs/59tarifffile.pdf",
+      "sourceType": "OFFICIAL_PRIOR_TARIFF_SCHEDULE",
+      "note": "FY2026-27 schedule explicitly states there is no change in Customer Charges; values are therefore carried forward from the prior official schedule.",
+      "verifiedOn": "2026-09-20"
+    },
+    "APERC_TARIFF_ORDERS_FY2026_27": {
+      "publisher": "Andhra Pradesh Electricity Regulatory Commission",
+      "title": "Tariff Orders - Retail Sale of Electricity during FY 2026-27",
+      "url": "https://aperc.gov.in/page/Tariff_Orders",
+      "sourceType": "OFFICIAL_REGULATOR_INDEX",
+      "effectiveFrom": "2026-04-01",
+      "effectiveTo": "2027-03-31",
+      "verifiedOn": "2026-09-20"
+    },
+    "APEPDCL_ARR_RST_FY2026_27": {
+      "publisher": "APEPDCL",
+      "title": "ARR/CSS/RST filing for FY 2026-27",
+      "url": "https://apeasternpower.com/MqKfcSkRsjsSlg0NlDDHYCT7dKQ%3D?fileName=paper_ARRCSS_+RSTFY2026-27.pdf&filePath=%2Fupload%2FExternal_Files%2F%2FRegulatory%2FPETETIONSANDNOTICES%2F",
+      "sourceType": "OFFICIAL_DISCOM_FILING",
+      "note": "Used to cross-check the domestic schedule against the regulator's current FY2026-27 order listing.",
+      "verifiedOn": "2026-09-20"
+    },
+    "APERC_RST_FY2025_26_CORRECTED": {
+      "publisher": "Andhra Pradesh Electricity Regulatory Commission",
+      "title": "RST Order for FY2025-26 after corrections",
+      "url": "https://aperc.gov.in/admin/upload/RSTOrderforFY202526aftercorrections19.03.2025.pdf",
+      "sourceType": "OFFICIAL_PRIOR_TARIFF_ORDER",
+      "note": "Exact state-wide domestic rate table; FY2026-27 official DISCOM filing retains these retail schedule values.",
+      "verifiedOn": "2026-09-20"
+    },
+    "KERC_TARIFF_ORDER_2025_HRECS": {
+      "publisher": "Karnataka Electricity Regulatory Commission / HRECS",
+      "title": "Tariff Order 2025 - FY2026-27 LT-1 schedule",
+      "url": "https://hrecs.co.in/app/documents/TariffRates2026-27-28.pdf",
+      "sourceType": "OFFICIAL_TARIFF_ORDER",
+      "effectiveFrom": "2026-04-01",
+      "effectiveTo": "2027-03-31",
+      "verifiedOn": "2026-09-20"
+    },
+    "MERC_CASE_75_2025": {
+      "publisher": "Maharashtra Electricity Regulatory Commission / MSEDCL",
+      "title": "MERC Order - Case No. 75 of 2025, revised tariffs for FY 2026-27",
+      "url": "https://www.mahadiscom.in/consumer/wp-content/uploads/2025/06/Order_Case-No.75-of-2025.pdf",
+      "sourceType": "OFFICIAL_TARIFF_ORDER",
+      "effectiveFrom": "2026-04-01",
+      "effectiveTo": "2027-03-31",
+      "verifiedOn": "2026-09-20"
+    },
+    "KSERC_CURRENT_TARIFF_SCHEDULE": {
+      "publisher": "Kerala State Electricity Regulatory Commission / KSEB",
+      "title": "Current Kerala tariff schedule applicable through 31 March 2027",
+      "url": "https://www.ksebea.in/wp-content/uploads/2025/12/Technical_Documents-Final25-50-102.pdf",
+      "sourceType": "OFFICIAL_TARIFF_SCHEDULE",
+      "effectiveFrom": "2024-12-05",
+      "effectiveTo": "2027-03-31",
+      "verifiedOn": "2026-09-20"
+    },
+    "TNERC_ORDER_6_2025": {
+      "publisher": "Tamil Nadu Electricity Regulatory Commission",
+      "title": "Suo Motu Tariff Order No. 6 of 2025",
+      "url": "https://www.tnerc.tn.gov.in/Orders/files/TO%20Order%20No6300620252131.pdf",
+      "sourceType": "OFFICIAL_TARIFF_ORDER",
+      "effectiveFrom": "2025-07-01",
+      "note": "Direct source URL identified, but current retrieval was unreliable. TechVodka keeps Tamil Nadu production tariff logic disabled until the FY2026-27 subsidy/order artifact is captured and verified directly.",
+      "verifiedOn": "2026-09-20"
+    },
+    "BSES_DELHI_INFO_GUIDE_2025": {
+      "publisher": "BSES Yamuna Power Limited",
+      "title": "Info Guide 2025 - Electricity Charges",
+      "url": "https://www.bsesdelhi.com/documents/73527/75008/Info_Guide_2025.pdf/a07c060f-836f-af79-6b26-0529b0650e55?t=1765272855921",
+      "sourceType": "OFFICIAL_DISCOM_GUIDE",
+      "verifiedOn": "2026-09-20"
+    },
+    "BRPL_FPPAS_CURRENT": {
+      "publisher": "BSES Rajdhani Power Limited",
+      "title": "Fuel & Power Purchase Adjustment Surcharge",
+      "url": "https://www.bsesdelhi.com/web/brpl/fuel-power-purchase-adjustment-charges",
+      "sourceType": "OFFICIAL_DYNAMIC_DISCOM_DATA",
+      "verifiedOn": "2026-09-20"
+    },
+    "MNRE_PM_SURYA_GHAR_CFA": {
+      "publisher": "Ministry of New and Renewable Energy",
+      "title": "PM-Surya Ghar: Muft Bijli Yojana - CFA Guidelines",
+      "url": "https://cdnbbsr.s3waas.gov.in/s3716e1b8c6cd17b771da77391355749f3/uploads/2024/04/202404162127034309.pdf",
+      "sourceType": "OFFICIAL_CENTRAL_SCHEME_GUIDELINE",
+      "verifiedOn": "2026-09-20"
+    },
+    "MNRE_ROOFTOP_PORTAL_FAQ": {
+      "publisher": "Ministry of New and Renewable Energy - National Portal for Rooftop Solar",
+      "title": "Rooftop Solar FAQ / technical guidance",
+      "url": "https://api.solarrooftop.gov.in/pdf/faq_new.pdf",
+      "sourceType": "OFFICIAL_TECHNICAL_GUIDANCE",
+      "note": "Used for broad sizing/generation guidance. Exact site output must be treated as an estimate.",
+      "verifiedOn": "2026-09-20"
+    },
+    "DELHI_SOLAR_STATE_SUBSIDY": {
+      "publisher": "Department of Power, Government of NCT of Delhi",
+      "title": "Delhi Solar Portal - State Subsidy",
+      "url": "https://solar.delhi.gov.in/page/state-subsidy",
+      "sourceType": "OFFICIAL_STATE_SOLAR_POLICY_PORTAL",
+      "updatedOn": "2026-09-19",
+      "verifiedOn": "2026-09-20"
+    },
+    "DELHI_SOLAR_POLICY_AMENDED": {
+      "publisher": "Department of Power, Government of NCT of Delhi",
+      "title": "Delhi Solar Policy 2023 with amendment",
+      "url": "https://solar.delhi.gov.in/public/assets/solar/delhi_solar_policy_2023_with_amendment.pdf",
+      "sourceType": "OFFICIAL_STATE_POLICY_GAZETTE",
+      "verifiedOn": "2026-09-20"
+    },
+    "MOP_EVCI_2024": {
+      "publisher": "Ministry of Power, Government of India",
+      "title": "Guidelines for Installation and Operation of Electric Vehicle Charging Infrastructure-2024",
+      "url": "https://powermin.gov.in/sites/default/files/uploads/RS03022025_Eng_0.pdf",
+      "sourceType": "OFFICIAL_CENTRAL_GUIDELINE_COPY",
+      "effectiveFrom": "2024-09-17",
+      "verifiedOn": "2026-09-20"
+    },
+    "MOP_ANNUAL_REPORT_2024_25": {
+      "publisher": "Ministry of Power, Government of India",
+      "title": "Annual Report 2024-25 - EVCI guideline summary",
+      "url": "https://powermin.gov.in/sites/default/files/uploads/MOP_Annual_Report_Eng_2024_25.pdf",
+      "sourceType": "OFFICIAL_GOVERNMENT_REPORT",
+      "verifiedOn": "2026-09-20"
+    },
+    "TATA_EV_SUPPORT": {
+      "publisher": "Tata Motors / Tata.ev",
+      "title": "Tata.ev Support - Battery and Range Information",
+      "url": "https://prod-ev.tatamotors.com/support.html",
+      "sourceType": "OFFICIAL_MANUFACTURER",
+      "verifiedOn": "2026-09-20"
+    },
+    "HYUNDAI_CRETA_EV_SPEC": {
+      "publisher": "Hyundai Motor India",
+      "title": "CRETA Electric Specifications",
+      "url": "https://org2.hyundai.com/in/en/find-a-car/creta-electric/specification",
+      "sourceType": "OFFICIAL_MANUFACTURER",
+      "verifiedOn": "2026-09-20"
+    },
+    "MG_WINDSOR_CURRENT": {
+      "publisher": "JSW MG Motor India",
+      "title": "MG Windsor - current official battery/range statement",
+      "url": "https://www.mgmotor.co.in/media-center/newsroom/mg-windsor-sets-an-electrifying-record-over-75k-units-sold-under-two-years",
+      "sourceType": "OFFICIAL_MANUFACTURER",
+      "verifiedOn": "2026-09-20"
+    },
+    "MAHINDRA_BE6_XEV9E": {
+      "publisher": "Mahindra & Mahindra",
+      "title": "BE 6 & XEV 9e top variant specifications",
+      "url": "https://auto.mahindra.com/press-release/mahindra-democratises-premium-ev-technology-announces-top-variant-prices-of-be-6-and-xev-9e.html",
+      "sourceType": "OFFICIAL_MANUFACTURER",
+      "verifiedOn": "2026-09-20"
+    },
+    "BEE_SNL_CURRENT": {
+      "publisher": "Bureau of Energy Efficiency",
+      "title": "Standards & Labelling Programme",
+      "url": "https://beeindia.gov.in/show_content.php?lang=1&level=1&lid=322&ls_id=198",
+      "sourceType": "OFFICIAL_GOVERNMENT_PROGRAMME",
+      "pageLastUpdated": "2026-05-05",
+      "verifiedOn": "2026-09-20"
+    },
+    "DELHI_SOLAR_CALCULATOR": {
+      "publisher": "Department of Power, Government of NCT of Delhi",
+      "title": "Delhi Solar Portal - Solar Rooftop Calculator",
+      "url": "https://solar.delhi.gov.in/solar/calculator",
+      "sourceType": "OFFICIAL_STATE_SOLAR_CALCULATOR_GUIDANCE",
+      "updatedOn": "2026-09-19",
+      "verifiedOn": "2026-09-20"
+    }
+  }
+}

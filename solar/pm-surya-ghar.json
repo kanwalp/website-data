@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "schemeName": "PM Surya Ghar: Muft Bijli Yojana",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL",
+  "sourceKeys": [
+    "MNRE_PM_SURYA_GHAR_CFA"
+  ],
+  "schemeLaunchDate": "2024-02-13",
+  "implementationEndDate": "2027-03-31",
+  "eligibility": {
+    "sector": "RESIDENTIAL",
+    "gridConnectedRequiredForCFA": true,
+    "nonResidentialCentralCFA": 0,
+    "domesticContentRequirement": true,
+    "modulesAndCellsMustBeDomesticallyManufacturedForCFA": true
+  },
+  "normalStates": {
+    "household": {
+      "blocks": [
+        {
+          "fromKwp": 0,
+          "toKwp": 2,
+          "cfaPerKwp": 30000
+        },
+        {
+          "fromKwp": 2,
+          "toKwp": 3,
+          "cfaPerKwp": 18000
+        },
+        {
+          "fromKwp": 3,
+          "toKwp": null,
+          "cfaPerKwp": 0
+        }
+      ],
+      "maximumCentralCFA": 78000
+    },
+    "ghsRwa": {
+      "cfaPerKwp": 18000,
+      "maximumTotalSupportedCapacityKwp": 500,
+      "maximumSupportedCapacityPerHouseKwp": 3
+    },
+    "benchmarkCost": {
+      "first2KwpPerKwp": 50000,
+      "additionalKwpPerKwp": 45000,
+      "notMarketPrice": true
+    }
+  },
+  "specialCategoryStates": {
+    "statesAndUTs": [
+      "Uttarakhand",
+      "Himachal Pradesh",
+      "Jammu and Kashmir",
+      "Ladakh",
+      "Arunachal Pradesh",
+      "Assam",
+      "Manipur",
+      "Meghalaya",
+      "Mizoram",
+      "Nagaland",
+      "Tripura",
+      "Sikkim",
+      "Andaman and Nicobar Islands",
+      "Lakshadweep"
+    ],
+    "household": {
+      "blocks": [
+        {
+          "fromKwp": 0,
+          "toKwp": 2,
+          "cfaPerKwp": 33000
+        },
+        {
+          "fromKwp": 2,
+          "toKwp": 3,
+          "cfaPerKwp": 19800
+        },
+        {
+          "fromKwp": 3,
+          "toKwp": null,
+          "cfaPerKwp": 0
+        }
+      ],
+      "maximumCentralCFA": 85800
+    },
+    "ghsRwa": {
+      "cfaPerKwp": 19800,
+      "maximumTotalSupportedCapacityKwp": 500,
+      "maximumSupportedCapacityPerHouseKwp": 3
+    },
+    "benchmarkCost": {
+      "first2KwpPerKwp": 55000,
+      "additionalKwpPerKwp": 49500,
+      "notMarketPrice": true
+    }
+  },
+  "additionalRules": {
+    "cfaBasedOnDCModuleCapacity": true,
+    "inverterSizeDoesNotIncreaseCFA": true,
+    "batteryStorageDoesNotIncreaseCFA": true,
+    "noAdditionalHouseholdCFAAbove3Kwp": true,
+    "priorSubsidisedSystemMayClaimBalanceUpToOverall3Kwp": true,
+    "relocatingExistingSystemDoesNotCreateNewCFA": true
+  }
+}

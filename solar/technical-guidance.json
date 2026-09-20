@@ -1,0 +1,34 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "productionEnabled": true,
+  "verificationStatus": "OFFICIAL_GUIDANCE_WITH_ESTIMATE_LABEL",
+  "sourceKeys": [
+    "MNRE_ROOFTOP_PORTAL_FAQ"
+  ],
+  "roofArea": {
+    "generalShadowFreeAreaSqMPerKwp": 10,
+    "isEstimate": true,
+    "message": "Actual area varies with module efficiency, spacing, tilt, setbacks and shading."
+  },
+  "generation": {
+    "clearSunnyDayKWhPerKwp": {
+      "min": 4.0,
+      "max": 5.5
+    },
+    "isEstimate": true,
+    "doNotUseAsGuaranteedAnnualOutput": true,
+    "message": "Actual generation varies by location, irradiation, temperature, orientation, tilt, shading, equipment quality and O&M."
+  },
+  "expectedProjectLifeYears": 25,
+  "universalOfficialDegradationPercentPerYear": null,
+  "universalInstalledMarketCostPerKwp": null,
+  "universalAnnualMaintenanceCost": null,
+  "calculationPolicy": {
+    "preferLocationSpecificVerifiedGenerationData": true,
+    "allowUserInstallerQuote": true,
+    "showAllAssumptions": true
+  }
+}

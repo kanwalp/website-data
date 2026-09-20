@@ -1,0 +1,69 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "stateCode": "DL",
+  "stateName": "Delhi",
+  "currency": "INR",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL_CURRENT",
+  "sourceKeys": [
+    "DELHI_SOLAR_STATE_SUBSIDY",
+    "DELHI_SOLAR_POLICY_AMENDED",
+    "DELHI_SOLAR_CALCULATOR"
+  ],
+  "stateCapitalSubsidy": {
+    "residentialHousehold": {
+      "subsidyPerKW": 10000,
+      "maximumEligibleCapacityKW": 3,
+      "maximumSubsidy": 30000
+    },
+    "ghsRwaCommonFacilities": {
+      "subsidyPerKW": 2000,
+      "maximumTotalCapacityKW": 500,
+      "includesEVCharging": true
+    }
+  },
+  "generationBasedIncentive": {
+    "residentialUpTo3KW": {
+      "ratePerKWh": 3
+    },
+    "residentialAbove3UpTo10KW": {
+      "ratePerKWh": 2
+    },
+    "ghsRwaUpTo500KW": {
+      "ratePerKWh": 2
+    },
+    "commercialIndustrialEarlyBird": {
+      "ratePerKWh": 1,
+      "deploymentCapMW": 200
+    }
+  },
+  "note": "State benefits are additional to eligible central CFA, subject to scheme/policy conditions and current portal rules.",
+  "marketCostGuidance": {
+    "isOfficialPortalEstimate": true,
+    "notInstallerQuote": true,
+    "bands": [
+      {
+        "capacityMaxKW": 5,
+        "approxCostPerKW": 60000
+      },
+      {
+        "capacityMinKW": 6,
+        "capacityMaxKW": 10,
+        "approxCostPerKW": 55000
+      },
+      {
+        "capacityMinExclusiveKW": 10,
+        "approxCostPerKW": 50000
+      }
+    ],
+    "message": "Use as dated Delhi Solar Portal guidance only. Actual installer quotes and system specifications vary."
+  },
+  "roofAreaGuidance": {
+    "approxSqMPerKW": 10,
+    "approxSqFtPerKW": 100,
+    "isEstimate": true
+  }
+}

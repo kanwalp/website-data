@@ -1,0 +1,50 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "stateCode": "KA",
+  "stateName": "Karnataka",
+  "regulator": "KERC",
+  "tariffYear": "FY 2026-27",
+  "effectiveFrom": "2026-04-01",
+  "effectiveTo": "2027-03-31",
+  "calculationEngine": "KARNATAKA_FLAT_RATE",
+  "verificationStatus": "VERIFIED_OFFICIAL",
+  "productionEnabled": true,
+  "sourceKeys": [
+    "KERC_TARIFF_ORDER_2025_HRECS"
+  ],
+  "discoms": [
+    "BESCOM",
+    "MESCOM",
+    "HESCOM",
+    "GESCOM",
+    "CESC",
+    "HRECS"
+  ],
+  "domestic": {
+    "category": "LT-1",
+    "billingPeriodMonths": 1,
+    "billingMethod": "FLAT_ENERGY_RATE",
+    "energyRatePerKWh": 5.8,
+    "fixedCharge": {
+      "type": "PER_KW_PER_MONTH_SANCTIONED_LOAD",
+      "rate": 150,
+      "requiresSanctionedLoadKW": true
+    },
+    "solarRooftopFixedChargeRebate": {
+      "eligibleSanctionedLoadMaxKW": 10,
+      "rebatePerInstalledSolarKW": 25,
+      "appliesTo": "FIXED_CHARGE",
+      "applyOnlyWhenEligibilityConfirmed": true
+    }
+  },
+  "dynamicCharges": {
+    "taxesAndAdjustments": {
+      "included": false,
+      "dynamic": true
+    }
+  }
+}

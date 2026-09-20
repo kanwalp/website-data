@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "productionEnabled": true,
+  "verificationStatus": "VERIFIED_OFFICIAL_POLICY",
+  "sourceKeys": [
+    "BEE_SNL_CURRENT"
+  ],
+  "genericWattageIsOfficial": false,
+  "preferredConsumptionSourceOrder": [
+    "USER_ENTERED_VALUE",
+    "PRODUCT_NAMEPLATE",
+    "BEE_STAR_LABEL",
+    "MANUFACTURER_SPECIFICATION"
+  ],
+  "mandatoryLabelledAppliances": [
+    "Frost Free Refrigerator",
+    "Stationary Storage Type Electric Water Heater",
+    "Colour Television",
+    "Room Air Conditioner - Variable Speed",
+    "Tubular Fluorescent Lamp",
+    "LED Lamp",
+    "Room Air Conditioner - Fixed Speed",
+    "RAC - Cassette/Floor Standing/Tower/Ceiling/Corner",
+    "Distribution Transformer",
+    "Direct Cool Refrigerator",
+    "Ceiling Fan"
+  ],
+  "voluntaryLabelledAppliances": [
+    "Computer",
+    "Domestic Gas Stove",
+    "General Purpose Industrial Motor",
+    "Submersible Pump Set",
+    "Washing Machine",
+    "Ballast",
+    "Solid State Inverter",
+    "Office Automation Products",
+    "Diesel Engine Driven Monoset Pumps for Agricultural Purposes",
+    "Diesel Generator Set",
+    "Chillers",
+    "Microwave Oven",
+    "Solar Water Heater",
+    "Deep Freezers",
+    "Light Commercial AC Fixed Speed",
+    "Ultra-High Definition Television",
+    "Air Compressors",
+    "Tyres/Tires",
+    "High Energy Li-Battery",
+    "Table Fan / Wall Mounted Fan",
+    "Pedestal Fan",
+    "Induction Hob",
+    "Side by Side Refrigerator"
+  ],
+  "calculatorPolicy": {
+    "allowGenericEstimate": true,
+    "genericEstimateLabel": "Typical estimate",
+    "allowUserWattageOverride": true,
+    "recommendedPrimaryInput": "watts",
+    "ac": {
+      "doNotDeriveExactRunningWattsFromStarRatingOnly": true,
+      "preferredInputs": [
+        "BEE annual energy consumption if available",
+        "rated power input from manufacturer/nameplate",
+        "ISEER",
+        "user usage hours"
+      ],
+      "universalOfficialLoadFactor": null,
+      "universalOfficialRuntimeFactor": null
+    }
+  },
+  "inverterBatteryPolicy": {
+    "universalOfficialInverterEfficiency": null,
+    "universalOfficialPowerFactor": null,
+    "universalOfficialBatteryDepthOfDischarge": null,
+    "universalOfficialBatteryRoundTripEfficiency": null,
+    "preferredSourceOrder": [
+      "USER_INPUT",
+      "MANUFACTURER_DATASHEET",
+      "PRODUCT_NAMEPLATE"
+    ]
+  }
+}

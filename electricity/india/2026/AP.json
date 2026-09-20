@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.2.0",
+  "dataVersion": "2026.09.20",
+  "verifiedOn": "2026-09-20",
+  "country": "IN",
+  "currency": "INR",
+  "stateCode": "AP",
+  "stateName": "Andhra Pradesh",
+  "regulator": "APERC",
+  "tariffYear": "FY 2026-27",
+  "effectiveFrom": "2026-04-01",
+  "effectiveTo": "2027-03-31",
+  "calculationEngine": "AP_TELESCOPIC",
+  "verificationStatus": "VERIFIED_CURRENT_ORDER_RATES_CROSSCHECKED",
+  "productionEnabled": true,
+  "sourceKeys": [
+    "APERC_TARIFF_ORDERS_FY2026_27",
+    "APEPDCL_ARR_RST_FY2026_27",
+    "APERC_RST_FY2025_26_CORRECTED"
+  ],
+  "discoms": [
+    "APEPDCL",
+    "APSPDCL",
+    "APCPDCL"
+  ],
+  "domestic": {
+    "category": "I(A) Domestic - LT",
+    "billingPeriodMonths": 1,
+    "billingMethod": "TELESCOPIC",
+    "energySlabs": [
+      {
+        "fromKWh": 0,
+        "toKWh": 30,
+        "ratePerKWh": 1.9
+      },
+      {
+        "fromKWh": 30,
+        "toKWh": 75,
+        "ratePerKWh": 3.0
+      },
+      {
+        "fromKWh": 75,
+        "toKWh": 125,
+        "ratePerKWh": 4.5
+      },
+      {
+        "fromKWh": 125,
+        "toKWh": 225,
+        "ratePerKWh": 6.0
+      },
+      {
+        "fromKWh": 225,
+        "toKWh": 400,
+        "ratePerKWh": 8.75
+      },
+      {
+        "fromKWh": 400,
+        "toKWh": null,
+        "ratePerKWh": 9.75
+      }
+    ],
+    "fixedCharge": {
+      "type": "PER_KW_PER_MONTH",
+      "rate": 10,
+      "requiresSanctionedLoadKW": true
+    }
+  },
+  "evChargingStation": {
+    "energyRatePerKWh": 6.7,
+    "billingUnit": "kWh_or_kVAh_as_applicable"
+  },
+  "dynamicCharges": {
+    "fppca": {
+      "included": false,
+      "dynamic": true
+    },
+    "electricityDuty": {
+      "included": false,
+      "dynamic": true
+    }
+  },
+  "verificationNote": "The APERC tariff-order index confirms the FY2026-27 order. The FY2026-27 APEPDCL official filing and prior corrected APERC rate table agree on the domestic retail schedule encoded here."
+}
