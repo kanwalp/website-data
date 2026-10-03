@@ -1,5 +1,8 @@
 import fs from "node:fs";
-const manifest = JSON.parse(fs.readFileSync("manifest.json", "utf8"));
+import path from "node:path";
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+const manifest = JSON.parse(fs.readFileSync(path.join(root, "manifest.json"), "utf8"));
 const today = new Date();
 console.log(`TechVodka data ${manifest.dataVersion}`);
 for (const f of manifest.files.filter(x => x.type === "electricity-tariff")) {

@@ -1,11 +1,11 @@
 {
-  "name": "techvodka-data",
+  "name": "website-data",
   "version": "1.0.0",
   "private": true,
-  "description": "Versioned public data used by TechVodka calculators.",
+  "description": "Shared public curated data for multiple websites.",
   "scripts": {
-    "validate": "node scripts/validate.mjs",
-    "status": "node scripts/status.mjs"
+    "validate": "node techvodka/scripts/validate.mjs",
+    "status": "node techvodka/scripts/status.mjs"
   },
   "engines": {
     "node": ">=20"
