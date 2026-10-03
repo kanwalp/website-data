@@ -1,4 +1,4 @@
-name: Validate TechVodka Data
+name: Validate Website Data
 
 on:
   push:

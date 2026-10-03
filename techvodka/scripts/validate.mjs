@@ -1,7 +1,8 @@
 import fs from "node:fs";
 import path from "node:path";
 
-const root = process.cwd();
+import { fileURLToPath } from "node:url";
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const manifestPath = path.join(root, "manifest.json");
 
 function fail(message) {
@@ -23,6 +24,11 @@ if (!manifest) process.exit(1);
 if (!manifest.schemaVersion || !manifest.dataVersion || !Array.isArray(manifest.files)) {
   fail("manifest.json is missing required fields");
 }
+if (manifest.site !== "techvodka") fail('manifest.json "site" must be "techvodka"');
+if (!manifest.contentVersion) fail("manifest.json is missing contentVersion");
+if (!/^\d{4}-\d{2}-\d{2}$/.test(manifest.updatedAt ?? "")) fail("manifest.json updatedAt must be YYYY-MM-DD");
+const listed = manifest.files.map((item) => item.path);
+if (new Set(listed).size !== listed.length) fail("manifest.json lists a duplicate file path");
 
 const sourceRegistry = readJson(path.join(root, "sources.json"));
 const sourceKeys = new Set(Object.keys(sourceRegistry?.sources ?? {}));
