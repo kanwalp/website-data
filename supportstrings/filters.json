@@ -1,0 +1,84 @@
+{
+  "schemaVersion": "1.1",
+  "items": [
+    {
+      "id": "mode",
+      "label": "Mode",
+      "options": [
+        { "value": "online", "label": "Online", "description": "Work primarily through the internet." },
+        { "value": "offline", "label": "Offline", "description": "Serve customers locally or in person." },
+        { "value": "hybrid", "label": "Online + Offline", "description": "Combine digital discovery with physical delivery or service." }
+      ]
+    },
+    {
+      "id": "businessType",
+      "label": "Business type",
+      "options": [
+        { "value": "physical_product", "label": "Physical Product", "description": "Make, source or package tangible products." },
+        { "value": "digital_product", "label": "Digital Product", "description": "Create downloadable or audience-led products." },
+        { "value": "service", "label": "Service", "description": "Sell expertise, time and execution." },
+        { "value": "software", "label": "Software", "description": "Build a focused application or online utility." },
+        { "value": "commerce", "label": "Commerce", "description": "Source and sell products through retail channels." }
+      ]
+    },
+    {
+      "id": "investment",
+      "label": "Investment",
+      "options": [
+        { "value": "under_5000", "label": "Below ₹5,000", "description": "Minimum testing investment below ₹5,000." },
+        { "value": "5000_10000", "label": "₹5,000 - ₹10,000", "description": "Minimum testing investment from ₹5,000 to below ₹10,000." },
+        { "value": "10000_25000", "label": "₹10,000 - ₹25,000", "description": "Minimum testing investment from ₹10,000 to below ₹25,000." },
+        { "value": "25000_plus", "label": "₹25,000+", "description": "Minimum testing investment of ₹25,000 or more." }
+      ]
+    },
+    {
+      "id": "difficulty",
+      "label": "Difficulty",
+      "options": [
+        { "value": "beginner", "label": "Beginner" },
+        { "value": "intermediate", "label": "Intermediate" },
+        { "value": "advanced", "label": "Advanced" }
+      ]
+    },
+    {
+      "id": "weeklyTime",
+      "label": "Weekly time",
+      "options": [
+        { "value": "2_5", "label": "2-5 hrs/week" },
+        { "value": "5_10", "label": "5-10 hrs/week" },
+        { "value": "10_plus", "label": "10+ hrs/week" }
+      ]
+    },
+    {
+      "id": "compliance",
+      "label": "Compliance",
+      "options": [
+        { "value": "low", "label": "Low" },
+        { "value": "low_medium", "label": "Low-Medium" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "high", "label": "High" }
+      ]
+    },
+    {
+      "id": "revenueModel",
+      "label": "Revenue model",
+      "options": [
+        { "value": "one_time", "label": "One-time" },
+        { "value": "repeat_purchase", "label": "Repeat Purchase" },
+        { "value": "subscription", "label": "Subscription" },
+        { "value": "project_based", "label": "Project Based" },
+        { "value": "retainer", "label": "Retainer" },
+        { "value": "bulk_orders", "label": "Bulk Orders" }
+      ]
+    },
+    {
+      "id": "editorial",
+      "label": "Editorial label",
+      "options": [
+        { "value": "featured", "label": "Featured" },
+        { "value": "trending", "label": "Trending" },
+        { "value": "new", "label": "New" }
+      ]
+    }
+  ]
+}

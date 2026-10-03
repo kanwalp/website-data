@@ -1,0 +1,1513 @@
+{
+  "schemaVersion": "1.0",
+  "items": [
+    {
+      "ideaId": "candle_business",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Make five test candles",
+        "goal": "Check candle consistency and willingness to pay before buying inventory.",
+        "actions": [
+          "Choose one container, size and wax approach",
+          "Make five candles using the same documented process",
+          "Check wick behavior, finish and fragrance consistency",
+          "Ask at least three likely buyers what they would realistically pay"
+        ],
+        "successSignal": "At least three likely buyers show genuine willingness to pay at a price that appears workable after direct costs."
+      },
+      "variables": {
+        "customer": "gift buyers and home-fragrance shoppers",
+        "product": "one focused candle offer",
+        "productPlural": "candles",
+        "testBatchSize": 5,
+        "validationTargetCount": 3,
+        "validationCriteria": "show genuine willingness to pay a realistic candle price",
+        "competitorFocus": "price, wax and container choices, fragrance range, packaging and buyer reviews",
+        "qualityFocus": "burn behavior, wick performance, fragrance consistency and finish",
+        "costFocus": "wax, fragrance, wick, container, label, packaging, failed units, fees and delivery",
+        "complianceFocus": "applicable candle safety, labeling, fragrance handling and claims",
+        "supplierFocus": "wax and fragrance specifications, container quality, small quantities and lead times",
+        "packagingFocus": "protect the candle, support gifting and include required safety information",
+        "salesChannels": "direct WhatsApp or Instagram outreach and one local gifting channel",
+        "firstPaidMilestone": "first 10 paid candle sales",
+        "scaleEvidence": "consistent burn quality, gifting demand and a test price that covers obvious direct costs",
+        "riskWarning": "Do not buy large wax, fragrance or container inventory before validation."
+      },
+      "milestones": {
+        "validation": "Three likely buyers accept a realistic candle price",
+        "firstTest": "Five consistent test candles completed",
+        "firstPaid": "First 10 paid candle sales",
+        "finalDecision": "Demand, burn quality and direct costs reviewed"
+      },
+      "stepOverrides": {
+        "test_product": {
+          "warnings": [
+            "Do not buy large wax, fragrance or container inventory before demand and consistency are proven."
+          ],
+          "tips": [
+            "Record materials, temperatures and curing time for every test so the strongest result can be repeated."
+          ]
+        }
+      }
+    },
+    {
+      "ideaId": "gift_hamper_business",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Create three sample hamper concepts",
+        "goal": "Test occasion, item mix, presentation and budget before stocking inventory.",
+        "actions": [
+          "Choose one occasion and two buyer budgets",
+          "Create two or three sample hamper combinations",
+          "Photograph the actual samples and item list",
+          "Send the concepts to 10 likely buyers and ask for an inquiry, quote request or order"
+        ],
+        "successSignal": "The concepts generate at least three genuine inquiries or one paid order at a realistic price, not only compliments."
+      },
+      "variables": {
+        "customer": "occasion gift buyers and small corporate purchasers",
+        "product": "an occasion-specific hamper concept",
+        "productPlural": "gift hampers",
+        "testBatchSize": 3,
+        "validationTargetCount": 3,
+        "validationCriteria": "make a genuine inquiry, request a quote or place an order",
+        "competitorFocus": "occasion, item mix, personalization, price, packaging and delivery promises",
+        "qualityFocus": "item quality, presentation, personalization accuracy and delivery readiness",
+        "costFocus": "included items, packaging, personalization, assembly, wastage, fees and delivery",
+        "complianceFocus": "applicable product labels, food or cosmetic items, invoicing and claims inside the hamper",
+        "supplierFocus": "item consistency, expiry or shelf life, personalization lead time and replacement reliability",
+        "packagingFocus": "survive delivery and make the occasion and personalization clear",
+        "salesChannels": "direct WhatsApp or Instagram outreach and targeted corporate gifting outreach",
+        "firstPaidMilestone": "first five paid hamper orders",
+        "scaleEvidence": "paid occasion demand, reliable suppliers and repeatable packing at a workable price",
+        "riskWarning": "Do not stock a wide range of hamper items before specific occasions and budgets are validated."
+      },
+      "milestones": {
+        "validation": "Real inquiries confirm one occasion and budget",
+        "firstTest": "Three sample hamper concepts completed",
+        "firstPaid": "First five paid hamper orders",
+        "finalDecision": "Supplier, packing and paid-order evidence reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "handmade_jewellery",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Create a very small jewellery collection",
+        "goal": "Identify which designs earn paid interest before producing many variations.",
+        "actions": [
+          "Choose one style direction and target buyer",
+          "Create four to six finished pieces",
+          "Check sizing, closures, comfort and finish",
+          "Photograph the real pieces and offer them to likely buyers"
+        ],
+        "successSignal": "At least three likely buyers select specific designs and one or more place a paid order without requiring unsustainable discounts."
+      },
+      "variables": {
+        "customer": "buyers seeking distinctive handmade jewellery for a specific style or occasion",
+        "product": "a small differentiated jewellery collection",
+        "productPlural": "handmade jewellery pieces",
+        "testBatchSize": 6,
+        "validationTargetCount": 3,
+        "validationCriteria": "select a design and show willingness to pay",
+        "competitorFocus": "design style, materials, finish, price, sizing, photography and reviews",
+        "qualityFocus": "finish, closures, sizing, comfort and material consistency",
+        "costFocus": "materials, findings, packaging, failed pieces, platform fees and delivery",
+        "complianceFocus": "material disclosures, claims, labeling and applicable consumer requirements",
+        "supplierFocus": "material specifications, finish consistency, small quantities and replacement availability",
+        "packagingFocus": "protect delicate pieces and communicate materials and care clearly",
+        "salesChannels": "Instagram or direct referrals and one local event or marketplace test",
+        "firstPaidMilestone": "first five paid jewellery orders",
+        "scaleEvidence": "paid demand for selected designs, consistent finish and manageable material cost",
+        "riskWarning": "Do not produce many styles, sizes or color variations before paid demand identifies the strongest designs."
+      },
+      "milestones": {
+        "validation": "Specific designs earn credible paid interest",
+        "firstTest": "Small finished collection completed",
+        "firstPaid": "First five paid jewellery orders",
+        "finalDecision": "Design demand, quality and material economics reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "spice_blend_business",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Produce one small spice-blend test batch",
+        "goal": "Test taste consistency, packaging and repeat-purchase intent without building stock.",
+        "actions": [
+          "Choose one dish, flavor promise and target cook",
+          "Document ingredients and produce one small hygienic batch",
+          "Pack a limited number of clearly labeled test units",
+          "Collect structured taste, price and repeat-purchase feedback from at least five target users"
+        ],
+        "successSignal": "Most testers report consistent useful flavor, at least three accept the intended price and repeat-purchase interest is credible."
+      },
+      "variables": {
+        "customer": "home cooks seeking a consistent flavor shortcut for a specific dish or cuisine",
+        "product": "one carefully documented spice blend",
+        "productPlural": "spice blends",
+        "testBatchSize": 10,
+        "validationTargetCount": 5,
+        "validationCriteria": "prefer the blend, accept the intended price and express repeat-purchase interest",
+        "competitorFocus": "ingredients, flavor promise, pack size, price, labeling and buyer reviews",
+        "qualityFocus": "taste, grind, aroma, batch consistency, hygiene and packaging",
+        "costFocus": "ingredients, cleaning, grinding, test loss, food-safe packaging, labels, fees and delivery",
+        "complianceFocus": "current food registration or licensing, hygiene, ingredient labeling, allergens, pack declarations and claims",
+        "supplierFocus": "ingredient grade, freshness, contamination controls, batch consistency and traceability",
+        "packagingFocus": "protect aroma and clearly state ingredients, storage and required declarations",
+        "salesChannels": "small direct tasting or preorder outreach and one local or online food channel",
+        "firstPaidMilestone": "first 10 paid spice-blend packs",
+        "scaleEvidence": "repeatable flavor, current compliance, repeat-purchase intent and workable direct costs",
+        "riskWarning": "Do not sell or scale food products before verifying current official food requirements and consistent hygienic production."
+      },
+      "milestones": {
+        "validation": "Five target cooks test the same blend",
+        "firstTest": "One documented consistent test batch",
+        "firstPaid": "First 10 compliant paid packs",
+        "finalDecision": "Taste consistency, compliance and repeat demand reviewed"
+      },
+      "stepOverrides": {
+        "check_compliance": {
+          "description": "Verify current food registration, hygiene and spice-blend labeling requirements using official sources before commercial sale.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Requirements vary by product, claims, process and location. Identify the relevant authority, save current official guidance and obtain qualified advice where needed; this workflow does not provide a legal conclusion."
+            }
+          ],
+          "checklist": [
+            {
+              "id": "identify_authority",
+              "label": "Identify the relevant regulator or official authority",
+              "required": true
+            },
+            {
+              "id": "check_registration",
+              "label": "Check current registration or licensing requirements",
+              "required": true
+            },
+            {
+              "id": "check_labels",
+              "label": "Check labeling, disclosure and claim requirements",
+              "required": true
+            },
+            {
+              "id": "specific_check_1",
+              "label": "Check ingredient, allergen, batch, date and storage declaration requirements",
+              "required": true
+            },
+            {
+              "id": "specific_check_2",
+              "label": "Verify current food-safety process requirements for the intended production setup",
+              "required": true
+            },
+            {
+              "id": "save_sources",
+              "label": "Save links to current official sources",
+              "required": true
+            },
+            {
+              "id": "complete_requirements",
+              "label": "Complete applicable steps before commercial sale",
+              "required": true
+            }
+          ],
+          "warnings": [
+            "Do not assume another seller's setup or a marketplace listing proves your own compliance."
+          ],
+          "tips": [
+            "Recheck requirements when the product, claims, process or location changes."
+          ],
+          "nextBestAction": "Identify the official authority for food registration, hygiene and spice-blend labeling and save its current guidance."
+        }
+      }
+    },
+    {
+      "ideaId": "home_bakery",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Sell one limited preorder menu",
+        "goal": "Test recipe consistency, realistic pricing and local delivery with a controlled number of orders.",
+        "actions": [
+          "Choose one or two products and a fixed preorder date",
+          "Standardize recipes, portions and packaging",
+          "Offer 10 paid preorder slots within a small delivery radius",
+          "Record quality, timing, buyer feedback and repeat interest"
+        ],
+        "successSignal": "Paid preorders are fulfilled consistently and on time, with buyers accepting the price and some showing repeat or referral intent."
+      },
+      "variables": {
+        "customer": "local buyers ordering for a specific occasion or recurring treat",
+        "product": "a limited preorder bakery menu",
+        "productPlural": "baked products",
+        "testBatchSize": 10,
+        "validationTargetCount": 5,
+        "validationCriteria": "place a preorder or accept the realistic menu price and delivery terms",
+        "competitorFocus": "menu focus, portion, price, packaging, lead time, delivery radius and reviews",
+        "qualityFocus": "recipe consistency, portion, finish, hygiene, shelf-life awareness and delivery condition",
+        "costFocus": "ingredients, test loss, utilities, packaging, decoration, delivery and order coordination",
+        "complianceFocus": "current food registration or licensing, hygiene, ingredient and allergen information, labeling and local operating requirements",
+        "supplierFocus": "ingredient quality, freshness, availability and backup options",
+        "packagingFocus": "protect freshness and appearance while communicating storage and allergen information",
+        "salesChannels": "local WhatsApp or Instagram preorders within a controlled delivery radius",
+        "firstPaidMilestone": "first 10 paid bakery orders",
+        "scaleEvidence": "repeatable recipes, compliant operations, on-time delivery and paid repeat or referral demand",
+        "riskWarning": "Do not publish a large menu or accept more orders than the kitchen and delivery process can handle safely."
+      },
+      "milestones": {
+        "validation": "Five local buyers accept the menu and terms",
+        "firstTest": "Limited preorder batch delivered consistently",
+        "firstPaid": "First 10 paid bakery orders",
+        "finalDecision": "Quality, capacity, compliance and repeat demand reviewed"
+      },
+      "stepOverrides": {
+        "check_compliance": {
+          "description": "Verify current food registration, bakery hygiene and labeling requirements using official sources before commercial sale.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Requirements vary by product, claims, process and location. Identify the relevant authority, save current official guidance and obtain qualified advice where needed; this workflow does not provide a legal conclusion."
+            }
+          ],
+          "checklist": [
+            {
+              "id": "identify_authority",
+              "label": "Identify the relevant regulator or official authority",
+              "required": true
+            },
+            {
+              "id": "check_registration",
+              "label": "Check current registration or licensing requirements",
+              "required": true
+            },
+            {
+              "id": "check_labels",
+              "label": "Check labeling, disclosure and claim requirements",
+              "required": true
+            },
+            {
+              "id": "specific_check_1",
+              "label": "Check ingredient and allergen information requirements",
+              "required": true
+            },
+            {
+              "id": "specific_check_2",
+              "label": "Verify storage, shelf-life and delivery handling appropriate to the products",
+              "required": true
+            },
+            {
+              "id": "save_sources",
+              "label": "Save links to current official sources",
+              "required": true
+            },
+            {
+              "id": "complete_requirements",
+              "label": "Complete applicable steps before commercial sale",
+              "required": true
+            }
+          ],
+          "warnings": [
+            "Do not assume another seller's setup or a marketplace listing proves your own compliance."
+          ],
+          "tips": [
+            "Recheck requirements when the product, claims, process or location changes."
+          ],
+          "nextBestAction": "Identify the official authority for food registration, bakery hygiene and labeling and save its current guidance."
+        }
+      }
+    },
+    {
+      "ideaId": "handmade_soap",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Document one small soap test batch",
+        "goal": "Test process repeatability and buyer demand without treating an experimental batch as sale-ready.",
+        "actions": [
+          "Choose one formulation and document every ingredient and measurement",
+          "Follow appropriate safety and process controls",
+          "Record batch observations and required curing or finishing time",
+          "Test buyer interest in the concept, positioning and realistic price without unsupported claims"
+        ],
+        "successSignal": "The process is repeatable, finished quality is acceptable, applicable requirements are understood and qualified buyers show credible paid interest."
+      },
+      "variables": {
+        "customer": "buyers seeking a clearly positioned handcrafted cleansing bar",
+        "product": "one carefully documented soap formulation",
+        "productPlural": "handmade soap bars",
+        "testBatchSize": 6,
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm demand for the concept at a realistic price after safety and compliance are addressed",
+        "competitorFocus": "formulation positioning, ingredients, bar size, price, claims, labeling and reviews",
+        "qualityFocus": "documented formulation, process consistency, curing requirements, finished-bar quality and safe handling",
+        "costFocus": "ingredients, safety equipment, test loss, curing space, packaging, labels, fees and delivery",
+        "complianceFocus": "applicable cosmetic manufacturing, safety, labeling, ingredient declaration and claim requirements",
+        "supplierFocus": "ingredient specifications, batch consistency, documentation, small quantities and traceability",
+        "packagingFocus": "protect the bar and state ingredients, use, storage and permitted claims clearly",
+        "salesChannels": "controlled direct sampling or preorder interest and one relevant handmade channel",
+        "firstPaidMilestone": "first compliant paid soap orders",
+        "scaleEvidence": "repeatable safe process, completed requirements, accepted price and credible repeat demand",
+        "riskWarning": "Do not sell unverified formulations or make therapeutic, medical or unsupported safety claims."
+      },
+      "milestones": {
+        "validation": "Qualified buyers accept the concept and price",
+        "firstTest": "One documented repeatable test batch",
+        "firstPaid": "First compliant paid soap orders",
+        "finalDecision": "Process safety, compliance, quality and repeat demand reviewed"
+      },
+      "stepOverrides": {
+        "check_compliance": {
+          "description": "Verify current cosmetic manufacturing, safety and soap labeling requirements using official sources before commercial sale.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Requirements vary by product, claims, process and location. Identify the relevant authority, save current official guidance and obtain qualified advice where needed; this workflow does not provide a legal conclusion."
+            }
+          ],
+          "checklist": [
+            {
+              "id": "identify_authority",
+              "label": "Identify the relevant regulator or official authority",
+              "required": true
+            },
+            {
+              "id": "check_registration",
+              "label": "Check current registration or licensing requirements",
+              "required": true
+            },
+            {
+              "id": "check_labels",
+              "label": "Check labeling, disclosure and claim requirements",
+              "required": true
+            },
+            {
+              "id": "specific_check_1",
+              "label": "Check ingredient declaration and product-claim rules",
+              "required": true
+            },
+            {
+              "id": "specific_check_2",
+              "label": "Verify manufacturing and safety requirements for the intended process and location",
+              "required": true
+            },
+            {
+              "id": "save_sources",
+              "label": "Save links to current official sources",
+              "required": true
+            },
+            {
+              "id": "complete_requirements",
+              "label": "Complete applicable steps before commercial sale",
+              "required": true
+            }
+          ],
+          "warnings": [
+            "Do not assume another seller's setup or a marketplace listing proves your own compliance."
+          ],
+          "tips": [
+            "Recheck requirements when the product, claims, process or location changes."
+          ],
+          "nextBestAction": "Identify the official authority for cosmetic manufacturing, safety and soap labeling and save its current guidance."
+        }
+      }
+    },
+    {
+      "ideaId": "canva_template_business",
+      "status": "published",
+      "firstTestStepId": "create_prototype",
+      "firstTest": {
+        "title": "Build a five-template Canva mini pack",
+        "goal": "Test one repeated design use case and whether target users can customize it quickly.",
+        "actions": [
+          "Choose one niche and repeated content use case",
+          "Create five consistent editable templates",
+          "Prepare realistic previews and simple instructions",
+          "Ask five target users to customize one template and give price feedback"
+        ],
+        "successSignal": "Most users can customize the pack without help and at least one target buyer is willing to pay for the focused set."
+      },
+      "variables": {
+        "customer": "a narrow group of small businesses or creators with a repeated design task",
+        "problem": "creating consistent professional content without starting from scratch",
+        "product": "a focused Canva template pack",
+        "competitorFocus": "use case, template count, editability, preview quality, price and reviews",
+        "formatFocus": "Canva with a clean share and duplication flow",
+        "usabilityFocus": "whether buyers can customize the pack quickly without breaking layout",
+        "rightsFocus": "font, photo, graphic and Canva element rights plus buyer usage terms",
+        "pricingFocus": "time saved, niche relevance, competing packs and expected support",
+        "salesChannels": "one digital marketplace or a direct niche audience",
+        "firstPaidMilestone": "first five paid template-pack buyers",
+        "distributionFocus": "the listing or audience source that produces buyers who actually use the pack",
+        "riskWarning": "Do not create a large generic pack before a narrow use case is validated.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the use case and show willingness to pay for a focused editable pack"
+      },
+      "milestones": {
+        "validation": "Five target users confirm the repeated design task",
+        "firstTest": "Five-template mini pack tested",
+        "firstPaid": "First five paid template buyers",
+        "finalDecision": "Usability, support and paid channel evidence reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "spreadsheet_template_business",
+      "status": "published",
+      "firstTestStepId": "create_prototype",
+      "firstTest": {
+        "title": "Build one working spreadsheet tracker",
+        "goal": "Test whether target users can replace a repeated manual tracking task safely and clearly.",
+        "actions": [
+          "Choose one workflow such as cash tracking, projects or inventory",
+          "Build the minimum inputs, formulas and summary",
+          "Add realistic sample data and setup instructions",
+          "Observe five target users entering data and interpreting the result"
+        ],
+        "successSignal": "Most users complete the workflow without formula help and confirm that the template saves meaningful time or reduces errors."
+      },
+      "variables": {
+        "customer": "small-business operators managing one repeated financial, project or operations task",
+        "problem": "tracking important work manually or across inconsistent spreadsheets",
+        "product": "one reliable spreadsheet template",
+        "competitorFocus": "workflow covered, formulas, setup effort, examples, price and user complaints",
+        "formatFocus": "the intended spreadsheet application with realistic sample data",
+        "usabilityFocus": "whether users can enter their own data and interpret outputs without formula errors",
+        "rightsFocus": "included examples, documentation, usage terms and compatibility claims",
+        "pricingFocus": "time saved, error reduction, buyer complexity and support burden",
+        "salesChannels": "one template marketplace or direct small-business audience",
+        "firstPaidMilestone": "first five paid spreadsheet users",
+        "distributionFocus": "the channel producing buyers who complete setup and continue using the sheet",
+        "riskWarning": "Do not market a spreadsheet as financial, legal or professional advice.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the tracking problem and show that a working template saves meaningful effort"
+      },
+      "milestones": {
+        "validation": "Five users confirm the tracking problem",
+        "firstTest": "Working template tested with realistic data",
+        "firstPaid": "First five paid spreadsheet users",
+        "finalDecision": "Reliability, usability and support burden reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "digital_planner_business",
+      "status": "published",
+      "firstTestStepId": "create_prototype",
+      "firstTest": {
+        "title": "Create one minimal digital planner",
+        "goal": "Test whether one audience can use the planner to complete a real planning task.",
+        "actions": [
+          "Choose one audience and planning outcome",
+          "Build only the essential planning pages",
+          "Test the planner on its intended tablet or print format",
+          "Observe five target users completing a realistic task"
+        ],
+        "successSignal": "Most test users can navigate the planner without explanation and at least one shows willingness to buy the improved version."
+      },
+      "variables": {
+        "customer": "one audience with a specific planning routine",
+        "problem": "turning plans into a usable daily or weekly system",
+        "product": "one minimal digital planner",
+        "competitorFocus": "audience, page structure, navigation, device compatibility, previews, price and reviews",
+        "formatFocus": "the intended tablet app or print format",
+        "usabilityFocus": "navigation, writing space and completion of a realistic planning task",
+        "rightsFocus": "fonts, graphics, hyperlinks, compatibility statements and buyer usage terms",
+        "pricingFocus": "planning outcome, usability, format quality and competing planners",
+        "salesChannels": "one digital marketplace or a direct planning audience",
+        "firstPaidMilestone": "first five paid planner buyers",
+        "distributionFocus": "the listing or audience source that produces actual planner use",
+        "riskWarning": "Do not build a large planner bundle before the core structure is usable.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the planning problem and use the minimal planner in the intended format"
+      },
+      "milestones": {
+        "validation": "Five users confirm the planning problem",
+        "firstTest": "Minimal planner tested in the real format",
+        "firstPaid": "First five paid planner buyers",
+        "finalDecision": "Usability, support and paid feedback reviewed"
+      },
+      "stepOverrides": {
+        "create_prototype": {
+          "warnings": [
+            "Do not expand the bundle until target users can navigate and use the core planner without explanation."
+          ],
+          "tips": [
+            "Test writing space and navigation on the actual device or print size, not only in the design tool."
+          ]
+        }
+      }
+    },
+    {
+      "ideaId": "developer_starter_kits",
+      "status": "published",
+      "firstTestStepId": "create_prototype",
+      "firstTest": {
+        "title": "Ship one installable starter-kit example",
+        "goal": "Test setup simplicity, working code and documentation with developers outside your environment.",
+        "actions": [
+          "Choose one stack and repeated developer pain point",
+          "Build the smallest complete working example",
+          "Write clean installation and configuration instructions",
+          "Ask three target developers to install and modify it independently"
+        ],
+        "successSignal": "Developers can install and run the kit without private help, and at least one shows willingness to pay for the maintained version."
+      },
+      "variables": {
+        "customer": "developers repeatedly setting up the same technical foundation",
+        "problem": "losing time to setup, integration and undocumented boilerplate",
+        "product": "one working developer starter kit",
+        "competitorFocus": "supported stack, setup time, code quality, documentation, license, updates and support complaints",
+        "formatFocus": "a clean repository installed from scratch",
+        "usabilityFocus": "whether another developer can install, run and modify the core example without private guidance",
+        "rightsFocus": "dependency licenses, included assets, buyer license, secrets and update expectations",
+        "pricingFocus": "setup time saved, code quality, maintenance and support burden",
+        "salesChannels": "one developer marketplace, community or direct technical audience",
+        "firstPaidMilestone": "first three paid developer buyers",
+        "distributionFocus": "the channel producing developers who install and use the kit",
+        "riskWarning": "Do not sell code that only works in your local environment or depends on undocumented credentials.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the setup pain and successfully use a minimal working kit"
+      },
+      "milestones": {
+        "validation": "Three developers confirm the setup pain",
+        "firstTest": "Independent installation succeeds",
+        "firstPaid": "First three paid developer buyers",
+        "finalDecision": "Code quality, support and maintenance evidence reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "ebook_guide_business",
+      "status": "published",
+      "firstTestStepId": "create_prototype",
+      "firstTest": {
+        "title": "Publish one sample guide section",
+        "goal": "Test the problem, structure and usefulness before writing the full guide.",
+        "actions": [
+          "Choose one narrow problem and reader outcome",
+          "Create a detailed outline around the reader's decisions",
+          "Write and format one representative sample section",
+          "Give the sample to five target readers and ask what action they could take"
+        ],
+        "successSignal": "Readers can describe the practical outcome, apply the sample and at least one is willing to buy the complete guide."
+      },
+      "variables": {
+        "customer": "readers seeking a practical outcome for one specific problem",
+        "problem": "finding trustworthy structured guidance and taking the next action",
+        "product": "a concise evidence-based paid guide",
+        "competitorFocus": "problem focus, author evidence, structure, sample quality, price and reader reviews",
+        "formatFocus": "a readable mobile and desktop document",
+        "usabilityFocus": "whether readers understand and apply the promised action",
+        "rightsFocus": "source attribution, image rights, buyer usage terms and update expectations",
+        "pricingFocus": "specific outcome, authority, depth and comparable guides",
+        "salesChannels": "one relevant audience, creator platform or direct store",
+        "firstPaidMilestone": "first five paid guide readers",
+        "distributionFocus": "the audience source producing readers who use the guide",
+        "riskWarning": "Do not use unsupported claims or pad the guide with generic material.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the problem and find the sample useful enough to consider buying the full guide"
+      },
+      "milestones": {
+        "validation": "Five target readers test the sample",
+        "firstTest": "Representative sample section completed",
+        "firstPaid": "First five paid guide readers",
+        "finalDecision": "Usefulness, credibility and paid feedback reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "ai_automation_service",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Deliver one narrow automation pilot",
+        "goal": "Prove that one repetitive business workflow can be improved safely and measurably.",
+        "actions": [
+          "Document the current process and baseline effort",
+          "Build a demo around one narrow workflow",
+          "Test realistic examples and expected failure cases",
+          "Ask one qualified business to fund a tightly scoped pilot"
+        ],
+        "successSignal": "A real business agrees the automation solves a meaningful problem and accepts a paid pilot or equivalent commitment."
+      },
+      "variables": {
+        "customer": "operations teams in one business niche",
+        "problem": "one repetitive information or handoff workflow",
+        "offer": "a scoped automation audit and paid pilot",
+        "proofAsset": "a demo using realistic but non-sensitive example data",
+        "pricingFocus": "discovery, implementation effort, external tool costs, support and change boundaries",
+        "outreachChannel": "direct niche business outreach and qualified referrals",
+        "outreachTarget": 20,
+        "pilotOutcome": "measurable time saved, reduced rework or faster handoff in one workflow",
+        "deliveryFocus": "data access, exceptions, human review, reliability and support",
+        "firstPaidMilestone": "one paid automation pilot",
+        "scalePath": "a repeatable niche automation offer with monitoring and support boundaries",
+        "riskWarning": "Do not sell generic AI transformation or automate sensitive decisions without explicit controls.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the repetitive workflow creates meaningful cost or delay and deserves a pilot"
+      },
+      "milestones": {
+        "validation": "Three businesses confirm one costly repetitive workflow",
+        "firstTest": "Focused demo handles realistic examples",
+        "firstPaid": "First paid automation pilot",
+        "finalDecision": "Client value, reliability and delivery effort reviewed"
+      },
+      "stepOverrides": {
+        "paid_pilot": {
+          "warnings": [
+            "Do not automate sensitive decisions or customer data flows without explicit access, privacy and human-review boundaries."
+          ],
+          "tips": [
+            "A narrow reliable automation is stronger proof than a broad demo that fails on exceptions."
+          ]
+        }
+      }
+    },
+    {
+      "ideaId": "website_development",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Create one niche website demo",
+        "goal": "Test whether a focused demo and offer earn a qualified business conversation.",
+        "actions": [
+          "Choose one business niche and conversion goal",
+          "Create a polished demo homepage and key conversion path",
+          "Write a scoped project offer with exclusions",
+          "Show the demo to at least 10 qualified businesses and request a paid discovery or project conversation"
+        ],
+        "successSignal": "Qualified businesses recognize the relevance of the demo and at least one agrees to a paid project or clearly scoped discovery step."
+      },
+      "variables": {
+        "customer": "one type of local or specialist business with an outdated or ineffective website",
+        "problem": "turning qualified visits into clear inquiries, bookings or purchases",
+        "offer": "a focused website project with defined pages, content responsibilities and launch support",
+        "proofAsset": "a niche-relevant demo homepage and conversion path",
+        "pricingFocus": "page scope, content readiness, integrations, revisions and post-launch support",
+        "outreachChannel": "direct niche outreach, referrals and local business conversations",
+        "outreachTarget": 20,
+        "pilotOutcome": "a launched site with one clear conversion path and clean handoff",
+        "deliveryFocus": "requirements, content, approvals, accessibility, quality assurance and change requests",
+        "firstPaidMilestone": "one paid website project",
+        "scalePath": "a repeatable niche website package plus clearly scoped maintenance",
+        "riskWarning": "Do not promise business growth you cannot control or begin without written content and approval responsibilities.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the website problem is active and the proposed outcome matters now"
+      },
+      "milestones": {
+        "validation": "Three businesses confirm the active website problem",
+        "firstTest": "Niche demo and scoped offer completed",
+        "firstPaid": "First paid website project",
+        "finalDecision": "Delivery, client outcome and maintenance opportunity reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "seo_service",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Deliver one focused sample SEO audit",
+        "goal": "Test whether observable search and site issues create enough value for a paid engagement.",
+        "actions": [
+          "Choose one niche and commercially relevant search journey",
+          "Audit one qualified prospect using observable evidence",
+          "Prioritize a small number of actionable technical or content issues",
+          "Present the audit with realistic expectations and ask for a paid pilot"
+        ],
+        "successSignal": "The prospect accepts the evidence and scope, and at least one qualified business agrees to a paid audit or implementation pilot."
+      },
+      "variables": {
+        "customer": "one business niche with measurable search demand and an underperforming site",
+        "problem": "earning qualified organic visibility for commercially relevant searches",
+        "offer": "a focused SEO audit and implementation plan with realistic deliverables",
+        "proofAsset": "a concise sample audit using observable technical, content and search-intent evidence",
+        "pricingFocus": "audit depth, implementation work, reporting, dependencies and monthly scope",
+        "outreachChannel": "direct niche outreach, referrals and professional networks",
+        "outreachTarget": 20,
+        "pilotOutcome": "agreed technical or content improvements completed and reported transparently",
+        "deliveryFocus": "access, implementation responsibility, reporting, external dependencies and expectation control",
+        "firstPaidMilestone": "one paid SEO audit or pilot",
+        "scalePath": "a repeatable niche audit and monthly improvement process",
+        "riskWarning": "Do not guarantee rankings, traffic or revenue; explain uncertainty and client dependencies.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the search problem and willingness to act on a realistic audit"
+      },
+      "milestones": {
+        "validation": "Three businesses confirm the search problem",
+        "firstTest": "Focused evidence-based audit completed",
+        "firstPaid": "First paid SEO audit or pilot",
+        "finalDecision": "Implementation value, reporting and retainer fit reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "video_editing",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Create a niche sample reel and paid pilot offer",
+        "goal": "Test whether specialization in one video format earns qualified client interest.",
+        "actions": [
+          "Choose one niche and format such as short-form, YouTube or ads",
+          "Create two or three relevant sample edits using permitted material",
+          "Define turnaround, included revisions and file requirements",
+          "Send the reel and pilot offer to 10 qualified prospects"
+        ],
+        "successSignal": "Prospects recognize the format fit and at least one agrees to a paid pilot with clear revision boundaries."
+      },
+      "variables": {
+        "customer": "one creator or business niche publishing a repeatable video format",
+        "problem": "turning raw footage into consistent audience-ready videos on schedule",
+        "offer": "a clearly scoped editing package for one format",
+        "proofAsset": "two or three before-and-after sample edits using permitted footage",
+        "pricingFocus": "video length, footage volume, complexity, turnaround, revisions and asset handling",
+        "outreachChannel": "direct creator outreach, referrals and relevant portfolio platforms",
+        "outreachTarget": 20,
+        "pilotOutcome": "one video delivered on brief, on time and within revision boundaries",
+        "deliveryFocus": "brief quality, file transfer, asset rights, turnaround, feedback and revisions",
+        "firstPaidMilestone": "one paid editing pilot",
+        "scalePath": "a repeatable editing package with templates, handoff and capacity limits",
+        "riskWarning": "Do not offer unlimited revisions or use footage, music or assets without permission.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm recurring editing demand and accept the proposed format and turnaround"
+      },
+      "milestones": {
+        "validation": "Three prospects confirm recurring editing demand",
+        "firstTest": "Niche sample reel and package completed",
+        "firstPaid": "First paid editing pilot",
+        "finalDecision": "Delivery time, revisions and recurring demand reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "lead_generation_service",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Build one verified lead-quality sample",
+        "goal": "Test whether a small responsibly sourced list meets a real seller's qualification needs.",
+        "actions": [
+          "Choose one vertical and define the ideal customer profile",
+          "Agree required qualification and exclusion fields",
+          "Research a sample of 20 to 25 leads from permitted sources",
+          "Review accuracy and usefulness with a qualified business"
+        ],
+        "successSignal": "A business accepts the quality criteria and sample, identifies usable prospects and agrees to a paid pilot or equivalent commitment."
+      },
+      "variables": {
+        "customer": "B2B sellers in one vertical with a clear ideal customer profile",
+        "problem": "building a relevant, lawful and usable prospect pipeline",
+        "offer": "a small lead-research and qualification pilot with explicit quality criteria",
+        "proofAsset": "a sample list and research methodology using permitted sources",
+        "pricingFocus": "research depth, qualification fields, volume, refresh expectations and reporting",
+        "outreachChannel": "direct B2B outreach and trusted professional referrals",
+        "outreachTarget": 20,
+        "pilotOutcome": "a small verified lead set that meets agreed fit and data-quality rules",
+        "deliveryFocus": "source permissions, accuracy, qualification, privacy, handoff and correction process",
+        "firstPaidMilestone": "one paid lead-research pilot",
+        "scalePath": "a repeatable vertical research process with quality sampling and reporting",
+        "riskWarning": "Do not scrape restricted sources, misrepresent identities or encourage spammy or unlawful outreach.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the pipeline problem and agree on measurable lead-quality criteria"
+      },
+      "milestones": {
+        "validation": "Three businesses confirm the pipeline-quality problem",
+        "firstTest": "Verified lead sample reviewed",
+        "firstPaid": "First paid lead-research pilot",
+        "finalDecision": "Accuracy, lawful sourcing and client value reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "micro_saas",
+      "status": "published",
+      "firstTestStepId": "prototype",
+      "firstTest": {
+        "title": "Prototype one core Micro-SaaS workflow",
+        "goal": "Validate the recurring problem and core outcome before building a full product.",
+        "actions": [
+          "Map the smallest input-to-outcome workflow",
+          "Create a mock-up, manual service or minimal interactive prototype",
+          "Observe three target users trying the workflow",
+          "Ask for a pilot, preorder or another credible commitment"
+        ],
+        "successSignal": "At least three target users confirm the recurring problem and one commits to a pilot, preorder or paid test."
+      },
+      "variables": {
+        "user": "a narrow professional user with a repeated workflow",
+        "problem": "one frequent manual task that existing tools handle poorly",
+        "alternatives": "specialist tools, spreadsheets, manual services and the decision to do nothing",
+        "prototypeFormat": "a clickable mock-up or manually delivered version of the core workflow",
+        "acquisitionChannel": "direct niche outreach and one relevant professional community",
+        "revenueModel": "a simple subscription or paid pilot tied to the core workflow",
+        "operationsFocus": "customer data, access control, reliability, support and third-party dependencies",
+        "firstUserMilestone": "first five users who complete the core workflow",
+        "firstPaidMilestone": "first three paying users",
+        "retentionEvidence": "repeat completion of the core workflow and willingness to keep paying",
+        "scalePath": "one activation, retention or qualified acquisition experiment",
+        "riskWarning": "Do not build a full product before the narrow problem and core workflow are validated.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the recurring problem and commit to a pilot, preorder or paid test"
+      },
+      "milestones": {
+        "validation": "Three users confirm the recurring workflow problem",
+        "firstTest": "Core workflow prototype tested",
+        "firstPaid": "First three paying users",
+        "finalDecision": "Activation, repeat usage and paid retention reviewed"
+      },
+      "stepOverrides": {
+        "prototype": {
+          "warnings": [
+            "Do not build the full product before users confirm the problem and commit to the core outcome."
+          ],
+          "tips": [
+            "Keep feature requests, but prioritize only repeated blockers to the core workflow."
+          ]
+        }
+      }
+    },
+    {
+      "ideaId": "ai_saas",
+      "status": "published",
+      "firstTestStepId": "prototype",
+      "firstTest": {
+        "title": "Test one AI-assisted workflow outcome",
+        "goal": "Prove workflow value, output quality and fallback before building a broad AI product.",
+        "actions": [
+          "Choose one narrow workflow and acceptable outcome",
+          "Build a human-assisted prototype using non-sensitive test data",
+          "Evaluate outputs on realistic examples and failure cases",
+          "Ask three target users to test and one to fund a pilot"
+        ],
+        "successSignal": "Users confirm the workflow value, output quality is measurable, limitations are acceptable and one user or team commits to a paid pilot."
+      },
+      "variables": {
+        "user": "a narrow team performing one repeatable knowledge workflow",
+        "problem": "completing one workflow accurately despite costly manual review or slow turnaround",
+        "alternatives": "manual work, general AI tools, specialist software and outsourced services",
+        "prototypeFormat": "a human-assisted prototype that demonstrates the workflow outcome and fallback",
+        "acquisitionChannel": "direct outreach to the target team and relevant practitioner communities",
+        "revenueModel": "a paid pilot or subscription that reflects usage cost and human review",
+        "operationsFocus": "model dependency, cost per use, privacy, data retention, evaluation, human fallback and reliability",
+        "firstUserMilestone": "first five users completing the AI-assisted workflow",
+        "firstPaidMilestone": "first three paying teams or users",
+        "retentionEvidence": "repeat workflow use, acceptable output quality and willingness to keep paying after usage costs",
+        "scalePath": "one quality, retention or qualified acquisition experiment",
+        "riskWarning": "Do not build an AI wrapper without a defensible workflow outcome, evaluation method and human fallback.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the workflow pain and accept a prototype with clear limitations and human review"
+      },
+      "milestones": {
+        "validation": "Three users confirm one valuable AI-assisted workflow",
+        "firstTest": "Prototype evaluated on realistic cases",
+        "firstPaid": "First three paying users or teams",
+        "finalDecision": "Quality, cost per use, privacy and repeat use reviewed"
+      },
+      "stepOverrides": {
+        "check_operations": {
+          "warnings": [
+            "Do not send sensitive customer data to a model or provider without appropriate authorization, controls and disclosure."
+          ],
+          "tips": [
+            "Maintain a documented human fallback for low-confidence or high-impact outputs."
+          ]
+        }
+      }
+    },
+    {
+      "ideaId": "utility_website",
+      "status": "published",
+      "firstTestStepId": "prototype",
+      "firstTest": {
+        "title": "Publish one working utility prototype",
+        "goal": "Test usefulness and repeat demand before building a large collection of tools.",
+        "actions": [
+          "Choose one narrow utility and search intent",
+          "Build one working result flow with realistic examples",
+          "Show the prototype to at least 20 relevant users",
+          "Record completion, errors, repeat intent and monetization objections"
+        ],
+        "successSignal": "Users complete the task accurately, some return or bookmark it, and evidence supports one plausible monetization path."
+      },
+      "variables": {
+        "user": "people repeatedly searching for one calculation, conversion, check or lookup",
+        "problem": "getting a fast trustworthy result without complex software",
+        "alternatives": "search results, spreadsheets, general calculators and manual lookup",
+        "prototypeFormat": "a single working utility or manually assisted result page",
+        "acquisitionChannel": "search-intent content and direct sharing in relevant communities",
+        "revenueModel": "a simple free-to-paid, sponsorship or referral model introduced only after usefulness",
+        "operationsFocus": "input privacy, result accuracy, disclosures, accessibility, uptime and maintenance",
+        "firstUserMilestone": "first 20 users completing the utility task",
+        "firstPaidMilestone": "first credible revenue event",
+        "retentionEvidence": "repeat use, bookmarks or direct return for the same utility",
+        "scalePath": "one search-intent, usefulness or monetization experiment",
+        "riskWarning": "Do not publish high-stakes outputs without appropriate caveats, sources and accuracy checks.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm repeated demand and successfully use the prototype to reach the intended result"
+      },
+      "milestones": {
+        "validation": "Five users confirm repeated utility demand",
+        "firstTest": "Single utility prototype completed",
+        "firstPaid": "First credible revenue event",
+        "finalDecision": "Accuracy, repeat use, search intent and monetization reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "affiliate_website",
+      "status": "published",
+      "firstTestStepId": "prototype",
+      "firstTest": {
+        "title": "Publish three original comparison pages",
+        "goal": "Test whether useful independent decision content attracts qualified buyer behavior.",
+        "actions": [
+          "Choose one niche with commercial intent and available affiliate programs",
+          "Research buyer criteria and product differences from reliable sources",
+          "Publish three original comparison or decision pages",
+          "Add clear disclosures and measure qualified visits and useful outbound clicks"
+        ],
+        "successSignal": "Qualified visitors use the comparison content, outbound clicks show real purchase intent and at least one verified conversion or strong pre-conversion signal appears."
+      },
+      "variables": {
+        "user": "buyers comparing products in one commercially relevant niche",
+        "problem": "making a confident purchase decision from fragmented or biased information",
+        "alternatives": "retailer pages, forums, broad review sites and word of mouth",
+        "prototypeFormat": "three deeply researched comparison or decision pages",
+        "acquisitionChannel": "high-intent search queries and relevant niche communities",
+        "revenueModel": "transparent affiliate referrals introduced only where they help the buyer decide",
+        "operationsFocus": "affiliate disclosures, source quality, content updates, tracking privacy and platform terms",
+        "firstUserMilestone": "first 50 qualified visitors using the comparison content",
+        "firstPaidMilestone": "first verified affiliate conversion",
+        "retentionEvidence": "qualified search visits, useful clicks and repeat or direct audience behavior",
+        "scalePath": "one additional high-intent content cluster based on proven usefulness",
+        "riskWarning": "Do not publish thin rewritten affiliate content or hide commercial relationships.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the comparison need and find original decision content genuinely useful"
+      },
+      "milestones": {
+        "validation": "Five buyers confirm the comparison gap",
+        "firstTest": "Three original decision pages published",
+        "firstPaid": "First verified affiliate conversion",
+        "finalDecision": "Content usefulness, competition, disclosure and conversion reviewed"
+      },
+      "stepOverrides": {
+        "check_operations": {
+          "warnings": [
+            "Disclose affiliate relationships clearly and follow current platform, advertising and privacy requirements."
+          ],
+          "tips": [
+            "Prioritize original evidence and buyer decision criteria over content volume."
+          ]
+        }
+      }
+    },
+    {
+      "ideaId": "niche_directory",
+      "status": "published",
+      "firstTestStepId": "prototype",
+      "firstTest": {
+        "title": "Curate the first 25 directory records",
+        "goal": "Test whether a narrow dataset and useful filters solve a real discovery problem.",
+        "actions": [
+          "Choose one niche, geography and user decision",
+          "Define the minimum useful fields and verification method",
+          "Manually curate 25 records from permitted sources",
+          "Ask target users to complete a real search and providers to verify details"
+        ],
+        "successSignal": "Users complete the search faster or with better confidence, records can be maintained and one side shows credible willingness to pay later."
+      },
+      "variables": {
+        "user": "people searching for providers, resources or opportunities in one fragmented niche",
+        "problem": "finding complete, current and comparable information in one place",
+        "alternatives": "search engines, spreadsheets, social groups and outdated broad directories",
+        "prototypeFormat": "a manually curated directory with useful fields and 25 verified records",
+        "acquisitionChannel": "direct niche outreach, relevant communities and narrow search-intent pages",
+        "revenueModel": "a future listing, sponsorship, lead or subscription offer tested only after utility",
+        "operationsFocus": "data sourcing permissions, accuracy, updates, disclosures, privacy and removal requests",
+        "firstUserMilestone": "first 20 users completing a directory search",
+        "firstPaidMilestone": "first paid listing, sponsorship or user subscription",
+        "retentionEvidence": "repeat searches, saves, submissions and provider update participation",
+        "scalePath": "one additional filter, geography or verified data segment",
+        "riskWarning": "Do not scrape restricted data or publish personal or inaccurate records without a lawful basis and correction process.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the information is fragmented and use a manually curated sample"
+      },
+      "milestones": {
+        "validation": "Five users confirm fragmented information",
+        "firstTest": "First 25 verified records curated",
+        "firstPaid": "First paid directory transaction",
+        "finalDecision": "Utility, data maintenance and two-sided demand reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "print_on_demand",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Publish five focused print-on-demand designs",
+        "goal": "Test one niche, supplier quality and realistic margin without holding inventory.",
+        "actions": [
+          "Choose one narrow niche and product type",
+          "Create five original designs and check rights",
+          "Order or inspect a representative supplier sample",
+          "Publish accurate mockups and send the listings to likely buyers"
+        ],
+        "successSignal": "The sample quality is acceptable and the focused listings produce at least three paid orders or equally strong purchase commitments at a workable margin."
+      },
+      "variables": {
+        "customer": "buyers in one identity, interest or occasion niche",
+        "product": "a small set of print-on-demand designs",
+        "productPlural": "print-on-demand listings",
+        "testBatchSize": 5,
+        "validationTargetCount": 3,
+        "validationCriteria": "select a design and place or seriously consider a paid order",
+        "competitorFocus": "niche relevance, design originality, product type, mockups, price, delivery and reviews",
+        "qualityFocus": "print placement, color, base-product quality, sizing and supplier fulfillment",
+        "costFocus": "base product, printing, platform fees, payment fees, shipping, returns and promotion",
+        "complianceFocus": "design rights, trademarks, claims, product information and platform requirements",
+        "supplierFocus": "print quality, base products, size range, shipping regions, returns and consistency",
+        "packagingFocus": "use accurate mockups and product details without implying custom packaging you do not control",
+        "salesChannels": "one print-on-demand marketplace or focused niche storefront",
+        "firstPaidMilestone": "first three paid print-on-demand orders",
+        "scaleEvidence": "paid niche demand, acceptable samples and margin after fulfillment and platform costs",
+        "riskWarning": "Do not upload many generic designs or spend heavily on ads before samples and niche demand are validated."
+      },
+      "milestones": {
+        "validation": "Three buyers select specific designs",
+        "firstTest": "Five listings and supplier sample completed",
+        "firstPaid": "First three paid orders",
+        "finalDecision": "Niche demand, supplier quality and margin reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "private_label",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Compare supplier samples before any inventory order",
+        "goal": "Validate product quality, buyer demand and landed-cost assumptions before committing to MOQ.",
+        "actions": [
+          "Choose one category, buyer and product specification",
+          "Request samples from at least two qualified suppliers",
+          "Compare quality, documentation, lead time and estimated landed cost",
+          "Show the approved concept to target buyers and seek preorders or firm commitments"
+        ],
+        "successSignal": "One sample meets the specification, applicable requirements are understood and buyers support a small paid test at a plausible landed cost."
+      },
+      "variables": {
+        "customer": "buyers with a specific unmet need in one carefully selected product category",
+        "product": "one private-label product concept",
+        "productPlural": "private-label units",
+        "testBatchSize": 3,
+        "validationTargetCount": 5,
+        "validationCriteria": "accept the concept and intended price strongly enough to support a small test",
+        "competitorFocus": "product promise, quality, price, reviews, compliance, supplier origin and common failures",
+        "qualityFocus": "supplier samples, specification consistency, packaging and actual product performance",
+        "costFocus": "samples, unit cost, minimum order, packaging, inspection, freight, duties, fees, returns and storage",
+        "complianceFocus": "category-specific product safety, import or manufacturing, labeling, claims and marketplace requirements",
+        "supplierFocus": "samples, specification control, minimum order, documentation, inspection, lead time and remedy for defects",
+        "packagingFocus": "meet category requirements and communicate the product honestly without a large custom order",
+        "salesChannels": "a preorder, small direct test or controlled marketplace launch",
+        "firstPaidMilestone": "first 10 paid or firmly preordered units",
+        "scaleEvidence": "validated demand, approved samples, completed requirements and a workable small-order landed cost",
+        "riskWarning": "Do not commit to a large minimum order quantity before product and market validation."
+      },
+      "milestones": {
+        "validation": "Five buyers accept the concept and price",
+        "firstTest": "Two supplier samples compared",
+        "firstPaid": "First 10 paid or preordered units",
+        "finalDecision": "Sample, compliance, landed cost and demand reviewed"
+      },
+      "stepOverrides": {
+        "check_compliance": {
+          "description": "Verify current the selected private-label product category requirements using official sources before commercial sale.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Requirements vary by product, claims, process and location. Identify the relevant authority, save current official guidance and obtain qualified advice where needed; this workflow does not provide a legal conclusion."
+            }
+          ],
+          "checklist": [
+            {
+              "id": "identify_authority",
+              "label": "Identify the relevant regulator or official authority",
+              "required": true
+            },
+            {
+              "id": "check_registration",
+              "label": "Check current registration or licensing requirements",
+              "required": true
+            },
+            {
+              "id": "check_labels",
+              "label": "Check labeling, disclosure and claim requirements",
+              "required": true
+            },
+            {
+              "id": "specific_check_1",
+              "label": "Verify supplier documentation and testing relevant to the product",
+              "required": true
+            },
+            {
+              "id": "specific_check_2",
+              "label": "Check import, manufacturer, marketplace and product-label responsibilities where applicable",
+              "required": true
+            },
+            {
+              "id": "save_sources",
+              "label": "Save links to current official sources",
+              "required": true
+            },
+            {
+              "id": "complete_requirements",
+              "label": "Complete applicable steps before commercial sale",
+              "required": true
+            }
+          ],
+          "warnings": [
+            "Do not assume another seller's setup or a marketplace listing proves your own compliance."
+          ],
+          "tips": [
+            "Recheck requirements when the product, claims, process or location changes."
+          ],
+          "nextBestAction": "Identify the official authority for the selected private-label product category and save its current guidance."
+        }
+      }
+    },
+    {
+      "ideaId": "subscription_box_business",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Create two sample boxes and open paid preorders",
+        "goal": "Test recurring value, curation and delivered price before buying monthly inventory.",
+        "actions": [
+          "Choose one niche and recurring promise",
+          "Create two sample box variations with real item and delivery costs",
+          "Photograph the actual samples and explain possible substitutions",
+          "Offer 10 paid preorder places with clear timing and cancellation terms"
+        ],
+        "successSignal": "Target buyers accept the recurring concept and delivered price, with enough paid preorders to justify one controlled fulfillment cycle."
+      },
+      "variables": {
+        "customer": "a narrow group that values a recurring curated experience",
+        "product": "one repeatable subscription-box concept",
+        "productPlural": "subscription boxes",
+        "testBatchSize": 3,
+        "validationTargetCount": 10,
+        "validationCriteria": "join a preorder or waitlist with credible intent for recurring delivery",
+        "competitorFocus": "niche, recurring value, item mix, price, delivery schedule, churn complaints and unboxing experience",
+        "qualityFocus": "curation consistency, item suitability, packing, delivery and monthly repeatability",
+        "costFocus": "box items, samples, packaging, assembly, payment fees, shipping, replacements and churn",
+        "complianceFocus": "requirements for included food, cosmetic or regulated items plus subscription and cancellation disclosures",
+        "supplierFocus": "monthly availability, item consistency, small quantities, substitutions and lead time",
+        "packagingFocus": "protect varied items and communicate the recurring theme and cancellation terms",
+        "salesChannels": "a direct preorder page and one niche community or creator partnership",
+        "firstPaidMilestone": "first 10 paid preorders",
+        "scaleEvidence": "paid recurring intent, repeatable monthly sourcing and acceptable delivered cost",
+        "riskWarning": "Do not buy a full month's inventory before paid preorders and repeatable sourcing are proven."
+      },
+      "milestones": {
+        "validation": "Ten buyers show recurring preorder intent",
+        "firstTest": "Two sample boxes costed and tested",
+        "firstPaid": "First 10 paid preorders",
+        "finalDecision": "Sourcing, fulfillment, churn risk and recurring value reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "cleaning_service",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Sell one focused local cleaning package",
+        "goal": "Test service scope, timing, price and local demand before buying extensive equipment or expanding area.",
+        "actions": [
+          "Choose one customer type, service radius and cleaning package",
+          "Create a room-by-room checklist and basic equipment list",
+          "Offer the package to at least 20 qualified local prospects",
+          "Deliver the first jobs and record timing, supplies, feedback and scope changes"
+        ],
+        "successSignal": "At least three local customers pay for the package, delivery stays within scope and some buyers request recurring service or refer another customer."
+      },
+      "variables": {
+        "customer": "households or small offices within one practical service area",
+        "problem": "getting a reliable clearly scoped clean on a predictable schedule",
+        "offer": "one fixed cleaning package with explicit inclusions, exclusions and service radius",
+        "proofAsset": "a room-by-room checklist and permitted before-and-after example",
+        "pricingFocus": "service area, property size, task list, supplies, travel time and frequency",
+        "outreachChannel": "local referrals, neighborhood groups and direct outreach to qualified properties",
+        "outreachTarget": 20,
+        "pilotOutcome": "one property cleaned to the agreed checklist, timing and quality standard",
+        "deliveryFocus": "access, safety, supplies, breakage, scope changes, timing and client communication",
+        "firstPaidMilestone": "first three paying cleaning customers",
+        "scalePath": "a repeatable package, route and recurring booking process",
+        "riskWarning": "Do not accept unsafe tasks, uncontrolled access or vague unlimited cleaning scope.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the package, service area and intended price solve an active need"
+      },
+      "milestones": {
+        "validation": "Five local prospects accept the package and price",
+        "firstTest": "First focused cleaning package delivered",
+        "firstPaid": "First three paying customers",
+        "finalDecision": "Quality, route, timing and recurring demand reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "tutoring",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Run one paid trial tutoring session",
+        "goal": "Test learner fit, teaching structure and willingness to continue on a recurring schedule.",
+        "actions": [
+          "Choose one subject, learner level and specific outcome",
+          "Prepare a short diagnostic and focused lesson",
+          "Offer trial sessions to qualified students or parents",
+          "Run the session and agree the next learning step"
+        ],
+        "successSignal": "Learners understand the session value and at least three qualified students or parents book or seriously commit to recurring sessions."
+      },
+      "variables": {
+        "customer": "students at one level who need help with a specific subject or outcome",
+        "problem": "making measurable progress with structured explanation and practice",
+        "offer": "a focused trial and recurring tutoring plan for one subject and learner level",
+        "proofAsset": "a short diagnostic and sample lesson plan",
+        "pricingFocus": "session length, preparation, group size, travel or platform time and recurring schedule",
+        "outreachChannel": "parent or student referrals, local education networks and relevant online groups",
+        "outreachTarget": 20,
+        "pilotOutcome": "one trial lesson with a clear baseline, teaching plan and learner feedback",
+        "deliveryFocus": "learning goals, safeguarding, scheduling, preparation, boundaries and progress communication",
+        "firstPaidMilestone": "first three recurring tutoring students",
+        "scalePath": "a repeatable diagnostic, lesson structure and referral process",
+        "riskWarning": "Do not guarantee grades or outcomes outside the learner's effort and wider learning environment.",
+        "validationTargetCount": 5,
+        "validationCriteria": "confirm the subject need, learner fit and willingness to book a trial"
+      },
+      "milestones": {
+        "validation": "Five learners or parents confirm the need",
+        "firstTest": "Focused trial lesson delivered",
+        "firstPaid": "First three recurring students",
+        "finalDecision": "Learner progress, preparation time and schedule fit reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "tiffin_meal_service",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Run one limited-menu paid preorder cycle",
+        "goal": "Test meal consistency, delivered price and repeat demand within a controlled radius.",
+        "actions": [
+          "Choose one customer group, small delivery radius and limited menu",
+          "Document portions, ingredients, allergen information and packaging",
+          "Verify current official food requirements before commercial sale",
+          "Offer five paid subscription or preorder places and deliver the cycle"
+        ],
+        "successSignal": "Meals are delivered safely and on time, customers accept the price and most request another cycle or recurring plan."
+      },
+      "variables": {
+        "customer": "workers or students within one small delivery radius needing dependable regular meals",
+        "problem": "getting consistent convenient meals on a predictable schedule",
+        "offer": "a limited-menu tiffin subscription or preorder plan",
+        "proofAsset": "a documented sample menu, portion, packaging and delivery process",
+        "pricingFocus": "ingredients, preparation, packaging, delivery route, wastage and subscription frequency",
+        "outreachChannel": "local offices, residences, referrals and direct WhatsApp outreach",
+        "outreachTarget": 20,
+        "pilotOutcome": "one controlled meal cycle delivered safely, consistently and on time",
+        "deliveryFocus": "food safety, allergens, menu consistency, packaging, delivery timing and capacity",
+        "firstPaidMilestone": "first five paying recurring meal customers",
+        "scalePath": "a repeatable menu, production schedule and delivery route",
+        "riskWarning": "Do not accept more subscriptions than food safety, kitchen capacity and delivery timing can support.",
+        "validationTargetCount": 5,
+        "validationCriteria": "accept the limited menu, delivered price and recurring schedule"
+      },
+      "milestones": {
+        "validation": "Five local customers accept the menu and schedule",
+        "firstTest": "Controlled paid meal cycle delivered",
+        "firstPaid": "First five recurring meal customers",
+        "finalDecision": "Food safety, capacity, route and repeat demand reviewed"
+      },
+      "stepOverrides": {
+        "prepare_proof": {
+          "title": "Verify Food Safety and the Delivery Process",
+          "description": "Verify food registration, hygiene, allergen and meal-delivery requirements and prove the operating process before taking paid orders.",
+          "content": [
+            {
+              "type": "paragraph",
+              "text": "Use current official sources for registration, safety, hygiene, privacy or local operating requirements. Keep the first delivery area and offer narrow enough to control quality."
+            }
+          ],
+          "checklist": [
+            {
+              "id": "map_process",
+              "label": "Document the complete preparation and delivery process",
+              "required": true
+            },
+            {
+              "id": "identify_authority",
+              "label": "Identify the relevant regulator or official authority",
+              "required": true
+            },
+            {
+              "id": "specific_check_1",
+              "label": "Check ingredient, allergen and required food-information guidance",
+              "required": true
+            },
+            {
+              "id": "specific_check_2",
+              "label": "Define safe preparation, holding, packaging and delivery controls",
+              "required": true
+            },
+            {
+              "id": "save_official_sources",
+              "label": "Save current official guidance and complete applicable requirements",
+              "required": true
+            },
+            {
+              "id": "test_delivery",
+              "label": "Run a controlled end-to-end delivery test",
+              "required": true
+            }
+          ],
+          "warnings": [
+            "Do not accept commercial orders until applicable safety and operating requirements are understood and completed."
+          ],
+          "tips": [],
+          "nextBestAction": "Verify official food registration, hygiene, allergen and meal-delivery guidance and run one controlled end-to-end test."
+        }
+      }
+    },
+    {
+      "ideaId": "ai_automation_agency",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Sell one repeatable agency automation pilot",
+        "goal": "Test a niche offer that can be delivered with reusable assets and clear support boundaries.",
+        "actions": [
+          "Choose one vertical and repeatable workflow pattern",
+          "Build a reusable demo with realistic failure and human-review paths",
+          "Define agency roles, quality review and support boundaries",
+          "Pitch 10 qualified accounts and ask one to fund the pilot"
+        ],
+        "successSignal": "A qualified company funds a scoped pilot and the agency can deliver it using a process and assets that are reusable for the niche."
+      },
+      "variables": {
+        "customer": "one business vertical with several repeatable operations workflows",
+        "problem": "delivering reliable automation projects without reinventing discovery and support every time",
+        "offer": "a repeatable niche automation assessment, implementation and support package",
+        "proofAsset": "two reusable demos showing common workflows and human fallback",
+        "pricingFocus": "discovery, reusable components, implementation, tool costs, monitoring, support and change control",
+        "outreachChannel": "account-based niche outreach, partnerships and qualified referrals",
+        "outreachTarget": 20,
+        "pilotOutcome": "one agency-delivered workflow with documented value, monitoring and handoff",
+        "deliveryFocus": "discovery, data access, solution review, quality assurance, monitoring, support and team capacity",
+        "firstPaidMilestone": "one paid agency pilot",
+        "scalePath": "a standardized niche offer, reusable delivery assets and controlled support capacity",
+        "riskWarning": "Do not sell broad AI transformation or accept more projects than the agency can monitor and support reliably.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the vertical has repeatable valuable workflows and will fund a scoped pilot"
+      },
+      "milestones": {
+        "validation": "Three companies confirm a repeatable vertical workflow",
+        "firstTest": "Reusable niche demo and delivery plan completed",
+        "firstPaid": "First paid agency pilot",
+        "finalDecision": "Client value, reusable delivery and support capacity reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "corporate_gifting",
+      "status": "published",
+      "firstTestStepId": "test_product",
+      "firstTest": {
+        "title": "Create three corporate gifting samples",
+        "goal": "Test catalogue relevance, personalization, quote clarity and supplier reliability before accepting a bulk order.",
+        "actions": [
+          "Choose one company-buyer segment and gifting occasion",
+          "Create three sample kits at clear budget levels",
+          "Confirm item, branding, minimum quantity and delivery assumptions with suppliers",
+          "Send the sample catalogue to 10 qualified company buyers and request a live quote discussion"
+        ],
+        "successSignal": "At least three qualified buyers request a quote or sample and one real requirement progresses toward a paid order on workable terms."
+      },
+      "variables": {
+        "customer": "HR, administration, procurement and client-success buyers with a defined gifting occasion",
+        "product": "a reliable corporate gifting catalogue and sample",
+        "productPlural": "corporate gift kits",
+        "testBatchSize": 3,
+        "validationTargetCount": 3,
+        "validationCriteria": "request a quote or sample for a real gifting requirement",
+        "competitorFocus": "occasion, catalogue range, personalization, minimum quantity, price, lead time and delivery reliability",
+        "qualityFocus": "item quality, branding accuracy, packing consistency and on-time bulk delivery",
+        "costFocus": "items, samples, branding, packaging, assembly, rejects, freight, tax and payment terms",
+        "complianceFocus": "included product requirements, branding permissions, invoicing, claims and corporate procurement needs",
+        "supplierFocus": "bulk availability, branding capability, sample quality, lead time, backup stock and defect handling",
+        "packagingFocus": "protect mixed items and present the company branding accurately",
+        "salesChannels": "direct outreach to qualified company buyers and referral partners",
+        "firstPaidMilestone": "first paid corporate gifting order",
+        "scaleEvidence": "approved samples, workable bulk pricing, reliable suppliers and on-time delivery capacity",
+        "riskWarning": "Do not promise bulk quantities, branding or dates before supplier capacity and samples are confirmed."
+      },
+      "milestones": {
+        "validation": "Three company buyers request quotes or samples",
+        "firstTest": "Three costed corporate samples completed",
+        "firstPaid": "First paid corporate gifting order",
+        "finalDecision": "Supplier, bulk pricing and delivery evidence reviewed"
+      },
+      "stepOverrides": {}
+    },
+    {
+      "ideaId": "website_marketing_agency",
+      "status": "published",
+      "firstTestStepId": "paid_pilot",
+      "firstTest": {
+        "title": "Pitch one niche website and marketing bundle",
+        "goal": "Test whether a combined offer solves a clearer problem than separate generic services.",
+        "actions": [
+          "Choose one niche and common website-to-marketing gap",
+          "Create a demo conversion path and short opportunity audit",
+          "Define the website project and one recurring service separately",
+          "Present the bundle to 10 qualified businesses and request a paid discovery or engagement"
+        ],
+        "successSignal": "Businesses understand the combined outcome and at least one agrees to a paid project with clear recurring-service boundaries."
+      },
+      "variables": {
+        "customer": "one business niche needing both a stronger website and ongoing demand generation",
+        "problem": "connecting a credible website with a focused recurring marketing process",
+        "offer": "a bounded website project plus one recurring marketing service",
+        "proofAsset": "a niche demo site and short marketing opportunity audit",
+        "pricingFocus": "website scope, content, integrations, campaign work, reporting, revisions and monthly boundaries",
+        "outreachChannel": "account-based niche outreach, referrals and local professional networks",
+        "outreachTarget": 20,
+        "pilotOutcome": "a launched conversion path plus the first clearly reported marketing cycle",
+        "deliveryFocus": "requirements, content, approvals, project change control, campaign scope and reporting",
+        "firstPaidMilestone": "one paid website-plus-marketing engagement",
+        "scalePath": "a repeatable niche bundle with project handoff and retainer capacity limits",
+        "riskWarning": "Do not guarantee leads or revenue, and do not hide recurring work inside an underpriced website project.",
+        "validationTargetCount": 3,
+        "validationCriteria": "confirm the combined website and marketing gap and accept a bounded engagement"
+      },
+      "milestones": {
+        "validation": "Three businesses confirm the combined gap",
+        "firstTest": "Demo and bundled scope completed",
+        "firstPaid": "First paid bundled engagement",
+        "finalDecision": "Project delivery, reporting and retainer capacity reviewed"
+      },
+      "stepOverrides": {}
+    }
+  ]
+}
