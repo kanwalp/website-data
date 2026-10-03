@@ -3,9 +3,9 @@
   "items": [
     {
       "id": "workflow_physical_product_v1",
-      "name": "Physical Product Launch",
+      "name": "Product Start Plan",
       "version": "2.1",
-      "description": "Validate demand, produce a controlled test batch and reach paid sales before increasing inventory.",
+      "description": "Follow one step at a time. Test the idea before you spend more.",
       "businessTypes": [
         "physical_product",
         "commerce"
@@ -18,7 +18,7 @@
         "productPlural": "products",
         "testBatchSize": 5,
         "validationTargetCount": 3,
-        "validationCriteria": "show genuine willingness to pay",
+        "validationCriteria": "show genuine readiness to pay",
         "competitorFocus": "price, product format, presentation and buyer complaints",
         "qualityFocus": "quality and consistency",
         "costFocus": "materials, packaging, selling fees and delivery",
@@ -27,21 +27,21 @@
         "packagingFocus": "protect the product and communicate the offer clearly",
         "salesChannels": "one direct channel and one local or marketplace channel",
         "firstPaidMilestone": "first 10 paid sales",
-        "scaleEvidence": "repeatable quality, paid demand and workable direct economics",
-        "riskWarning": "Do not commit to large inventory before validation."
+        "scaleEvidence": "repeatable quality, real paying customers and workable direct costs and results",
+        "riskWarning": "Do not commit to large inventory before testing."
       },
       "steps": [
         {
           "id": "validate",
           "order": 1,
-          "title": "Validate Demand for {{productPlural}}",
+          "title": "Check If Buyers Will Pay for {{productPlural}}",
           "description": "Check whether {{customer}} care enough about {{product}} to pay a realistic price.",
           "type": "decision",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Opinions and compliments do not justify inventory. Look for evidence from people who match the intended buyer and already spend on similar products or occasions."
+              "text": "Opinions and compliments do not justify inventory. Look for proof from people who match the intended buyer and already spend on similar products or occasions."
             }
           ],
           "checklist": [
@@ -52,7 +52,7 @@
             },
             {
               "id": "speak_with_at_least_value_qualified_potential_buyers",
-              "label": "Speak with at least {{validationTargetCount}} qualified potential buyers",
+              "label": "Speak with at least {{validationTargetCount}} likely buyers",
               "required": true
             },
             {
@@ -62,12 +62,12 @@
             },
             {
               "id": "record_the_price_or_commitment_each_person_would_consider",
-              "label": "Record the price or commitment each person would consider",
+              "label": "Record the price or clear action each person would consider",
               "required": true
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [
             "Ask about a recent purchase before showing your concept."
@@ -75,11 +75,11 @@
           "decisionGates": [
             {
               "id": "demand_validation",
-              "question": "Did at least {{validationTargetCount}} qualified buyers {{validationCriteria}}?",
+              "question": "Did at least {{validationTargetCount}} likely buyers {{validationCriteria}}?",
               "options": [
                 {
                   "id": "yes",
-                  "label": "Yes, evidence is strong enough",
+                  "label": "Yes, proof is strong enough",
                   "description": "Continue with focused market research while keeping the first test small.",
                   "nextStepId": "research"
                 },
@@ -97,12 +97,12 @@
             "type": "decision",
             "gateId": "demand_validation"
           },
-          "nextBestAction": "Speak with {{validationTargetCount}} qualified buyers and record current buying behavior and willingness to pay."
+          "nextBestAction": "Speak with {{validationTargetCount}} likely buyers and record current buying behavior and readiness to pay."
         },
         {
           "id": "research",
           "order": 2,
-          "title": "Research the Market",
+          "title": "See What Buyers Use Today",
           "description": "Review competing offers through the lens of {{competitorFocus}}.",
           "type": "standard",
           "required": true,
@@ -148,14 +148,14 @@
         {
           "id": "test_product",
           "order": 3,
-          "title": "Create a Small Test Batch",
+          "title": "Make a Small Test Batch",
           "description": "Create the smallest batch that can test {{qualityFocus}} and buyer response.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "The first test is for learning, not for filling a catalogue. Keep variations and quantities low enough that weak evidence is inexpensive."
+              "text": "The first test is for learning, not for filling a catalogue. Keep variations and quantities low enough that weak proof is inexpensive."
             }
           ],
           "checklist": [
@@ -181,7 +181,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [],
           "decisionGates": [],
@@ -194,14 +194,14 @@
         {
           "id": "calculate_cost",
           "order": 4,
-          "title": "Understand the Real Direct Cost",
+          "title": "Check What Each Sale Really Costs",
           "description": "List the obvious direct costs before setting a test price.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A sale is not useful evidence if packaging, fees, delivery or waste make it structurally unworkable. Use the calculators below to keep the estimate explicit and revisable."
+              "text": "A sale is not useful proof if packaging, fees, delivery or waste make it structurally unworkable. Use the calculators below to keep the estimate explicit and revisable."
             }
           ],
           "checklist": [
@@ -222,7 +222,7 @@
             },
             {
               "id": "write_down_the_assumptions_that_still_need_verification",
-              "label": "Write down the assumptions that still need verification",
+              "label": "Write down the ideas to test that still need verification",
               "required": true
             }
           ],
@@ -238,33 +238,49 @@
                 "calculatorId": "unit_cost_calculator",
                 "unitLabelSingular": "product",
                 "unitLabelPlural": "products",
-                "lineItemLabels": ["Materials", "Packaging", "Labels", "Selling fees", "Shipping contribution", "Waste allowance", "Other variable cost"]
+                "lineItemLabels": [
+                  "Materials",
+                  "Packaging",
+                  "Labels",
+                  "Selling fees",
+                  "Shipping contribution",
+                  "Waste allowance",
+                  "Other variable cost"
+                ]
               }
             },
             {
               "toolReference": "startup_cost_calculator",
               "toolConfig": {
                 "calculatorId": "startup_cost_calculator",
-                "lineItemLabels": ["Equipment", "Samples and testing", "Opening materials", "Packaging", "Registration and compliance", "Photography and launch promotion", "Other setup cost"]
+                "lineItemLabels": [
+                  "Equipment",
+                  "Samples and testing",
+                  "Opening materials",
+                  "Packaging",
+                  "Registration and compliance",
+                  "Photography and launch promotion",
+                  "Other setup cost"
+                ]
               }
             }
           ],
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Create a cost estimate covering {{costFocus}} and record assumptions that still need evidence."
+          "nextBestAction": "Create a cost estimate covering {{costFocus}} and record ideas to test that still need proof."
         },
         {
           "id": "check_compliance",
           "order": 5,
-          "title": "Check Safety and Compliance",
+          "title": "Check the Rules Before You Sell",
           "description": "Verify {{complianceFocus}} using current official sources before commercial sale.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Requirements depend on the product, claims, location and sales channel. This workflow cannot determine legal eligibility; save the official sources and complete applicable steps."
+              "text": "Requirements depend on the product, claims, location and sales channel. This plan cannot determine legal eligibility. save the official sources and complete applicable steps."
             }
           ],
           "checklist": [
@@ -290,7 +306,7 @@
             },
             {
               "id": "complete_applicable_requirements_before_commercial_sale",
-              "label": "Complete applicable requirements before commercial sale",
+              "label": "Complete rules you need to follow before commercial sale",
               "required": true
             }
           ],
@@ -308,7 +324,7 @@
         {
           "id": "find_suppliers",
           "order": 6,
-          "title": "Shortlist Suppliers",
+          "title": "Compare Suppliers",
           "description": "Compare suppliers for {{supplierFocus}} without committing to unnecessary stock.",
           "type": "task",
           "required": true,
@@ -365,7 +381,7 @@
         {
           "id": "branding",
           "order": 7,
-          "title": "Create Simple Brand and Packaging",
+          "title": "Make the Offer Easy to Understand",
           "description": "Prepare packaging that can {{packagingFocus}} without consuming the test budget.",
           "type": "task",
           "required": true,
@@ -411,14 +427,14 @@
         {
           "id": "pricing",
           "order": 8,
-          "title": "Set a Realistic Test Price",
+          "title": "Set a Test Price",
           "description": "Choose a price that reflects direct cost, buyer expectations and the purpose of the test.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Deep discounts can create false demand. Test whether intended buyers accept a price that has a plausible path to workable economics."
+              "text": "Deep discounts can create false demand. Test whether intended buyers accept a price that has a plausible path to workable costs and results."
             }
           ],
           "checklist": [
@@ -444,7 +460,7 @@
             }
           ],
           "warnings": [
-            "Do not validate demand using an unsustainable friends-and-family discount."
+            "Do not test demand using an unsustainable friends-and-family discount."
           ],
           "tips": [],
           "decisionGates": [],
@@ -479,7 +495,7 @@
         {
           "id": "sales_channels",
           "order": 9,
-          "title": "Choose Initial Sales Channels",
+          "title": "Pick Your First Sales Channels",
           "description": "Focus on {{salesChannels}} instead of opening every possible channel.",
           "type": "task",
           "required": true,
@@ -513,7 +529,7 @@
           ],
           "warnings": [],
           "tips": [
-            "Track conversations and paid orders manually; do not mistake reach for demand."
+            "Track conversations and paid orders manually. do not mistake reach for demand."
           ],
           "decisionGates": [],
           "embeddedToolReferences": [],
@@ -525,7 +541,7 @@
         {
           "id": "first_10_sales",
           "order": 10,
-          "title": "Reach the First Paid Milestone",
+          "title": "Get Your First Paid Sales",
           "description": "Work toward {{firstPaidMilestone}} and record what happened on every order.",
           "type": "decision",
           "required": true,
@@ -562,18 +578,18 @@
           "decisionGates": [
             {
               "id": "paid_milestone",
-              "question": "Have you reached {{firstPaidMilestone}} with credible paid demand?",
+              "question": "Have you reached {{firstPaidMilestone}} with credible real paying customers?",
               "options": [
                 {
                   "id": "yes",
-                  "label": "Yes, review the evidence",
+                  "label": "Yes, review the proof",
                   "description": "Move to a structured review before increasing inventory.",
                   "nextStepId": "review"
                 },
                 {
                   "id": "not_yet",
                   "label": "Not yet",
-                  "description": "Return to the channel and offer test; do not call unpaid interest a sale.",
+                  "description": "Return to the channel and offer test. do not call unpaid interest a sale.",
                   "nextStepId": "sales_channels"
                 }
               ]
@@ -607,20 +623,20 @@
         {
           "id": "review",
           "order": 11,
-          "title": "Review Demand, Quality and Economics",
-          "description": "Decide whether the evidence supports scaling, another controlled test or a pause.",
+          "title": "Check Demand, Quality and Costs",
+          "description": "Decide whether the proof supports growing, another controlled test or a pause.",
           "type": "decision",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "The review should use paid behavior, quality consistency and obvious direct economics. Stopping or changing a weak offer is a valid result."
+              "text": "The review should use paid behavior, quality consistency and obvious direct costs and results. Stopping or changing a weak offer is a valid result."
             }
           ],
           "checklist": [
             {
               "id": "summarize_paid_demand_and_the_strongest_sales_channel",
-              "label": "Summarize paid demand and the strongest sales channel",
+              "label": "Summarize real paying customers and the strongest sales channel",
               "required": true
             },
             {
@@ -648,7 +664,7 @@
               "options": [
                 {
                   "id": "scale",
-                  "label": "Yes, scale carefully",
+                  "label": "Grow by Repeating What Works",
                   "description": "Run one measured growth experiment with a defined budget and stop condition.",
                   "nextStepId": "scale"
                 },
@@ -661,7 +677,7 @@
                 {
                   "id": "pause",
                   "label": "Pause this idea",
-                  "description": "Record why the evidence is weak. Do not invest more until a better hypothesis exists.",
+                  "description": "Record why the proof is weak. Do not invest more until a better hypothesis exists.",
                   "nextStepId": "review"
                 }
               ]
@@ -672,19 +688,19 @@
             "type": "decision",
             "gateId": "final_review"
           },
-          "nextBestAction": "Review paid demand, quality and direct economics and choose the evidence-based path."
+          "nextBestAction": "Review real paying customers, quality and direct costs and results and choose the proof-based path."
         },
         {
           "id": "scale",
           "order": 12,
-          "title": "Scale Carefully",
+          "title": "Grow What Is Working",
           "description": "Increase only one constraint at a time after {{finalDecisionMilestone}}.",
           "type": "milestone",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "More stock and more channels amplify unresolved quality, compliance and margin problems. Scale only the part already supported by evidence."
+              "text": "More stock and more channels amplify unresolved quality, compliance and margin problems. grow only the part already supported by proof."
             }
           ],
           "checklist": [
@@ -710,12 +726,12 @@
             },
             {
               "id": "schedule_the_next_evidence_review",
-              "label": "Schedule the next evidence review",
+              "label": "Schedule the next proof review",
               "required": true
             }
           ],
           "warnings": [
-            "Do not scale unresolved quality, compliance, delivery or direct-cost problems."
+            "Do not grow unresolved quality, compliance, delivery or direct-cost problems."
           ],
           "tips": [],
           "decisionGates": [],
@@ -729,9 +745,9 @@
     },
     {
       "id": "workflow_digital_product_v1",
-      "name": "Digital Product Launch",
+      "name": "Digital Product Start Plan",
       "version": "2.1",
-      "description": "Define one buyer outcome, test a small useful product and earn paid evidence before expanding the bundle.",
+      "description": "Follow one step at a time. Test the idea before you spend more.",
       "businessTypes": [
         "digital_product"
       ],
@@ -749,15 +765,15 @@
         "salesChannels": "one relevant marketplace or direct channel",
         "firstPaidMilestone": "first five paid buyers",
         "distributionFocus": "the channel that produced qualified visits and paid buyers",
-        "riskWarning": "Do not build a large bundle before the smallest useful version is validated.",
+        "riskWarning": "Do not build a large bundle before the smallest useful version is tested.",
         "validationTargetCount": 5,
-        "validationCriteria": "confirm the problem and show credible willingness to pay"
+        "validationCriteria": "confirm the problem and show credible readiness to pay"
       },
       "steps": [
         {
           "id": "validate_buyer",
           "order": 1,
-          "title": "Define and Validate the Customer",
+          "title": "Pick One Customer to Help",
           "description": "Confirm the importance of {{problem}} for {{customer}}.",
           "type": "decision",
           "required": true,
@@ -785,18 +801,18 @@
             },
             {
               "id": "record_what_commitment_would_count_as_real_interest",
-              "label": "Record what commitment would count as real interest",
+              "label": "Record what clear action would count as real interest",
               "required": true
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [],
           "decisionGates": [
             {
               "id": "buyer_need",
-              "question": "Did {{validationTargetCount}} target users {{validationCriteria}}?",
+              "question": "Did {{validationTargetCount}} people you want to help {{validationCriteria}}?",
               "options": [
                 {
                   "id": "yes",
@@ -807,7 +823,7 @@
                 {
                   "id": "not_yet",
                   "label": "Not yet",
-                  "description": "Narrow the buyer or problem and validate again.",
+                  "description": "Narrow the buyer or problem and test again.",
                   "nextStepId": "validate_buyer"
                 }
               ]
@@ -818,12 +834,12 @@
             "type": "decision",
             "gateId": "buyer_need"
           },
-          "nextBestAction": "Interview {{validationTargetCount}} target users about their current workflow and desired outcome."
+          "nextBestAction": "Interview {{validationTargetCount}} people you want to help about their current plan and desired outcome."
         },
         {
           "id": "research_alternatives",
           "order": 2,
-          "title": "Research Existing Alternatives",
+          "title": "See What Customers Use Today",
           "description": "Review alternatives through {{competitorFocus}}.",
           "type": "standard",
           "required": true,
@@ -867,7 +883,7 @@
         {
           "id": "define_minimum_product",
           "order": 3,
-          "title": "Define the Smallest Useful Product",
+          "title": "Pick the Smallest Useful Product",
           "description": "Choose the minimum version of {{product}} that can deliver one clear outcome.",
           "type": "task",
           "required": true,
@@ -900,7 +916,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [],
           "decisionGates": [],
@@ -913,7 +929,7 @@
         {
           "id": "create_prototype",
           "order": 4,
-          "title": "Create the Minimum Product",
+          "title": "Build the Smallest Useful Version",
           "description": "Build a usable first version in {{formatFocus}}.",
           "type": "task",
           "required": true,
@@ -957,7 +973,7 @@
         {
           "id": "test_usability",
           "order": 5,
-          "title": "Test Usability",
+          "title": "Watch Real Users Try It",
           "description": "Observe {{customer}} using the product without coaching.",
           "type": "validation",
           "required": true,
@@ -970,7 +986,7 @@
           "checklist": [
             {
               "id": "give_the_product_to_at_least_three_target_users",
-              "label": "Give the product to at least three target users",
+              "label": "Give the product to at least three people you want to help",
               "required": true
             },
             {
@@ -998,12 +1014,12 @@
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Observe three target users and fix the largest barrier to the promised outcome."
+          "nextBestAction": "Observe three people you want to help and fix the largest barrier to the promised outcome."
         },
         {
           "id": "check_rights",
           "order": 6,
-          "title": "Check Rights and Delivery Terms",
+          "title": "Check Rights and Selling Rules",
           "description": "Confirm {{rightsFocus}} before publishing.",
           "type": "task",
           "required": true,
@@ -1056,7 +1072,7 @@
           "content": [
             {
               "type": "paragraph",
-              "text": "Free downloads validate interest in free material, not willingness to buy. The first price should be understandable and support the intended delivery effort."
+              "text": "Free downloads test interest in free material, not willingness to buy. The first price should be understandable and support the intended delivery effort."
             }
           ],
           "checklist": [
@@ -1089,7 +1105,13 @@
               "toolReference": "startup_cost_calculator",
               "toolConfig": {
                 "calculatorId": "startup_cost_calculator",
-                "lineItemLabels": ["Creation tools", "Templates or assets", "Marketplace setup", "Test promotion", "Other launch cost"]
+                "lineItemLabels": [
+                  "Creation tools",
+                  "Templates or assets",
+                  "Marketplace setup",
+                  "Test promotion",
+                  "Other launch cost"
+                ]
               }
             },
             {
@@ -1114,7 +1136,7 @@
         {
           "id": "choose_channel",
           "order": 8,
-          "title": "Prepare the Listing and Channel",
+          "title": "Choose Where to Sell It",
           "description": "Publish first through {{salesChannels}}.",
           "type": "task",
           "required": true,
@@ -1158,7 +1180,7 @@
         {
           "id": "launch_small",
           "order": 9,
-          "title": "Launch to a Small Qualified Audience",
+          "title": "Share It With a Small Group",
           "description": "Put the paid offer in front of people who match {{customer}}.",
           "type": "task",
           "required": true,
@@ -1176,7 +1198,7 @@
             },
             {
               "id": "invite_at_least_10_qualified_prospects_or_audience_members",
-              "label": "Invite at least 10 qualified prospects or audience members",
+              "label": "Invite at least 10 likely customers or audience members",
               "required": true
             },
             {
@@ -1197,12 +1219,12 @@
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Share the paid offer with 10 qualified prospects and record what they do."
+          "nextBestAction": "Share the paid offer with 10 likely customers and record what they do."
         },
         {
           "id": "first_sales",
           "order": 10,
-          "title": "Reach the First Paid Buyers",
+          "title": "Get Your First Paying Buyers",
           "description": "Work toward {{firstPaidMilestone}} and support real use.",
           "type": "decision",
           "required": true,
@@ -1215,7 +1237,7 @@
           "checklist": [
             {
               "id": "record_each_paid_sale_and_acquisition_source",
-              "label": "Record each paid sale and acquisition source",
+              "label": "Record each paid sale and finding customers source",
               "required": true
             },
             {
@@ -1243,7 +1265,7 @@
               "options": [
                 {
                   "id": "yes",
-                  "label": "Yes, review the evidence",
+                  "label": "Yes, review the proof",
                   "description": "Review usefulness, support effort and channel quality.",
                   "nextStepId": "review"
                 },
@@ -1271,12 +1293,12 @@
             "type": "decision",
             "gateId": "digital_paid_milestone"
           },
-          "nextBestAction": "Reach the next paid buyer and record acquisition source and product outcome."
+          "nextBestAction": "Reach the next paid buyer and record finding customers source and product outcome."
         },
         {
           "id": "review",
           "order": 11,
-          "title": "Review and Decide",
+          "title": "Review What You Learned",
           "description": "Use paid feedback and {{distributionFocus}} to choose whether to expand, improve or pause.",
           "type": "decision",
           "required": true,
@@ -1299,7 +1321,7 @@
             },
             {
               "id": "identify_the_strongest_acquisition_source",
-              "label": "Identify the strongest acquisition source",
+              "label": "Identify the strongest finding customers source",
               "required": true
             },
             {
@@ -1313,11 +1335,11 @@
           "decisionGates": [
             {
               "id": "digital_final_review",
-              "question": "Does the paid evidence support broader distribution?",
+              "question": "Does the paid proof support broader distribution?",
               "options": [
                 {
                   "id": "scale",
-                  "label": "Expand carefully",
+                  "label": "Grow by Repeating What Works",
                   "description": "Add one product variation or one qualified distribution channel.",
                   "nextStepId": "scale_distribution"
                 },
@@ -1330,7 +1352,7 @@
                 {
                   "id": "pause",
                   "label": "Pause this product",
-                  "description": "Record why paid evidence is weak and avoid producing a larger bundle.",
+                  "description": "Record why paid proof is weak and avoid producing a larger bundle.",
                   "nextStepId": "review"
                 }
               ]
@@ -1346,14 +1368,14 @@
         {
           "id": "scale_distribution",
           "order": 12,
-          "title": "Scale Distribution Carefully",
+          "title": "Grow What Is Working",
           "description": "Expand only after {{finalDecisionMilestone}}.",
           "type": "milestone",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "The safest next move is one measured variation or channel, not a large catalogue built on untested assumptions."
+              "text": "The safest next move is one measured variation or channel, not a large catalogue built on untested ideas to test."
             }
           ],
           "checklist": [
@@ -1374,7 +1396,7 @@
             },
             {
               "id": "track_paid_conversion_and_support_effort",
-              "label": "Track paid conversion and support effort",
+              "label": "Track paid sales and support effort",
               "required": true
             },
             {
@@ -1396,9 +1418,9 @@
     },
     {
       "id": "workflow_service_business_v1",
-      "name": "Service Business Launch",
+      "name": "Service Start Plan",
       "version": "2.1",
-      "description": "Validate one customer problem, package a focused offer and deliver a paid pilot before expanding scope or capacity.",
+      "description": "Follow one step at a time. Test the idea before you spend more.",
       "businessTypes": [
         "service"
       ],
@@ -1410,11 +1432,11 @@
         "offer": "a focused service offer",
         "proofAsset": "a relevant sample or demonstration",
         "pricingFocus": "scope, delivery effort, buyer value and revision boundaries",
-        "outreachChannel": "one channel where qualified prospects can be reached responsibly",
+        "outreachChannel": "one channel where likely customers can be reached responsibly",
         "outreachTarget": 20,
         "pilotOutcome": "one measurable customer outcome",
         "deliveryFocus": "scope, communication, quality and exceptions",
-        "firstPaidMilestone": "first paid pilot",
+        "firstPaidMilestone": "first paid trial",
         "scalePath": "a repeatable offer and delivery process",
         "riskWarning": "Do not promise a broad result you cannot control or deliver consistently.",
         "validationTargetCount": 3,
@@ -1424,7 +1446,7 @@
         {
           "id": "define_customer",
           "order": 1,
-          "title": "Choose the Target Customer",
+          "title": "Pick One Customer to Help",
           "description": "Focus on {{customer}} and when {{problem}} becomes costly or urgent.",
           "type": "standard",
           "required": true,
@@ -1452,7 +1474,7 @@
             },
             {
               "id": "list_where_these_prospects_can_be_reached_responsibly",
-              "label": "List where these prospects can be reached responsibly",
+              "label": "List where these possible customers can be reached responsibly",
               "required": true
             }
           ],
@@ -1468,20 +1490,20 @@
         {
           "id": "validate_problem",
           "order": 2,
-          "title": "Validate the Problem",
+          "title": "Check If the Problem Is Real",
           "description": "Confirm how {{customer}} currently handle {{problem}} and what it costs them.",
           "type": "decision",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Generic interest in a service is weak evidence. Look for a current workaround, visible consequence and willingness to change."
+              "text": "Generic interest in a service is weak proof. Look for a current workaround, visible consequence and willingness to change."
             }
           ],
           "checklist": [
             {
               "id": "speak_with_at_least_value_qualified_prospects",
-              "label": "Speak with at least {{validationTargetCount}} qualified prospects",
+              "label": "Speak with at least {{validationTargetCount}} likely customers",
               "required": true
             },
             {
@@ -1501,13 +1523,13 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [],
           "decisionGates": [
             {
               "id": "service_problem_validation",
-              "question": "Did {{validationTargetCount}} qualified prospects {{validationCriteria}}?",
+              "question": "Did {{validationTargetCount}} likely customers {{validationCriteria}}?",
               "options": [
                 {
                   "id": "yes",
@@ -1529,19 +1551,19 @@
             "type": "decision",
             "gateId": "service_problem_validation"
           },
-          "nextBestAction": "Interview {{validationTargetCount}} qualified prospects about their current process and desired result."
+          "nextBestAction": "Interview {{validationTargetCount}} likely customers about their current process and desired result."
         },
         {
           "id": "package_offer",
           "order": 3,
-          "title": "Define the Offer",
+          "title": "Build the Smallest Useful Offer",
           "description": "Package {{offer}} around a clear outcome, scope and boundary.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Prospects need to understand what changes, what is included and what remains their responsibility."
+              "text": "possible customers need to understand what changes, what is included and what remains their responsibility."
             }
           ],
           "checklist": [
@@ -1583,14 +1605,14 @@
         {
           "id": "prepare_proof",
           "order": 4,
-          "title": "Create Relevant Proof",
+          "title": "Show Proof You Can Help",
           "description": "Build {{proofAsset}} that demonstrates the approach without pretending to prove every result.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Relevant proof reduces perceived risk. It should resemble the target customer's problem and make limitations clear."
+              "text": "Relevant proof reduces perceived risk. It should resemble the customers you want to help's problem and make limitations clear."
             }
           ],
           "checklist": [
@@ -1611,7 +1633,7 @@
             },
             {
               "id": "state_assumptions_limitations_and_required_client_inputs",
-              "label": "State assumptions, limitations and required client inputs",
+              "label": "State ideas to test, limitations and required client inputs",
               "required": true
             }
           ],
@@ -1629,14 +1651,14 @@
         {
           "id": "build_portfolio",
           "order": 5,
-          "title": "Build a Simple Credibility Page",
+          "title": "Make a Simple Work Page",
           "description": "Present the customer, problem, offer and proof in one easy-to-review place.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A simple proof page helps qualified prospects decide whether to continue. It does not need to become a large brand project."
+              "text": "A simple proof page helps likely customers decide whether to continue. It does not need to become a large brand project."
             }
           ],
           "checklist": [
@@ -1678,14 +1700,14 @@
         {
           "id": "price_and_terms",
           "order": 6,
-          "title": "Set Pilot Price and Terms",
+          "title": "Set a Trial Price and Clear Terms",
           "description": "Choose initial terms using {{pricingFocus}}.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A paid pilot should be small enough to reduce buyer risk but clear enough to test real delivery and economics."
+              "text": "A paid trial should be small enough to reduce buyer risk but clear enough to test real delivery and costs and results."
             }
           ],
           "checklist": [
@@ -1696,7 +1718,7 @@
             },
             {
               "id": "choose_a_fixed_pilot_scope_and_price",
-              "label": "Choose a fixed pilot scope and price",
+              "label": "Choose a fixed trial scope and price",
               "required": true
             },
             {
@@ -1706,12 +1728,12 @@
             },
             {
               "id": "define_what_happens_after_the_pilot",
-              "label": "Define what happens after the pilot",
+              "label": "Define what happens after the trial",
               "required": true
             }
           ],
           "warnings": [
-            "Do not use an unlimited-scope pilot to win the first client."
+            "Do not use an unlimited-scope trial to win the first client."
           ],
           "tips": [],
           "decisionGates": [],
@@ -1720,7 +1742,14 @@
               "toolReference": "startup_cost_calculator",
               "toolConfig": {
                 "calculatorId": "startup_cost_calculator",
-                "lineItemLabels": ["Equipment and tools", "Proof or demo production", "Registration and insurance", "Software", "Outreach test", "Other setup cost"]
+                "lineItemLabels": [
+                  "Equipment and tools",
+                  "Proof or demo production",
+                  "Registration and insurance",
+                  "Software",
+                  "Outreach test",
+                  "Other setup cost"
+                ]
               }
             },
             {
@@ -1734,13 +1763,13 @@
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Set one paid pilot price with explicit scope, payment and revision boundaries."
+          "nextBestAction": "Set one paid trial price with explicit scope, payment and revision boundaries."
         },
         {
           "id": "outreach",
           "order": 7,
-          "title": "Run Focused Outreach",
-          "description": "Contact {{outreachTarget}} qualified prospects through {{outreachChannel}}.",
+          "title": "Talk to Likely Customers",
+          "description": "Contact {{outreachTarget}} likely customers through {{outreachChannel}}.",
           "type": "task",
           "required": true,
           "content": [
@@ -1752,7 +1781,7 @@
           "checklist": [
             {
               "id": "build_a_list_of_value_qualified_prospects",
-              "label": "Build a list of {{outreachTarget}} qualified prospects",
+              "label": "Build a list of {{outreachTarget}} likely customers",
               "required": true
             },
             {
@@ -1785,19 +1814,19 @@
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Send the focused offer to the next five qualified prospects and record responses."
+          "nextBestAction": "Send the focused offer to the next five likely customers and record responses."
         },
         {
           "id": "close_client",
           "order": 8,
-          "title": "Close the First Paid Engagement",
+          "title": "Book Your First Paying Client",
           "description": "Turn a qualified conversation into {{firstPaidMilestone}} with written scope.",
           "type": "decision",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A real payment tests the problem, trust, offer and price together. Keep the commitment narrow enough to deliver well."
+              "text": "A real payment tests the problem, trust, offer and price together. Keep the clear action narrow enough to deliver well."
             }
           ],
           "checklist": [
@@ -1832,7 +1861,7 @@
                 {
                   "id": "yes",
                   "label": "Yes, prepare delivery",
-                  "description": "Move into the agreed pilot and protect the scope.",
+                  "description": "Move into the agreed trial and protect the scope.",
                   "nextStepId": "paid_pilot"
                 },
                 {
@@ -1867,19 +1896,19 @@
             "type": "decision",
             "gateId": "service_paid_milestone"
           },
-          "nextBestAction": "Ask the strongest qualified prospect to approve the written paid pilot."
+          "nextBestAction": "Ask the strongest qualified prospect to approve the written paid trial."
         },
         {
           "id": "paid_pilot",
           "order": 9,
-          "title": "Deliver the Paid Pilot",
+          "title": "Deliver the Paid Trial",
           "description": "Deliver {{pilotOutcome}} while controlling {{deliveryFocus}}.",
           "type": "milestone",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "The pilot tests both customer value and your ability to deliver reliably. Record exceptions and effort instead of hiding them."
+              "text": "The trial tests both customer value and your ability to deliver reliably. Record exceptions and effort instead of hiding them."
             }
           ],
           "checklist": [
@@ -1910,7 +1939,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [],
           "decisionGates": [],
@@ -1918,19 +1947,19 @@
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Deliver the next agreed pilot milestone and record effort and outcome evidence."
+          "nextBestAction": "Deliver the next agreed trial milestone and record effort and outcome proof."
         },
         {
           "id": "review_delivery",
           "order": 10,
-          "title": "Review Customer Value and Delivery",
-          "description": "Compare the achieved outcome, customer feedback, effort and obvious economics.",
+          "title": "Check the Result and Your Workload",
+          "description": "Compare the achieved outcome, customer feedback, effort and obvious costs and results.",
           "type": "decision",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A happy client is useful, but the offer also needs controlled scope and repeatable delivery. Improving or pausing is legitimate if either side is weak."
+              "text": "A happy client is useful. But the offer also needs controlled scope and repeatable delivery. Improving or pausing is legitimate if either side is weak."
             }
           ],
           "checklist": [
@@ -1988,19 +2017,19 @@
             "type": "decision",
             "gateId": "service_final_review"
           },
-          "nextBestAction": "Review value, delivery effort and scope; then choose repeat, improve or pause."
+          "nextBestAction": "Review value, delivery effort and scope. then choose repeat, improve or pause."
         },
         {
           "id": "collect_testimonial",
           "order": 11,
-          "title": "Collect Evidence and Referral",
+          "title": "Ask for Feedback and a Referral",
           "description": "Ask for honest proof only after the customer has experienced the outcome.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Specific evidence and qualified referrals reduce future buyer risk. The customer should approve what can be shared."
+              "text": "Specific proof and qualified referrals reduce future buyer risk. The customer should approve what can be shared."
             }
           ],
           "checklist": [
@@ -2037,8 +2066,8 @@
         {
           "id": "standardize",
           "order": 12,
-          "title": "Standardize What Works",
-          "description": "Turn the evidence into {{scalePath}} without expanding beyond delivery capacity.",
+          "title": "Repeat What Works",
+          "description": "Turn the proof into {{scalePath}} without expanding beyond delivery capacity.",
           "type": "milestone",
           "required": true,
           "content": [
@@ -2060,7 +2089,7 @@
             },
             {
               "id": "update_price_or_terms_using_pilot_evidence",
-              "label": "Update price or terms using pilot evidence",
+              "label": "Update price or terms using trial proof",
               "required": true
             },
             {
@@ -2087,9 +2116,9 @@
     },
     {
       "id": "workflow_online_business_v1",
-      "name": "Online Business Launch",
+      "name": "Online Business Start Plan",
       "version": "2.1",
-      "description": "Validate one recurring online need, launch a narrow solution and seek repeat usage and paid evidence before scaling.",
+      "description": "Follow one step at a time. Test the idea before you spend more.",
       "businessTypes": [
         "software",
         "commerce",
@@ -2102,29 +2131,29 @@
         "problem": "one recurring problem",
         "alternatives": "existing tools, manual workarounds and switching barriers",
         "prototypeFormat": "a mock-up, manual service or minimal interactive prototype",
-        "acquisitionChannel": "one channel where target users already seek solutions",
+        "acquisitionChannel": "one channel where people you want to help already seek solutions",
         "revenueModel": "one simple paid offer",
         "operationsFocus": "privacy, security, reliability, support and applicable disclosures",
         "firstUserMilestone": "first five active users",
         "firstPaidMilestone": "first three paying users",
-        "retentionEvidence": "repeat usage of the core workflow and willingness to keep paying",
-        "scalePath": "one measured acquisition or product experiment",
-        "riskWarning": "Do not build a full product before the problem and core workflow are validated.",
+        "retentionEvidence": "repeat usage of the core plan and willingness to keep paying",
+        "scalePath": "one measured test to find users or improve the product",
+        "riskWarning": "Do not build a full product before the problem and core plan are tested.",
         "validationTargetCount": 3,
-        "validationCriteria": "confirm the recurring problem and make a credible commitment"
+        "validationCriteria": "confirm the recurring problem and take a clear next step"
       },
       "steps": [
         {
           "id": "validate_problem",
           "order": 1,
-          "title": "Validate the Recurring Problem",
+          "title": "Check If the Problem Is Real",
           "description": "Confirm that {{user}} repeatedly experience {{problem}}.",
           "type": "decision",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A broad trend or search volume does not prove a useful product. Look for repeated behavior, consequences and a concrete commitment."
+              "text": "A broad trend or search volume does not prove a useful product. Look for repeated behavior, consequences and a concrete clear action."
             }
           ],
           "checklist": [
@@ -2135,7 +2164,7 @@
             },
             {
               "id": "interview_at_least_value_target_users",
-              "label": "Interview at least {{validationTargetCount}} target users",
+              "label": "Interview at least {{validationTargetCount}} people you want to help",
               "required": true
             },
             {
@@ -2145,29 +2174,29 @@
             },
             {
               "id": "ask_for_a_pilot_preorder_signup_with_intent_or_another_credible_commitment",
-              "label": "Ask for a pilot, preorder, signup with intent or another credible commitment",
+              "label": "Ask for a trial, preorder, signup with intent or another clear next step",
               "required": true
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [],
           "decisionGates": [
             {
               "id": "online_problem_validation",
-              "question": "Did {{validationTargetCount}} target users {{validationCriteria}}?",
+              "question": "Did {{validationTargetCount}} people you want to help {{validationCriteria}}?",
               "options": [
                 {
                   "id": "yes",
                   "label": "Yes, define the user",
-                  "description": "Write the target user and use case before prototyping.",
+                  "description": "Write the people you want to help and use case before prototyping.",
                   "nextStepId": "define_target_user"
                 },
                 {
                   "id": "not_yet",
                   "label": "Not yet",
-                  "description": "Narrow the user or problem and validate again before building.",
+                  "description": "Narrow the user or problem and test again before building.",
                   "nextStepId": "validate_problem"
                 }
               ]
@@ -2178,30 +2207,30 @@
             "type": "decision",
             "gateId": "online_problem_validation"
           },
-          "nextBestAction": "Interview {{validationTargetCount}} target users about the current workaround and ask for a concrete commitment."
+          "nextBestAction": "Interview {{validationTargetCount}} people you want to help about the current workaround and ask for a concrete clear action."
         },
         {
           "id": "define_target_user",
           "order": 2,
-          "title": "Define the Target User and Outcome",
+          "title": "Pick One User and One Result",
           "description": "Choose the user, trigger and core outcome for the first version.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A narrow product can solve one workflow deeply enough to earn repeated use. Broad personas and feature lists hide weak demand."
+              "text": "A narrow product can solve one plan deeply enough to earn repeated use. Broad personas and feature lists hide weak demand."
             }
           ],
           "checklist": [
             {
               "id": "write_the_target_user_and_role",
-              "label": "Write the target user and role",
+              "label": "Write the people you want to help and role",
               "required": true
             },
             {
               "id": "define_the_trigger_that_starts_the_workflow",
-              "label": "Define the trigger that starts the workflow",
+              "label": "Define the trigger that starts the plan",
               "required": true
             },
             {
@@ -2222,12 +2251,12 @@
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Write one target user, one trigger and one measurable workflow outcome."
+          "nextBestAction": "Write one people you want to help, one trigger and one measurable plan outcome."
         },
         {
           "id": "research_alternatives",
           "order": 3,
-          "title": "Research Alternatives and Workarounds",
+          "title": "See What Users Do Today",
           "description": "Review {{alternatives}}.",
           "type": "standard",
           "required": true,
@@ -2271,7 +2300,7 @@
         {
           "id": "prototype",
           "order": 4,
-          "title": "Prototype the Core Workflow",
+          "title": "Build the Smallest Useful Demo",
           "description": "Demonstrate the outcome with {{prototypeFormat}}.",
           "type": "task",
           "required": true,
@@ -2284,7 +2313,7 @@
           "checklist": [
             {
               "id": "map_the_smallest_end_to_end_workflow",
-              "label": "Map the smallest end-to-end workflow",
+              "label": "Map the smallest end-to-end plan",
               "required": true
             },
             {
@@ -2299,12 +2328,12 @@
             },
             {
               "id": "observe_target_users_attempting_the_core_outcome",
-              "label": "Observe target users attempting the core outcome",
+              "label": "Observe people you want to help attempting the core outcome",
               "required": true
             }
           ],
           "warnings": [
-            "{{riskWarning}}"
+            "{{riskWarning}}."
           ],
           "tips": [],
           "decisionGates": [],
@@ -2313,32 +2342,39 @@
               "toolReference": "startup_cost_calculator",
               "toolConfig": {
                 "calculatorId": "startup_cost_calculator",
-                "lineItemLabels": ["Prototype tools", "Hosting and domain", "Software and APIs", "Compliance or legal review", "Acquisition test", "Other setup cost"]
+                "lineItemLabels": [
+                  "Prototype tools",
+                  "Hosting and domain",
+                  "Software and APIs",
+                  "Compliance or legal review",
+                  "Acquisition test",
+                  "Other setup cost"
+                ]
               }
             }
           ],
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Prototype the smallest end-to-end workflow and observe target users using it."
+          "nextBestAction": "Prototype the smallest end-to-end plan and observe people you want to help using it."
         },
         {
           "id": "test_acquisition",
           "order": 5,
-          "title": "Test One Acquisition Channel",
-          "description": "Reach target users through {{acquisitionChannel}}.",
+          "title": "Test One Way to Find Users",
+          "description": "Reach people you want to help through {{acquisitionChannel}}.",
           "type": "validation",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A product with no credible path to qualified users is not validated. Test one channel with a clear message before scaling content or promotion."
+              "text": "A product with no credible path to qualified users is not tested. Test one channel with a clear message before growing content or promotion."
             }
           ],
           "checklist": [
             {
               "id": "choose_one_qualified_acquisition_channel",
-              "label": "Choose one qualified acquisition channel",
+              "label": "Choose one qualified finding customers channel",
               "required": true
             },
             {
@@ -2369,14 +2405,14 @@
         {
           "id": "business_model",
           "order": 6,
-          "title": "Choose the Paid Model",
+          "title": "Choose How You Get Paid",
           "description": "Define {{revenueModel}} tied to the core outcome.",
           "type": "task",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Pricing should test willingness to pay and acknowledge delivery or usage costs. Avoid complex tiers before the main value is understood."
+              "text": "Pricing should test readiness to pay and acknowledge delivery or usage costs. Avoid complex tiers before the main value is understood."
             }
           ],
           "checklist": [
@@ -2435,7 +2471,7 @@
         {
           "id": "check_operations",
           "order": 7,
-          "title": "Check Operations, Privacy and Reliability",
+          "title": "Check Privacy, Support and Reliability",
           "description": "Review {{operationsFocus}} before inviting broader use.",
           "type": "task",
           "required": true,
@@ -2468,7 +2504,7 @@
             },
             {
               "id": "test_failure_and_recovery_for_the_core_workflow",
-              "label": "Test failure and recovery for the core workflow",
+              "label": "Test failure and recovery for the core plan",
               "required": true
             }
           ],
@@ -2481,13 +2517,13 @@
           "completionRule": {
             "type": "checklist"
           },
-          "nextBestAction": "Map user data, dependencies and the fallback when the core workflow fails."
+          "nextBestAction": "Map user data, dependencies and the fallback when the core plan fails."
         },
         {
           "id": "launch",
           "order": 8,
-          "title": "Launch the Minimum Version",
-          "description": "Release the core workflow to a small qualified user group.",
+          "title": "Launch the Smallest Useful Version",
+          "description": "Release the core plan to a small qualified user group.",
           "type": "task",
           "required": true,
           "content": [
@@ -2499,7 +2535,7 @@
           "checklist": [
             {
               "id": "release_only_the_validated_core_workflow",
-              "label": "Release only the validated core workflow",
+              "label": "Release only the tested core plan",
               "required": true
             },
             {
@@ -2530,8 +2566,8 @@
         {
           "id": "first_users",
           "order": 9,
-          "title": "Reach the First Active Users",
-          "description": "Reach {{firstUserMilestone}} who complete the core workflow.",
+          "title": "Get Your First Active Users",
+          "description": "Reach {{firstUserMilestone}} who complete the core plan.",
           "type": "milestone",
           "required": true,
           "content": [
@@ -2558,7 +2594,7 @@
             },
             {
               "id": "track_whether_users_return_for_the_core_workflow",
-              "label": "Track whether users return for the core workflow",
+              "label": "Track whether users return for the core plan",
               "required": true
             }
           ],
@@ -2574,7 +2610,7 @@
         {
           "id": "first_revenue",
           "order": 10,
-          "title": "Reach the First Paid Milestone",
+          "title": "Get Your First Payment",
           "description": "Work toward {{firstPaidMilestone}} without expanding the feature set.",
           "type": "decision",
           "required": true,
@@ -2592,7 +2628,7 @@
             },
             {
               "id": "record_each_payment_and_acquisition_source",
-              "label": "Record each payment and acquisition source",
+              "label": "Record each payment and finding customers source",
               "required": true
             },
             {
@@ -2611,18 +2647,18 @@
           "decisionGates": [
             {
               "id": "online_paid_milestone",
-              "question": "Have you reached {{firstPaidMilestone}} using the core workflow?",
+              "question": "Have you reached {{firstPaidMilestone}} using the core plan?",
               "options": [
                 {
                   "id": "yes",
-                  "label": "Yes, review retention",
+                  "label": "Yes, review people coming back",
                   "description": "Review repeat usage, support and willingness to continue paying.",
                   "nextStepId": "review"
                 },
                 {
                   "id": "not_yet",
                   "label": "Not yet",
-                  "description": "Return to the acquisition, core value or paid offer before adding features.",
+                  "description": "Return to the finding customers, core value or paid offer before adding features.",
                   "nextStepId": "test_acquisition"
                 }
               ]
@@ -2656,14 +2692,14 @@
         {
           "id": "review",
           "order": 11,
-          "title": "Review Usage, Revenue and Risk",
-          "description": "Decide using {{retentionEvidence}}, support burden and obvious economics.",
+          "title": "Review Use, Income and Risk",
+          "description": "Decide using {{retentionEvidence}}, support burden and obvious costs and results.",
           "type": "decision",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "A launch spike is not a durable business. Scaling is justified only when the core workflow is useful repeatedly and the paid model remains workable."
+              "text": "A launch spike is not a durable business. growing is justified only when the core plan is useful repeatedly and the paid model remains workable."
             }
           ],
           "checklist": [
@@ -2684,7 +2720,7 @@
             },
             {
               "id": "write_the_strongest_continue_and_stop_evidence",
-              "label": "Write the strongest continue and stop evidence",
+              "label": "Write the strongest continue and stop proof",
               "required": true
             }
           ],
@@ -2693,12 +2729,12 @@
           "decisionGates": [
             {
               "id": "online_final_review",
-              "question": "Does the evidence support another measured investment?",
+              "question": "Does the proof support another measured investment?",
               "options": [
                 {
                   "id": "scale",
-                  "label": "Run one measured scale test",
-                  "description": "Choose one acquisition or product experiment with a stop condition.",
+                  "label": "Grow by Repeating What Works",
+                  "description": "Choose one finding customers or product experiment with a stop condition.",
                   "nextStepId": "scale"
                 },
                 {
@@ -2721,25 +2757,25 @@
             "type": "decision",
             "gateId": "online_final_review"
           },
-          "nextBestAction": "Review repeat usage, payment and support evidence and choose scale, improve or pause."
+          "nextBestAction": "Review repeat usage, payment and support proof and choose grow, improve or pause."
         },
         {
           "id": "scale",
           "order": 12,
-          "title": "Scale One Proven Constraint",
+          "title": "Grow What Is Working",
           "description": "Run {{scalePath}} after {{finalDecisionMilestone}}.",
           "type": "milestone",
           "required": true,
           "content": [
             {
               "type": "paragraph",
-              "text": "Choose one bottleneck supported by evidence. More features, traffic and infrastructure at once make it impossible to learn what changed."
+              "text": "Choose one bottleneck supported by proof. More features, traffic and infrastructure at once make it impossible to learn what changed."
             }
           ],
           "checklist": [
             {
               "id": "choose_one_acquisition_activation_or_retention_experiment",
-              "label": "Choose one acquisition, activation or retention experiment",
+              "label": "Choose one finding customers, activation or people coming back experiment",
               "required": true
             },
             {
@@ -2759,7 +2795,7 @@
             },
             {
               "id": "schedule_the_next_evidence_review",
-              "label": "Schedule the next evidence review",
+              "label": "Schedule the next proof review",
               "required": true
             }
           ],

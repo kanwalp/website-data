@@ -5,114 +5,334 @@
       "id": "make_sell_products",
       "slug": "make-sell-products",
       "name": "Make & Sell Products",
-      "description": "Create, source or package physical products and sell them online or offline.",
+      "description": "Make useful, giftable or everyday products and sell them online, locally or both.",
       "icon": "package",
       "order": 1,
       "subcategories": [
-        { "id": "handmade_lifestyle", "slug": "handmade-lifestyle", "name": "Handmade & Lifestyle", "description": "Handmade products for gifting, everyday use and personal style." },
-        { "id": "personalized_products", "slug": "personalized-products", "name": "Personalized Products", "description": "Custom-made products designed around people, occasions or businesses." },
-        { "id": "home_decor", "slug": "home-decor", "name": "Home & Decor", "description": "Useful and decorative products for homes and workspaces." },
-        { "id": "food_consumables", "slug": "food-consumables", "name": "Food & Consumables", "description": "Packaged foods, baked goods and repeat-purchase consumables." },
-        { "id": "beauty_personal_care", "slug": "beauty-personal-care", "name": "Beauty & Personal Care", "description": "Small-batch personal care, grooming and wellness products." },
-        { "id": "pet_products", "slug": "pet-products", "name": "Pet Products", "description": "Practical, personalized and gift products for pet owners." }
+        {
+          "id": "handmade_lifestyle",
+          "slug": "handmade-lifestyle",
+          "name": "Handmade & Lifestyle",
+          "description": "Handmade products for gifting, everyday use and personal style."
+        },
+        {
+          "id": "personalized_products",
+          "slug": "personalized-products",
+          "name": "Personalized Products",
+          "description": "Custom-made products designed around people, occasions or businesses."
+        },
+        {
+          "id": "home_decor",
+          "slug": "home-decor",
+          "name": "Home & Decor",
+          "description": "Useful and decorative products for homes and workspaces."
+        },
+        {
+          "id": "food_consumables",
+          "slug": "food-consumables",
+          "name": "Food & Consumables",
+          "description": "Packaged foods, baked goods and repeat-purchase consumables."
+        },
+        {
+          "id": "beauty_personal_care",
+          "slug": "beauty-personal-care",
+          "name": "Beauty & Personal Care",
+          "description": "Small-batch personal care, grooming and wellness products."
+        },
+        {
+          "id": "pet_products",
+          "slug": "pet-products",
+          "name": "Pet Products",
+          "description": "Practical, personalized and gift products for pet owners."
+        }
       ]
     },
     {
       "id": "digital_products",
       "slug": "digital-products",
       "name": "Digital Products",
-      "description": "Create downloadable or reusable digital products that can be sold repeatedly.",
+      "description": "Create templates, downloads, designs or guides people can buy online.",
       "icon": "download",
       "order": 2,
       "subcategories": [
-        { "id": "templates", "slug": "templates", "name": "Templates", "description": "Reusable layouts and systems for design, work and business tasks." },
-        { "id": "printables", "slug": "printables", "name": "Printables", "description": "Downloadable planners, worksheets and printable resources." },
-        { "id": "business_kits", "slug": "business-kits", "name": "Business Kits", "description": "Bundled documents and operating resources for small businesses." },
-        { "id": "developer_products", "slug": "developer-products", "name": "Developer Products", "description": "Code, automation and documentation assets for technical buyers." },
-        { "id": "knowledge_products", "slug": "knowledge-products", "name": "Knowledge Products", "description": "Guides, courses and resources that package useful expertise." },
-        { "id": "creative_assets", "slug": "creative-assets", "name": "Creative Assets", "description": "Reusable visual, audio and production assets for creators." }
+        {
+          "id": "templates",
+          "slug": "templates",
+          "name": "Templates",
+          "description": "Reusable layouts and systems for design, work and business tasks."
+        },
+        {
+          "id": "printables",
+          "slug": "printables",
+          "name": "Printables",
+          "description": "Downloadable planners, worksheets and printable resources."
+        },
+        {
+          "id": "business_kits",
+          "slug": "business-kits",
+          "name": "Business Kits",
+          "description": "Bundled documents and operating resources for small businesses."
+        },
+        {
+          "id": "developer_products",
+          "slug": "developer-products",
+          "name": "Developer Products",
+          "description": "Code, automation and documentation assets for technical buyers."
+        },
+        {
+          "id": "knowledge_products",
+          "slug": "knowledge-products",
+          "name": "Knowledge Products",
+          "description": "Guides, courses and resources that package useful expertise."
+        },
+        {
+          "id": "creative_assets",
+          "slug": "creative-assets",
+          "name": "Creative Assets",
+          "description": "Reusable visual, audio and production assets for creators."
+        }
       ]
     },
     {
       "id": "services_freelancing",
       "slug": "services-freelancing",
       "name": "Services & Freelancing",
-      "description": "Sell skills, expertise and execution to individuals or businesses.",
+      "description": "Use a skill to solve a problem and get paid for the work.",
       "icon": "briefcase-business",
       "order": 3,
       "subcategories": [
-        { "id": "ai_automation", "slug": "ai-automation", "name": "AI & Automation", "description": "Implement focused AI tools and workflow automations for clients." },
-        { "id": "development", "slug": "development", "name": "Development", "description": "Build and maintain websites, applications and commerce systems." },
-        { "id": "marketing", "slug": "marketing", "name": "Marketing", "description": "Help businesses attract, convert and retain customers." },
-        { "id": "content_creative", "slug": "content-creative", "name": "Content & Creative", "description": "Produce visual, written and video assets for brands and creators." },
-        { "id": "business_operations", "slug": "business-operations", "name": "Business Operations", "description": "Support recurring administrative, research and process work." },
-        { "id": "consulting", "slug": "consulting", "name": "Consulting", "description": "Provide focused advice based on practical domain expertise." }
+        {
+          "id": "ai_automation",
+          "slug": "ai-automation",
+          "name": "AI & Automation",
+          "description": "Implement focused AI tools and plan automations for clients."
+        },
+        {
+          "id": "development",
+          "slug": "development",
+          "name": "Development",
+          "description": "Build and maintain websites, applications and commerce systems."
+        },
+        {
+          "id": "marketing",
+          "slug": "marketing",
+          "name": "Marketing",
+          "description": "Help businesses attract, convert and retain customers."
+        },
+        {
+          "id": "content_creative",
+          "slug": "content-creative",
+          "name": "Content & Creative",
+          "description": "Produce visual, written and video assets for brands and creators."
+        },
+        {
+          "id": "business_operations",
+          "slug": "business-operations",
+          "name": "Business Operations",
+          "description": "Support recurring administrative, research and process work."
+        },
+        {
+          "id": "consulting",
+          "slug": "consulting",
+          "name": "Consulting",
+          "description": "Provide focused advice based on practical domain expertise."
+        }
       ]
     },
     {
       "id": "online_assets_software",
       "slug": "online-assets-software",
       "name": "Online Assets & Software",
-      "description": "Build scalable digital assets, tools or software products.",
+      "description": "Build websites, tools or software that solve a clear problem online.",
       "icon": "code-2",
       "order": 4,
       "subcategories": [
-        { "id": "micro_saas", "slug": "micro-saas", "name": "Micro-SaaS", "description": "Focused subscription software for a narrow customer problem." },
-        { "id": "utility_websites", "slug": "utility-websites", "name": "Utility Websites", "description": "Web-based calculators, comparisons and practical online tools." },
-        { "id": "apps_extensions", "slug": "apps-extensions", "name": "Apps & Extensions", "description": "Small applications and add-ons for existing platforms." },
-        { "id": "content_sites", "slug": "content-sites", "name": "Content Sites", "description": "Searchable information, comparison and directory websites." },
-        { "id": "creator_businesses", "slug": "creator-businesses", "name": "Creator Businesses", "description": "Audience-led media businesses across video, audio and email." },
-        { "id": "data_products", "slug": "data-products", "name": "Data Products", "description": "Curated databases, research and decision-support information." }
+        {
+          "id": "micro_saas",
+          "slug": "micro-saas",
+          "name": "Micro-SaaS",
+          "description": "Focused subscription software for a narrow customer problem."
+        },
+        {
+          "id": "utility_websites",
+          "slug": "utility-websites",
+          "name": "Utility Websites",
+          "description": "Web-based calculators, comparisons and practical online tools."
+        },
+        {
+          "id": "apps_extensions",
+          "slug": "apps-extensions",
+          "name": "Apps & Extensions",
+          "description": "Small applications and add-ons for existing platforms."
+        },
+        {
+          "id": "content_sites",
+          "slug": "content-sites",
+          "name": "Content Sites",
+          "description": "Searchable information, comparison and directory websites."
+        },
+        {
+          "id": "creator_businesses",
+          "slug": "creator-businesses",
+          "name": "Creator Businesses",
+          "description": "Audience-led media businesses across video, audio and email."
+        },
+        {
+          "id": "data_products",
+          "slug": "data-products",
+          "name": "Data Products",
+          "description": "Curated databases, research and decision-support information."
+        }
       ]
     },
     {
       "id": "reselling_commerce",
       "slug": "reselling-commerce",
       "name": "Reselling & Commerce",
-      "description": "Sell products sourced from suppliers, manufacturers or platforms.",
+      "description": "Source products people want and sell them with a clear profit margin.",
       "icon": "shopping-bag",
       "order": 5,
       "subcategories": [
-        { "id": "print_on_demand", "slug": "print-on-demand", "name": "Print on Demand", "description": "Sell printed products produced after a customer places an order." },
-        { "id": "private_label", "slug": "private-label", "name": "Private Label", "description": "Source existing products and sell them under your own brand." },
-        { "id": "marketplace_reselling", "slug": "marketplace-reselling", "name": "Marketplace Reselling", "description": "Source and resell products through established marketplaces." },
-        { "id": "dropshipping", "slug": "dropshipping", "name": "Dropshipping", "description": "Sell products fulfilled directly by a supplier." },
-        { "id": "subscription_commerce", "slug": "subscription-commerce", "name": "Subscription Commerce", "description": "Curate recurring product boxes for a defined customer group." },
-        { "id": "used_refurbished", "slug": "used-refurbished", "name": "Used & Refurbished", "description": "Restore, verify or curate second-hand products for resale." }
+        {
+          "id": "print_on_demand",
+          "slug": "print-on-demand",
+          "name": "Print on Demand",
+          "description": "Sell printed products produced after a customer places an order."
+        },
+        {
+          "id": "private_label",
+          "slug": "private-label",
+          "name": "Private Label",
+          "description": "Source existing products and sell them under your own brand."
+        },
+        {
+          "id": "marketplace_reselling",
+          "slug": "marketplace-reselling",
+          "name": "Marketplace Reselling",
+          "description": "Source and resell products through established marketplaces."
+        },
+        {
+          "id": "dropshipping",
+          "slug": "dropshipping",
+          "name": "Dropshipping",
+          "description": "Sell products fulfilled directly by a supplier."
+        },
+        {
+          "id": "subscription_commerce",
+          "slug": "subscription-commerce",
+          "name": "Subscription Commerce",
+          "description": "Curate recurring product boxes for a defined customer group."
+        },
+        {
+          "id": "used_refurbished",
+          "slug": "used-refurbished",
+          "name": "Used & Refurbished",
+          "description": "Restore, verify or curate second-hand products for resale."
+        }
       ]
     },
     {
       "id": "local_offline_businesses",
       "slug": "local-offline-businesses",
       "name": "Local & Offline Businesses",
-      "description": "Serve customers mainly in a local area or physical setting.",
+      "description": "Serve people, homes or shops in your area with a useful service or product.",
       "icon": "store",
       "order": 6,
       "subcategories": [
-        { "id": "home_services", "slug": "home-services", "name": "Home Services", "description": "Practical services delivered in customers' homes or nearby." },
-        { "id": "education", "slug": "education", "name": "Education", "description": "Local or hybrid teaching, tutoring and skills instruction." },
-        { "id": "pet_services", "slug": "pet-services", "name": "Pet Services", "description": "Care, grooming and support services for pet owners." },
-        { "id": "events", "slug": "events", "name": "Events", "description": "Planning, production and fulfilment for local occasions." },
-        { "id": "beauty_wellness", "slug": "beauty-wellness", "name": "Beauty & Wellness", "description": "Personal care, fitness and wellness services delivered locally." },
-        { "id": "food_services", "slug": "food-services", "name": "Food Services", "description": "Prepared food businesses serving local customers and events." },
-        { "id": "repair_maintenance", "slug": "repair-maintenance", "name": "Repair & Maintenance", "description": "Repair and restoration services for household and personal items." }
+        {
+          "id": "home_services",
+          "slug": "home-services",
+          "name": "Home Services",
+          "description": "Practical services delivered in customers' homes or nearby."
+        },
+        {
+          "id": "education",
+          "slug": "education",
+          "name": "Education",
+          "description": "Local or hybrid teaching, tutoring and skills instruction."
+        },
+        {
+          "id": "pet_services",
+          "slug": "pet-services",
+          "name": "Pet Services",
+          "description": "Care, grooming and support services for pet owners."
+        },
+        {
+          "id": "events",
+          "slug": "events",
+          "name": "Events",
+          "description": "Planning, production and delivery for local occasions."
+        },
+        {
+          "id": "beauty_wellness",
+          "slug": "beauty-wellness",
+          "name": "Beauty & Wellness",
+          "description": "Personal care, fitness and wellness services delivered locally."
+        },
+        {
+          "id": "food_services",
+          "slug": "food-services",
+          "name": "Food Services",
+          "description": "Prepared food businesses serving local customers and events."
+        },
+        {
+          "id": "repair_maintenance",
+          "slug": "repair-maintenance",
+          "name": "Repair & Maintenance",
+          "description": "Repair and restoration services for household and personal items."
+        }
       ]
     },
     {
       "id": "b2b_agency_businesses",
       "slug": "b2b-agency-businesses",
       "name": "B2B & Agency Businesses",
-      "description": "Provide specialized products or services to other businesses.",
+      "description": "Help businesses get more leads, sales, content, systems or support.",
       "icon": "building-2",
       "order": 7,
       "subcategories": [
-        { "id": "ai_automation_agency", "slug": "ai-automation-agency", "name": "AI / Automation Agency", "description": "Deliver repeatable AI and automation projects for organizations." },
-        { "id": "digital_agency", "slug": "digital-agency", "name": "Digital Agency", "description": "Combine digital delivery capabilities into business-focused offers." },
-        { "id": "sales_services", "slug": "sales-services", "name": "Sales Services", "description": "Help businesses identify prospects and create sales conversations." },
-        { "id": "b2b_operations", "slug": "business-operations", "name": "Business Operations", "description": "Run recurring back-office and customer operations for companies." },
-        { "id": "corporate_products", "slug": "corporate-products", "name": "Corporate Products", "description": "Supply customized, branded or operational products to companies." },
-        { "id": "b2b_sourcing", "slug": "b2b-sourcing", "name": "B2B Sourcing", "description": "Find and evaluate manufacturers, products and procurement options." },
-        { "id": "local_b2b_services", "slug": "local-b2b-services", "name": "Local B2B Services", "description": "Provide recurring practical services to nearby organizations." }
+        {
+          "id": "ai_automation_agency",
+          "slug": "ai-automation-agency",
+          "name": "AI / Automation Agency",
+          "description": "Deliver repeatable AI and automation projects for organizations."
+        },
+        {
+          "id": "digital_agency",
+          "slug": "digital-agency",
+          "name": "Digital Agency",
+          "description": "Combine digital delivery capabilities into business-focused offers."
+        },
+        {
+          "id": "sales_services",
+          "slug": "sales-services",
+          "name": "Sales Services",
+          "description": "Help businesses identify possible customers and create sales conversations."
+        },
+        {
+          "id": "b2b_operations",
+          "slug": "business-operations",
+          "name": "Business Operations",
+          "description": "Run recurring back-office and customer operations for companies."
+        },
+        {
+          "id": "corporate_products",
+          "slug": "corporate-products",
+          "name": "Corporate Products",
+          "description": "Supply customized, branded or day-to-day products to companies."
+        },
+        {
+          "id": "b2b_sourcing",
+          "slug": "b2b-sourcing",
+          "name": "B2B Sourcing",
+          "description": "Find and evaluate manufacturers, products and procurement options."
+        },
+        {
+          "id": "local_b2b_services",
+          "slug": "local-b2b-services",
+          "name": "Local B2B Services",
+          "description": "Provide recurring practical services to nearby organizations."
+        }
       ]
     }
   ]

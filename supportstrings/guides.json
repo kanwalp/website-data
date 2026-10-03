@@ -4,300 +4,573 @@
     {
       "id": "validate_business_idea",
       "slug": "validate-business-idea",
-      "title": "How to Validate a Business Idea Before Spending Money",
-      "description": "A practical process for testing customer, problem and payment assumptions before making a large business investment.",
-      "summary": "Validation is not asking whether people like an idea. It is collecting evidence that a specific customer has the problem, cares enough to act and will make a meaningful commitment.",
+      "title": "How to Test a Business Idea Before You Spend Too Much",
+      "description": "Learn how to test a business idea with real customers before you spend heavily on stock, branding or a large website.",
+      "summary": "Do not start with a logo, stock or a big website. First check if real people care enough to pay.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
-          "heading": "Write down the risky assumptions",
-          "paragraphs": ["Start with the parts that must be true for the business to work. Usually these are the customer, the problem, the offer, the channel and willingness to pay. A logo or finished website does not reduce those risks."],
-          "bullets": ["Who has the problem often enough to care?", "What do they use or do today instead?", "Why would they choose this offer now?", "What commitment would count as evidence?"]
+          "heading": "Write down the risky ideas to test",
+          "paragraphs": [
+            "Start with the parts that must be true for the business to work. Usually these are the customer, the problem, the offer, the channel and readiness to pay. A logo or finished website does not reduce those risks."
+          ],
+          "bullets": [
+            "Who has the problem often enough to care?",
+            "What do they use or do today instead?",
+            "Why would they choose this offer now?",
+            "What clear action would count as proof?"
+          ]
         },
         {
           "heading": "Speak to people about current behaviour",
-          "paragraphs": ["Talk to people who match the customer definition. Ask about the last time they faced the problem, what they tried, what it cost and what made the situation difficult. Questions about real past behaviour are more useful than asking whether someone might buy in future."],
-          "bullets": ["Avoid pitching during the first part of the conversation", "Listen for repeated language and constraints", "Treat compliments as context, not proof"]
+          "paragraphs": [
+            "Talk to people who match the customer definition. Ask about the last time they faced the problem, what they tried, what it cost and what made the situation difficult. Questions about real past behaviour are more useful than asking whether someone might buy in future."
+          ],
+          "bullets": [
+            "Avoid pitching during the first part of the conversation",
+            "Listen for repeated language and limits",
+            "Treat compliments as context, not proof"
+          ]
         },
         {
           "heading": "Define the smallest paid test",
-          "paragraphs": ["Build only enough to test the central promise. A service can begin with a tightly scoped manual delivery. A product can begin with samples, pre-orders or a tiny batch. Software can begin with a concierge version that produces the same outcome manually."],
+          "paragraphs": [
+            "Build only enough to test the central promise. A service can begin with a tightly scoped manual delivery. A product can begin with samples, pre-orders or a tiny batch. Software can begin with a concierge version that produces the same outcome manually."
+          ],
           "example": "Instead of ordering 100 gift hampers, assemble two representative samples, show them to a defined buyer group and ask for a paid pre-order with a clear delivery date."
         },
         {
-          "heading": "Ask for commitment",
-          "paragraphs": ["Payment is the strongest early signal, but it is not the only useful one. A deposit, signed pilot, booked appointment or introduction to the budget owner can also show that the problem matters. Choose the signal before starting so weak results cannot be reinterpreted later."],
-          "bullets": ["State the offer, price and delivery clearly", "Make it easy to decline", "Record objections without arguing", "Do not substitute likes or survey votes for commitment"]
+          "heading": "Ask for clear action",
+          "paragraphs": [
+            "Payment is the strongest early signal. But it is not the only useful one. A deposit, signed trial, booked appointment or introduction to the budget owner can also show that the problem matters. Choose the signal before starting so weak results cannot be reinterpreted later."
+          ],
+          "bullets": [
+            "State the offer, price and delivery clearly",
+            "Make it easy to decline",
+            "Record objections without arguing",
+            "Do not substitute likes or survey votes for clear action"
+          ]
         },
         {
-          "heading": "Review the evidence",
-          "paragraphs": ["Separate evidence about the problem from evidence about your current offer. Strong problem evidence with weak conversion may mean the offer, price or channel needs work. Repeated indifference may mean the customer or problem is wrong."],
-          "bullets": ["Continue when qualified customers commit and delivery looks feasible", "Improve when objections are specific and repeated", "Pause when the problem is weak or delivery cannot become viable"]
+          "heading": "Review the proof",
+          "paragraphs": [
+            "Separate proof about the problem from proof about your current offer. Strong problem proof with weak sales may mean the offer, price or channel needs work. Repeated indifference may mean the customer or problem is wrong."
+          ],
+          "bullets": [
+            "Continue when likely customers commit and delivery looks possible",
+            "Improve when objections are specific and repeated",
+            "Pause when the problem is weak or delivery cannot become workable"
+          ]
         }
       ],
-      "relatedToolIds": ["startup_cost_calculator", "pricing_calculator"],
-      "relatedIdeaIds": ["candle_business", "ai_automation_service", "canva_template_business"],
-      "cta": { "label": "Explore business ideas", "href": "/ideas" }
+      "relatedToolIds": [
+        "startup_cost_calculator",
+        "pricing_calculator"
+      ],
+      "relatedIdeaIds": [
+        "candle_business",
+        "ai_automation_service",
+        "canva_template_business"
+      ],
+      "cta": {
+        "label": "Find an Idea",
+        "href": "/ideas"
+      }
     },
     {
       "id": "first_10_paying_customers",
       "slug": "first-10-paying-customers",
       "title": "How to Get Your First 10 Paying Customers",
-      "description": "A direct, practical approach to finding early customers, learning from objections and repeating what works.",
-      "summary": "The first 10 customers are a learning milestone. The goal is not scale yet; it is to prove that a defined group will pay, that you can deliver and that the economics deserve another test.",
+      "description": "Learn simple ways to find your first paying customers, understand their objections and repeat what brings real sales.",
+      "summary": "Your first customers teach you more than likes or surveys. Start small and learn from real sales.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
           "heading": "Start with the first three",
-          "paragraphs": ["Ten customers can feel abstract. Begin by finding three people with the same urgent problem. Deliver closely, observe what they value and learn which objections appear before trying to automate acquisition."],
-          "bullets": ["Define one narrow customer group", "Use one clear offer", "Choose one primary outreach channel", "Set a weekly conversation target"]
+          "paragraphs": [
+            "Ten customers can feel abstract. Begin by finding three people with the same urgent problem. Deliver closely, observe what they value and learn which objections appear before trying to automate finding customers."
+          ],
+          "bullets": [
+            "Define one narrow customer group",
+            "Use one clear offer",
+            "Choose one primary outreach channel",
+            "Set a weekly conversation target"
+          ]
         },
         {
           "heading": "Use channels with short feedback loops",
-          "paragraphs": ["Direct outreach, existing networks, local groups, partnerships and relevant communities usually provide faster learning than broad advertising. Choose channels where you can identify likely buyers and hear why they respond or decline."],
+          "paragraphs": [
+            "Direct outreach, existing networks, local groups, partnerships and relevant communities usually provide faster learning than broad advertising. Choose channels where you can identify likely buyers and hear why they respond or decline."
+          ],
           "example": "A local cleaning service can contact apartment associations and ask existing contacts for introductions before paying for a wide local campaign."
         },
         {
           "heading": "Make the offer concrete",
-          "paragraphs": ["State who the offer is for, the result, the scope, the price and the next step. Early customers need enough detail to decide. A vague promise such as 'digital marketing support' makes comparison and feedback difficult."],
-          "bullets": ["Use a fixed first engagement where possible", "Explain what is included and excluded", "Set a delivery date", "Ask for payment rather than informal approval"]
+          "paragraphs": [
+            "State who the offer is for, the result, the scope, the price and the next step. Early customers need enough detail to decide. A vague promise such as 'digital marketing support' makes comparison and feedback difficult."
+          ],
+          "bullets": [
+            "Use a fixed first engagement where possible",
+            "Explain what is included and excluded",
+            "Set a delivery date",
+            "Ask for payment rather than informal approval"
+          ]
         },
         {
           "heading": "Track objections and outcomes",
-          "paragraphs": ["Record the number of qualified conversations, offers made, payments, delivery time and common objections. Vanity metrics such as views and followers are useful only when they lead to the next customer action."],
-          "bullets": ["Change one major variable at a time", "Follow up when the buyer requested time", "Do not repeatedly chase a clear no", "Ask paying customers what almost stopped them"]
+          "paragraphs": [
+            "Record the number of qualified conversations, offers made, payments, delivery time and common objections. Vanity metrics such as views and followers are useful only when they lead to the next customer action."
+          ],
+          "bullets": [
+            "Change one major variable at a time",
+            "Follow up when the buyer requested time",
+            "Do not repeatedly chase a clear no",
+            "Ask paying customers what almost stopped them"
+          ]
         },
         {
           "heading": "Repeat before expanding",
-          "paragraphs": ["Once one message, customer group and delivery process produces paid work, repeat it. Reach customer ten with the smallest number of changes you can. Then review margin, capacity, repeat demand and referrals before adding channels or complexity."]
+          "paragraphs": [
+            "Once one message, customer group and delivery process produces paid work, repeat it. Reach customer ten with the smallest number of changes you can. Then review margin, capacity, repeat demand and referrals before adding channels or complexity."
+          ]
         }
       ],
-      "relatedToolIds": ["sales_target_calculator", "income_target_calculator"],
-      "relatedIdeaIds": ["website_development", "cleaning_service", "social_media_management"],
-      "cta": { "label": "Choose an idea to test", "href": "/ideas" }
+      "relatedToolIds": [
+        "sales_target_calculator",
+        "income_target_calculator"
+      ],
+      "relatedIdeaIds": [
+        "website_development",
+        "cleaning_service",
+        "social_media_management"
+      ],
+      "cta": {
+        "label": "Find an Idea",
+        "href": "/ideas"
+      }
     },
     {
       "id": "margin_vs_markup",
       "slug": "margin-vs-markup",
-      "title": "Margin vs Markup: A Simple Explanation",
-      "description": "Understand the difference between margin and markup, calculate each one and avoid a common pricing mistake.",
-      "summary": "Margin and markup both compare price with cost, but they use different bases. Confusing them can produce a selling price that earns less gross profit than intended.",
+      "title": "Margin vs Markup — The Easy Difference",
+      "description": "Learn the difference between margin and markup, see how each is calculated and avoid a common pricing mistake.",
+      "summary": "They sound similar, but they are not the same. Here is the difference in plain English.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
           "heading": "The two formulas",
-          "paragraphs": ["Markup measures gross profit as a percentage of cost. Margin measures gross profit as a percentage of selling price. Gross profit here means selling price minus the variable cost of one sale."],
-          "bullets": ["Markup % = (price − unit cost) ÷ unit cost × 100", "Margin % = (price − unit cost) ÷ price × 100"]
+          "paragraphs": [
+            "Markup measures gross profit as a percentage of cost. Margin measures gross profit as a percentage of selling price. Gross profit here means selling price minus the variable cost of one sale."
+          ],
+          "bullets": [
+            "Markup % = (price − unit cost) ÷ unit cost × 100",
+            "Margin % = (price − unit cost) ÷ price × 100"
+          ]
         },
         {
           "heading": "A ₹100 cost example",
-          "paragraphs": ["If unit cost is ₹100 and selling price is ₹150, gross profit is ₹50. The markup is 50% because ₹50 is half of the ₹100 cost. The margin is 33.3% because ₹50 is one third of the ₹150 selling price."],
+          "paragraphs": [
+            "If unit cost is ₹100 and selling price is ₹150, gross profit is ₹50. The markup is 50% because ₹50 is half of the ₹100 cost. The margin is 33.3% because ₹50 is one third of the ₹150 selling price."
+          ],
           "example": "A 50% markup does not produce a 50% margin. To earn a 50% margin on a ₹100 unit cost, the selling price must be ₹200."
         },
         {
           "heading": "Why the distinction matters",
-          "paragraphs": ["Businesses often set prices by adding a percentage to cost, then discuss performance using margin. That is fine when the conversion is understood. The mistake is entering a target margin as though it were a markup and accepting a lower result without noticing."],
-          "bullets": ["Use margin when comparing gross profitability against revenue", "Use markup when describing the amount added to cost", "Always name the metric in spreadsheets and conversations"]
+          "paragraphs": [
+            "Businesses often set prices by adding a percentage to cost. Then discuss performance using margin. That is fine when the sales is understood. The mistake is entering a target margin as though it were a markup and accepting a lower result without noticing."
+          ],
+          "bullets": [
+            "Use margin when comparing gross profitability against revenue",
+            "Use markup when describing the amount added to cost",
+            "Always name the metric in spreadsheets and conversations"
+          ]
         },
         {
           "heading": "Start with a complete unit cost",
-          "paragraphs": ["Neither formula helps if unit cost omits packaging, payment fees, marketplace fees, shipping contribution or delivery labour. Estimate the variable cost triggered by one sale before testing price."],
-          "bullets": ["Keep fixed startup costs separate", "Use a conservative estimate for uncertain variable costs", "Recalculate after real orders reveal actual costs"]
+          "paragraphs": [
+            "Neither formula helps if unit cost omits packaging, payment fees, marketplace fees, shipping contribution or delivery labour. Estimate the variable cost triggered by one sale before testing price."
+          ],
+          "bullets": [
+            "Keep fixed startup costs separate",
+            "Use a conservative estimate for uncertain variable costs",
+            "Recalculate after real orders reveal actual costs"
+          ]
         },
         {
           "heading": "Use price as a test",
-          "paragraphs": ["A calculated price is a starting hypothesis. Compare it with the customer's alternatives, test willingness to pay and make sure the resulting contribution can support fixed costs and your time."]
+          "paragraphs": [
+            "A calculated price is a starting hypothesis. Compare it with the customer's alternatives, test readiness to pay and make sure the resulting contribution can support fixed costs and your time."
+          ]
         }
       ],
-      "relatedToolIds": ["pricing_calculator", "profit_margin_calculator"],
-      "relatedIdeaIds": ["candle_business", "private_label", "tiffin_meal_service"],
-      "cta": { "label": "Use the pricing calculator", "href": "/tools/pricing" }
+      "relatedToolIds": [
+        "pricing_calculator",
+        "profit_margin_calculator"
+      ],
+      "relatedIdeaIds": [
+        "candle_business",
+        "private_label",
+        "tiffin_meal_service"
+      ],
+      "cta": {
+        "label": "Use This Calculator",
+        "href": "/tools/pricing"
+      }
     },
     {
       "id": "calculate_real_unit_cost",
       "slug": "calculate-real-unit-cost",
-      "title": "How to Calculate Your Real Unit Cost",
-      "description": "Build a practical unit-cost estimate using materials, packaging, fees, delivery and variable labour.",
-      "summary": "Real unit cost is the variable cost created by producing and completing one sale. A useful estimate includes less obvious items without mixing in every fixed business expense.",
+      "title": "Find the Real Cost of One Product",
+      "description": "Learn how materials, packaging, fees, waste and delivery costs add up to the real cost of one product or sale.",
+      "summary": "The product cost is more than materials. Add packaging, fees, waste and delivery-related costs too.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
           "heading": "Choose the unit",
-          "paragraphs": ["Define exactly what one sale means: one candle, one hamper, one meal, one client deliverable or one subscription month. Costs cannot be compared consistently until the unit is clear."],
-          "bullets": ["Use the quantity customers actually buy", "Include all items delivered in that sale", "Use the same unit when setting price"]
+          "paragraphs": [
+            "Define exactly what one sale means: one candle, one hamper, one meal, one client deliverable or one subscription month. Costs cannot be compared consistently until the unit is clear."
+          ],
+          "bullets": [
+            "Use the quantity customers actually buy",
+            "Include all items delivered in that sale",
+            "Use the same unit when setting price"
+          ]
         },
         {
           "heading": "Add direct materials and packaging",
-          "paragraphs": ["List the quantity and cost of every material consumed by one unit. Add primary packaging, labels, inserts and protective shipping materials. Include normal wastage when the process reliably creates it."],
+          "paragraphs": [
+            "List the quantity and cost of every material consumed by one unit. Add primary packaging, labels, inserts and protective shipping materials. Include normal wastage when the process reliably creates it."
+          ],
           "example": "For a candle, wax and fragrance are not the whole cost. The vessel, wick, label, box, filler and expected test wastage also belong in the estimate."
         },
         {
-          "heading": "Include transaction and fulfilment costs",
-          "paragraphs": ["Add costs that occur because the sale happened: payment fees, marketplace commission, shipping subsidy, pick-and-pack charges and any delivery labour that scales with orders."],
-          "bullets": ["Use fee percentages against the expected selling price", "Allocate multi-unit shipping across the order", "Do not assume the customer always pays the full delivery cost"]
+          "heading": "Include transaction and delivery costs",
+          "paragraphs": [
+            "Add costs that occur because the sale happened: payment fees, marketplace commission, shipping subsidy, pick-and-pack charges and any delivery labour that scales with orders."
+          ],
+          "bullets": [
+            "Use fee percentages against the expected selling price",
+            "Allocate multi-unit shipping across the order",
+            "Do not assume the customer always pays the full delivery cost"
+          ]
         },
         {
           "heading": "Treat labour deliberately",
-          "paragraphs": ["If production or delivery time grows with each sale, include a realistic labour allowance. Ignoring founder time can make a handmade product or service appear profitable when it cannot support consistent delivery."],
-          "bullets": ["Time a small real batch", "Include finishing and packing", "Use a sustainable hourly value rather than zero"]
+          "paragraphs": [
+            "If production or delivery time grows with each sale, include a realistic labour allowance. Ignoring founder time can make a handmade product or service appear profitable when it cannot support consistent delivery."
+          ],
+          "bullets": [
+            "Time a small real batch",
+            "Include finishing and packing",
+            "Use a sustainable hourly value rather than zero"
+          ]
         },
         {
           "heading": "Keep fixed costs separate",
-          "paragraphs": ["Equipment, annual software, rent and one-time setup are usually fixed costs. Do not add the full amount to one unit. Use contribution per sale to understand how many units are needed to recover those costs."],
-          "bullets": ["Update variable assumptions after real sales", "Run a conservative and expected scenario", "Check whether the final price still makes sense to the customer"]
+          "paragraphs": [
+            "Equipment, annual software, rent and one-time setup are usually fixed costs. Do not add the full amount to one unit. Use contribution per sale to understand how many units are needed to recover those costs."
+          ],
+          "bullets": [
+            "Update variable ideas to test after real sales",
+            "Run a conservative and expected scenario",
+            "Check whether the final price still makes sense to the customer"
+          ]
         }
       ],
-      "relatedToolIds": ["unit_cost_calculator", "break_even_calculator"],
-      "relatedIdeaIds": ["gift_hamper_business", "home_bakery", "print_on_demand"],
-      "cta": { "label": "Calculate unit cost", "href": "/tools/unit-cost" }
+      "relatedToolIds": [
+        "unit_cost_calculator",
+        "break_even_calculator"
+      ],
+      "relatedIdeaIds": [
+        "gift_hamper_business",
+        "home_bakery",
+        "print_on_demand"
+      ],
+      "cta": {
+        "label": "Use This Calculator",
+        "href": "/tools/unit-cost"
+      }
     },
     {
       "id": "spend_before_validation",
       "slug": "spend-before-validation",
-      "title": "How Much Should You Spend Before Validating a Business?",
-      "description": "Set a sensible validation budget, stage spending against evidence and preserve cash for what you learn.",
-      "summary": "The right pre-validation budget is the smallest amount needed to test the riskiest assumption with real customers. It depends on the model, but the decision method stays consistent.",
+      "title": "How Much Should You Spend Before You Know It Works?",
+      "description": "Set a small testing budget, spend in clear stages and keep money available for what real customer feedback teaches you.",
+      "summary": "Spend enough to run a real test. Do not spend so much that a failed idea hurts you.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
-          "heading": "Budget for evidence, not appearance",
-          "paragraphs": ["Early spending should help answer whether the customer cares, will pay and can be served. Branding, a broad product range and premium equipment may feel productive while leaving the central demand question untouched."],
-          "bullets": ["Name the question each expense will answer", "Delay anything that only supports scale", "Prefer reversible commitments"]
+          "heading": "Budget for proof, not appearance",
+          "paragraphs": [
+            "Early spending should help answer whether the customer cares, will pay and can be served. Branding, a broad product range and premium equipment may feel productive while leaving the central demand question untouched."
+          ],
+          "bullets": [
+            "Name the question each expense will answer",
+            "Delay anything that only supports grow",
+            "Prefer reversible commitments"
+          ]
         },
         {
           "heading": "Match the test to the business model",
-          "paragraphs": ["A service may need only outreach and a simple delivery tool. A physical product may need safe representative samples. Software may use a prototype or manual concierge delivery before a production build."],
+          "paragraphs": [
+            "A service may need only outreach and a simple delivery tool. A physical product may need safe representative samples. Software may use a prototype or manual concierge delivery before a production build."
+          ],
           "example": "A private-label seller can test supplier samples and buyer interest before agreeing to a large minimum order quantity."
         },
         {
           "heading": "Set a staged spending limit",
-          "paragraphs": ["Divide the available cash into stages. Release the next stage only when the previous one produces the agreed signal. This prevents the total budget from becoming permission to spend everything immediately."],
-          "bullets": ["Stage 1: customer conversations", "Stage 2: representative sample or manual pilot", "Stage 3: paid test", "Stage 4: repeat only after review"]
+          "paragraphs": [
+            "Divide the available cash into stages. Release the next stage only when the previous one produces the agreed signal. This prevents the total budget from becoming permission to spend everything immediately."
+          ],
+          "bullets": [
+            "Stage 1: customer conversations",
+            "Stage 2: representative sample or manual trial",
+            "Stage 3: paid test",
+            "Stage 4: repeat only after review"
+          ]
         },
         {
           "heading": "Protect a reserve",
-          "paragraphs": ["The first test will reveal changes to price, packaging, channel or delivery. Keep cash available for those changes and for refunds or failed units. A test that consumes every rupee leaves no room to respond to evidence."],
-          "bullets": ["Avoid debt for an unvalidated assumption", "Do not confuse sunk cost with a reason to continue", "Record actual rather than planned spend"]
+          "paragraphs": [
+            "The first test will reveal changes to price, packaging, channel or delivery. Keep cash available for those changes and for refunds or failed units. A test that consumes every rupee leaves no room to respond to proof."
+          ],
+          "bullets": [
+            "Avoid debt for an unvalidated assumption",
+            "Do not confuse sunk cost with a reason to continue",
+            "Record actual rather than planned spend"
+          ]
         },
         {
           "heading": "Decide before the test begins",
-          "paragraphs": ["Write down the spending ceiling, success signal and stop condition in advance. Continue when paid demand and delivery evidence support another stage. Improve or pause when the signal is weak."]
+          "paragraphs": [
+            "Write down the spending ceiling, success signal and stop condition in advance. Continue when real paying customers and delivery proof support another stage. Improve or pause when the signal is weak."
+          ]
         }
       ],
-      "relatedToolIds": ["startup_cost_calculator", "initial_inventory_calculator"],
-      "relatedIdeaIds": ["private_label", "micro_saas", "handmade_soap"],
-      "cta": { "label": "Estimate startup costs", "href": "/tools/startup-cost" }
+      "relatedToolIds": [
+        "startup_cost_calculator",
+        "initial_inventory_calculator"
+      ],
+      "relatedIdeaIds": [
+        "private_label",
+        "micro_saas",
+        "handmade_soap"
+      ],
+      "cta": {
+        "label": "Use This Calculator",
+        "href": "/tools/startup-cost"
+      }
     },
     {
       "id": "physical_digital_service_business",
       "slug": "physical-digital-service-business",
-      "title": "Physical Product vs Digital Product vs Service Business",
-      "description": "Compare three common business models across investment, delivery, scalability, repeatability and customer acquisition.",
-      "summary": "No model is automatically easier or better. The useful choice is the model whose risks fit your skills, cash, available time and access to customers.",
+      "title": "Product, Digital or Service — Which Business Fits You?",
+      "description": "Compare product, digital and service businesses by starting cost, time, skills, delivery work and customer needs.",
+      "summary": "Pick the model that matches your money, time, skills and the kind of work you enjoy.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
           "heading": "Physical products",
-          "paragraphs": ["Physical products create tangible value and can support gifting, repeat purchase and local or online sales. They introduce material, quality, inventory, packaging and fulfilment decisions."],
-          "bullets": ["Usually needs samples or a test batch", "Unit cost and stock risk matter early", "Quality is visible and must be consistent"]
+          "paragraphs": [
+            "Physical products create tangible value and can support gifting, repeat purchase and local or online sales. They introduce material, quality, inventory, packaging and delivery decisions."
+          ],
+          "bullets": [
+            "Usually needs samples or a test batch",
+            "Unit cost and stock risk matter early",
+            "Quality is visible and must be consistent"
+          ]
         },
         {
           "heading": "Digital products",
-          "paragraphs": ["Digital products can be delivered repeatedly without physical inventory. The difficult work shifts toward selecting a valuable problem, creating trust and reaching buyers in a crowded online environment."],
-          "bullets": ["Low reproduction cost does not mean free acquisition", "A narrow useful asset can beat a large generic bundle", "Updates and customer support may continue after launch"]
+          "paragraphs": [
+            "Digital products can be delivered repeatedly without physical inventory. The difficult work shifts toward selecting a valuable problem, creating trust and reaching buyers in a crowded online environment."
+          ],
+          "bullets": [
+            "Low reproduction cost does not mean free finding customers",
+            "A narrow useful asset can beat a large generic bundle",
+            "Updates and customer support may continue after launch"
+          ]
         },
         {
           "heading": "Services",
-          "paragraphs": ["Services can often reach payment fastest because a founder can sell a defined outcome before building assets or stock. Capacity and delivery consistency become the main constraints."],
-          "bullets": ["Direct customer contact creates fast learning", "Founder time is part of the economics", "Processes and scope control support repeatability"]
+          "paragraphs": [
+            "Services can often reach payment fastest because a founder can sell a defined outcome before building assets or stock. Capacity and delivery consistency become the main limits."
+          ],
+          "bullets": [
+            "Direct customer contact creates fast learning",
+            "Founder time is part of the costs and results",
+            "Processes and scope control support repeatability"
+          ]
         },
         {
           "heading": "Compare the practical trade-offs",
-          "paragraphs": ["Physical products generally require more cash before delivery. Services generally require more direct time per customer. Digital products can separate creation from delivery, but often need stronger distribution and proof before purchase."],
-          "bullets": ["Choose based on access to customers, not only personal interest", "Consider the work required after the sale", "Test one clear offer before combining models"]
+          "paragraphs": [
+            "Physical products generally require more cash before delivery. Services generally require more direct time per customer. Digital products can separate creation from delivery. But often need stronger distribution and proof before purchase."
+          ],
+          "bullets": [
+            "Choose based on access to customers, not only personal interest",
+            "Consider the work required after the sale",
+            "Test one clear offer before combining models"
+          ]
         },
         {
           "heading": "Make the choice testable",
-          "paragraphs": ["Select one model and define a two-week experiment. Speak to likely customers, present a concrete offer and seek payment or commitment. Use the response to refine the model rather than debating it indefinitely."]
+          "paragraphs": [
+            "Select one model and define a two-week experiment. Speak to likely customers, present a concrete offer and seek payment or clear action. Use the response to refine the model rather than debating it indefinitely."
+          ]
         }
       ],
-      "relatedToolIds": ["startup_cost_calculator", "income_target_calculator"],
-      "relatedIdeaIds": ["candle_business", "canva_template_business", "website_development"],
-      "cta": { "label": "Compare business types", "href": "/business-types/services" }
+      "relatedToolIds": [
+        "startup_cost_calculator",
+        "income_target_calculator"
+      ],
+      "relatedIdeaIds": [
+        "candle_business",
+        "canva_template_business",
+        "website_development"
+      ],
+      "cta": {
+        "label": "Compare business types",
+        "href": "/business-types/services"
+      }
     },
     {
       "id": "online_offline_hybrid_business",
       "slug": "online-offline-hybrid-business",
-      "title": "Online vs Offline vs Hybrid Business",
-      "description": "Compare online, offline and hybrid operating models by customer reach, delivery, cost and day-to-day work.",
-      "summary": "Work mode describes how customers find, buy and receive value from a business. It is a practical operating choice, not a category or a guarantee of low cost.",
+      "title": "Online, Offline or Hybrid — How Should You Start?",
+      "description": "Compare online, local and hybrid businesses by customer reach, delivery, starting cost and daily work.",
+      "summary": "Choose where customers find you and how you will deliver the product or service.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
           "heading": "Online businesses",
-          "paragraphs": ["Online businesses acquire customers, deliver value or do both through digital channels. They can reduce location constraints, but require trust, clear communication and a repeatable way to reach the right audience."],
-          "bullets": ["Potentially broad reach", "Digital acquisition can be competitive", "Delivery may still require active support"]
+          "paragraphs": [
+            "Online businesses acquire customers, deliver value or do both through digital channels. They can reduce location limits. But require trust, clear communication and a repeatable way to reach the right audience."
+          ],
+          "bullets": [
+            "Potentially broad reach",
+            "Digital finding customers can be competitive",
+            "Delivery may still require active support"
+          ]
         },
         {
           "heading": "Offline businesses",
-          "paragraphs": ["Offline businesses serve a local area or physical setting. Proximity, reliability and referrals can create an advantage that a distant competitor cannot easily copy."],
-          "bullets": ["Local trust matters", "Travel and premises can affect capacity", "A narrow service radius simplifies the first test"]
+          "paragraphs": [
+            "Offline businesses serve a local area or physical setting. Proximity, reliability and referrals can create an advantage that a distant competitor cannot easily copy."
+          ],
+          "bullets": [
+            "Local trust matters",
+            "Travel and premises can affect capacity",
+            "A narrow service radius simplifies the first test"
+          ]
         },
         {
           "heading": "Hybrid businesses",
-          "paragraphs": ["Hybrid businesses combine online acquisition or ordering with physical products or local delivery. They can meet customers where they already search while preserving a local or tangible service."],
-          "bullets": ["More channels create more operating decisions", "Customer expectations should remain consistent", "Start with one complete journey before adding another"]
+          "paragraphs": [
+            "Hybrid businesses combine online finding customers or ordering with physical products or local delivery. They can meet customers where they already search while preserving a local or tangible service."
+          ],
+          "bullets": [
+            "More channels create more operating decisions",
+            "Customer expectations should remain consistent",
+            "Start with one complete journey before adding another"
+          ]
         },
         {
-          "heading": "Choose from your real constraints",
-          "paragraphs": ["Consider customer location, delivery needs, available time, equipment, travel and your ability to acquire trust. A model that looks cheap can still demand significant time or marketing."],
+          "heading": "Choose from your real limits",
+          "paragraphs": [
+            "Consider customer location, delivery needs, available time, equipment, travel and your ability to acquire trust. A model that looks cheap can still demand large time or marketing."
+          ],
           "example": "Tutoring can be online, offline or hybrid. The right first test depends on where likely students are reachable and which format supports a paid trial quickly."
         },
         {
           "heading": "Run one channel test",
-          "paragraphs": ["Choose the simplest route from customer discovery to paid delivery. Measure conversations, payments, delivery effort and repeat interest. Add channels only when the first route works well enough to repeat."]
+          "paragraphs": [
+            "Choose the simplest route from customer discovery to paid delivery. Measure conversations, payments, delivery effort and repeat interest. Add channels only when the first route works well enough to repeat."
+          ]
         }
       ],
-      "relatedToolIds": ["startup_cost_calculator", "sales_target_calculator"],
-      "relatedIdeaIds": ["tutoring", "gift_hamper_business", "newsletter_business"],
-      "cta": { "label": "Explore online business ideas", "href": "/work-modes/online" }
+      "relatedToolIds": [
+        "startup_cost_calculator",
+        "sales_target_calculator"
+      ],
+      "relatedIdeaIds": [
+        "tutoring",
+        "gift_hamper_business",
+        "newsletter_business"
+      ],
+      "cta": {
+        "label": "Explore online business ideas",
+        "href": "/work-modes/online"
+      }
     },
     {
       "id": "test_business_idea_small_budget",
       "slug": "test-business-idea-small-budget",
-      "title": "How to Test a Business Idea With a Small Budget",
-      "description": "Design a low-cost experiment that tests real demand without pretending a small budget removes business risk.",
-      "summary": "A small budget works best when it buys evidence. Narrow the customer, simplify the offer and use manual delivery or a tiny batch to test the assumption that matters most.",
+      "title": "Choose a Side Business That Fits Your Time and Budget",
+      "description": "Compare side business ideas by weekly time, starting budget, skills and access to real customers.",
+      "summary": "The right idea is not just exciting. It must fit the life you already have.",
       "publishedAt": "2026-10-03",
       "sections": [
         {
           "heading": "Pick one question",
-          "paragraphs": ["Do not try to prove the whole business at once. Choose the riskiest question: whether the customer has the problem, will pay the price, can be reached through the channel or can be served at acceptable cost."],
-          "bullets": ["Write the assumption as a testable statement", "Choose a result that would change your decision", "Set a deadline"]
+          "paragraphs": [
+            "Do not try to prove the whole business at once. Choose the riskiest question: whether the customer has the problem, will pay the price, can be reached through the channel or can be served at acceptable cost."
+          ],
+          "bullets": [
+            "Write the assumption as a testable statement",
+            "Choose a result that would change your decision",
+            "Set a deadline"
+          ]
         },
         {
           "heading": "Reduce scope, not usefulness",
-          "paragraphs": ["A minimum test should still produce the core customer outcome. Remove range, automation and polish before removing the part that solves the problem."],
+          "paragraphs": [
+            "A minimum test should still produce the core customer outcome. Remove range, automation and polish before removing the part that solves the problem."
+          ],
           "example": "A template seller can build one complete template for a narrow role and sell it directly before creating a large bundle or storefront."
         },
         {
           "heading": "Use pre-orders or manual delivery carefully",
-          "paragraphs": ["Pre-orders can test demand when the delivery date, product state and refund terms are clear. Manual delivery can test a software or operational outcome before automation, provided customers understand what they are buying."],
-          "bullets": ["Do not present a concept as a finished product", "Confirm that the manual process tests the same value", "Limit the number of early customers to what you can serve"]
+          "paragraphs": [
+            "Pre-orders can test demand when the delivery date, product state and refund terms are clear. Manual delivery can test a software or day-to-day outcome before automation, provided customers understand what they are buying."
+          ],
+          "bullets": [
+            "Do not present a concept as a finished product",
+            "Confirm that the manual process tests the same value",
+            "Limit the number of early customers to what you can serve"
+          ]
         },
         {
           "heading": "Spend on the bottleneck",
-          "paragraphs": ["Use money only where it unlocks the test: safe samples, a required tool, a small venue booking or targeted access to customers. Use existing equipment and simple pages where they are sufficient."],
-          "bullets": ["Keep a written budget", "Include payment and delivery costs", "Retain a reserve for corrections"]
+          "paragraphs": [
+            "Use money only where it unlocks the test: safe samples, a required tool, a small venue booking or targeted access to customers. Use existing equipment and simple pages where they are sufficient."
+          ],
+          "bullets": [
+            "Keep a written budget",
+            "Include payment and delivery costs",
+            "Retain a reserve for corrections"
+          ]
         },
         {
           "heading": "Review without moving the goalposts",
-          "paragraphs": ["Compare the result with the success signal chosen before the test. Paid demand supports another controlled step. Specific objections support a focused improvement. Weak interest after reaching the intended customer may support pausing or changing direction."]
+          "paragraphs": [
+            "Compare the result with the success signal chosen before the test. real paying customers supports another controlled step. Specific objections support a focused improvement. Weak interest after reaching the intended customer may support pausing or changing direction."
+          ]
         }
       ],
-      "relatedToolIds": ["startup_cost_calculator", "pricing_calculator"],
-      "relatedIdeaIds": ["canva_template_business", "virtual_assistant", "personalized_gifts"],
-      "cta": { "label": "Explore ideas under ₹5,000", "href": "/investment/under-5000" }
+      "relatedToolIds": [
+        "startup_cost_calculator",
+        "pricing_calculator"
+      ],
+      "relatedIdeaIds": [
+        "canva_template_business",
+        "virtual_assistant",
+        "personalized_gifts"
+      ],
+      "cta": {
+        "label": "Explore ideas under ₹5,000",
+        "href": "/investment/under-5000"
+      }
     }
   ]
 }
