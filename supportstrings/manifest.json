@@ -1,15 +1,16 @@
 {
   "site": "supportstrings",
   "schemaVersion": "1.0",
-  "contentVersion": "1.1.0",
-  "updatedAt": "2026-10-03",
+  "contentVersion": "1.2.0",
+  "updatedAt": "2026-10-04",
   "files": [
     "categories.json",
     "ideas.json",
     "workflows.json",
     "workflow-content.json",
     "filters.json",
-    "guides.json"
+    "guides.json",
+    "guided-execution.json"
   ],
   "fileSchemaVersions": {
     "categories.json": "1.1",
@@ -17,6 +18,7 @@
     "workflows.json": "2.1",
     "workflow-content.json": "1.0",
     "filters.json": "1.1",
-    "guides.json": "1.0"
+    "guides.json": "1.0",
+    "guided-execution.json": "1.0"
   }
 }
