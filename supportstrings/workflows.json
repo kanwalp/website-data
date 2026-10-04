@@ -67,7 +67,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [
             "Ask about a recent purchase before showing your concept."
@@ -181,7 +181,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [],
           "decisionGates": [],
@@ -806,7 +806,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [],
           "decisionGates": [
@@ -916,7 +916,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [],
           "decisionGates": [],
@@ -1523,7 +1523,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [],
           "decisionGates": [
@@ -1939,7 +1939,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [],
           "decisionGates": [],
@@ -2179,7 +2179,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [],
           "decisionGates": [
@@ -2333,7 +2333,7 @@
             }
           ],
           "warnings": [
-            "{{riskWarning}}."
+            "{{riskWarning}}"
           ],
           "tips": [],
           "decisionGates": [],
