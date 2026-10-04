@@ -1,7 +1,7 @@
 {
   "site": "supportstrings",
   "schemaVersion": "1.0",
-  "contentVersion": "1.2.0",
+  "contentVersion": "1.3.0",
   "updatedAt": "2026-10-04",
   "files": [
     "categories.json",
@@ -15,10 +15,10 @@
   "fileSchemaVersions": {
     "categories.json": "1.1",
     "ideas.json": "2.0",
-    "workflows.json": "2.1",
+    "workflows.json": "2.2",
     "workflow-content.json": "1.0",
     "filters.json": "1.1",
     "guides.json": "1.0",
-    "guided-execution.json": "1.0"
+    "guided-execution.json": "1.1"
   }
 }
