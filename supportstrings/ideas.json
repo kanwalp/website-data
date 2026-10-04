@@ -52,11 +52,7 @@
         "repeat_purchase",
         "bulk_orders"
       ],
-      "workflowId": "workflow_physical_product_v1",
-      "workflowOverrides": {
-        "productPlural": "candles",
-        "testBatchSize": 5
-      },
+      "workflowId": "workflow_candle_business_v1",
       "investmentBreakdown": [
         {
           "label": "Materials",
@@ -119,14 +115,14 @@
         ],
         "firstTest": {
           "title": "Run a small Candle Business test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Make a small set of candles for one buyer or occasion, test quality, calculate the real cost, and ask real people to pay before you produce more.",
           "actions": [
-            "Choose one product and one type of buyer",
-            "Make or source three sample products",
-            "Work out the full cost of one sale",
-            "Offer the samples to five likely buyers and ask for a paid order"
+            "Pick One Buyer",
+            "Choose Your Tiny Range",
+            "Put It in Front of Buyers",
+            "Ask for the Sale"
           ],
-          "successSignal": "Goal: Get three paid orders or pre-orders at a price that covers the direct costs."
+          "successSignal": "Goal: Get 3 paid orders from people who are not buying only as a favour."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -193,7 +189,7 @@
         "one_time",
         "bulk_orders"
       ],
-      "workflowId": "workflow_physical_product_v1",
+      "workflowId": "workflow_gift_hamper_business_v1",
       "content": {
         "overview": "Build themed gift boxes for birthdays, festivals or companies, then sell them online or locally. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -238,14 +234,14 @@
         ],
         "firstTest": {
           "title": "Run a small Gift Hamper Business test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Create one focused hamper for one occasion, source small quantities, price the full bundle, and test it with real buyers before building a large catalogue.",
           "actions": [
-            "Choose one product and one type of buyer",
-            "Make or source three sample products",
-            "Work out the full cost of one sale",
-            "Offer the samples to five likely buyers and ask for a paid order"
+            "Pick One Gifting Moment",
+            "Create One Clear Hamper",
+            "Put the Hamper in Front of Buyers",
+            "Offer a Tiny First Batch"
           ],
-          "successSignal": "Goal: Get three paid orders or pre-orders at a price that covers the direct costs."
+          "successSignal": "Goal: Sell 3 hampers at your planned price without heavy discounting."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -383,8 +379,8 @@
     {
       "id": "spice_blend_business",
       "slug": "spice-blend-business",
-      "name": "Spice Blend Business",
-      "shortDescription": "Create one reliable spice blend for a clear cooking need and sell small test packs locally.",
+      "name": "Spice / Masala Brand",
+      "shortDescription": "Choose one buyer and one clear use case, source carefully, prove consistency and test whether buyers will pay before expanding.",
       "categoryId": "make_sell_products",
       "subcategoryId": "food_consumables",
       "mode": [
@@ -429,7 +425,7 @@
         "repeat_purchase",
         "bulk_orders"
       ],
-      "workflowId": "workflow_physical_product_v1",
+      "workflowId": "workflow_spice_blend_business_v1",
       "content": {
         "overview": "Create one reliable spice blend for a clear cooking need and sell small test packs locally. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -473,15 +469,15 @@
           "Ignoring packaging, returns or delivery effort."
         ],
         "firstTest": {
-          "title": "Run a small Spice Blend Business test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "title": "Run a small Spice / Masala Brand test",
+          "goal": "Choose one buyer and one clear use case, source carefully, prove consistency and test whether buyers will pay before expanding.",
           "actions": [
-            "Choose one product and one type of buyer",
-            "Make or source three sample products",
-            "Work out the full cost of one sale",
-            "Offer the samples to five likely buyers and ask for a paid order"
+            "Pick One Kitchen Problem or Use Case",
+            "Choose Only 2–3 Test Products",
+            "Make the Product Easy to Understand",
+            "Look for Repeat-Buy Signals"
           ],
-          "successSignal": "Goal: Get three paid orders or pre-orders at a price that covers the direct costs."
+          "successSignal": "Goal: Get 3 paid orders and at least one signal that a buyer would purchase again."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -495,6 +491,18 @@
           "Show the offer through local stores and ask a likely buyer to pay.",
           "Show the offer through whatsapp and ask a likely buyer to pay.",
           "Show the offer through marketplaces and ask a likely buyer to pay."
+        ]
+      },
+      "seo": {
+        "title": "How to Start a Spice or Masala Business | SupportStrings",
+        "description": "Test a small spice or masala brand with focused products, supplier research, packaging, food compliance, real costing and first paid orders.",
+        "keywords": [
+          "spice business",
+          "masala business",
+          "spice brand",
+          "start masala business",
+          "spice business India",
+          "packaged spices business"
         ]
       }
     },
@@ -742,8 +750,8 @@
     {
       "id": "handmade_soap",
       "slug": "handmade-soap",
-      "name": "Handmade Soap",
-      "shortDescription": "Make small soap batches, test their quality and sell a focused range with clear labels.",
+      "name": "Handmade Soap Business",
+      "shortDescription": "Pick one buyer, make a very small range, understand the real cost and test whether people will pay before you grow.",
       "categoryId": "make_sell_products",
       "subcategoryId": "beauty_personal_care",
       "mode": [
@@ -788,7 +796,7 @@
         "repeat_purchase",
         "bulk_orders"
       ],
-      "workflowId": "workflow_physical_product_v1",
+      "workflowId": "workflow_handmade_soap_v1",
       "content": {
         "overview": "Make small soap batches, test their quality and sell a focused range with clear labels. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -832,15 +840,15 @@
           "Ignoring packaging, returns or delivery effort."
         ],
         "firstTest": {
-          "title": "Run a small Handmade Soap test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "title": "Run a small Handmade Soap Business test",
+          "goal": "Pick one buyer, make a very small range, understand the real cost and test whether people will pay before you grow.",
           "actions": [
-            "Choose one product and one type of buyer",
-            "Make or source three sample products",
-            "Work out the full cost of one sale",
-            "Offer the samples to five likely buyers and ask for a paid order"
+            "Pick One Buyer",
+            "Choose a Tiny First Range",
+            "Build the Smallest Sellable Presentation",
+            "Record the First Orders"
           ],
-          "successSignal": "Goal: Get three paid orders or pre-orders at a price that covers the direct costs."
+          "successSignal": "Goal: Get your first 3 paid soap orders after completing appropriate quality and safety checks."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -854,6 +862,18 @@
           "Show the offer through own website and ask a likely buyer to pay.",
           "Show the offer through local stores and ask a likely buyer to pay.",
           "Show the offer through marketplaces and ask a likely buyer to pay."
+        ]
+      },
+      "seo": {
+        "title": "How to Start a Handmade Soap Business | SupportStrings",
+        "description": "Learn how to test a handmade soap business with a small product range, real cost calculation, safety checks and your first paid orders.",
+        "keywords": [
+          "handmade soap business",
+          "start soap business",
+          "soap making business",
+          "handmade soap business India",
+          "sell handmade soap",
+          "small soap business"
         ]
       }
     },
@@ -905,7 +925,7 @@
       "revenueModels": [
         "one_time"
       ],
-      "workflowId": "workflow_digital_product_v1",
+      "workflowId": "workflow_canva_template_business_v1",
       "content": {
         "overview": "Create useful Canva templates for one type of buyer and sell them as digital downloads. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -949,14 +969,14 @@
         ],
         "firstTest": {
           "title": "Run a small Canva Template Business test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Pick one buyer with a repeated design task, create the smallest useful template pack, and test whether people will pay before you spend weeks building more.",
           "actions": [
-            "Choose one task and one type of buyer",
-            "Build the smallest useful version",
-            "Show it to five likely buyers",
-            "Ask them to buy or pre-order the product"
+            "Pick One Buyer",
+            "See What They Buy Today",
+            "Make a Simple Preview",
+            "Ask for the First Sale"
           ],
-          "successSignal": "Goal: Get three real buyers to pay or pre-order."
+          "successSignal": "Goal: Get your first paid download from a real target buyer."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -1247,7 +1267,7 @@
       "revenueModels": [
         "one_time"
       ],
-      "workflowId": "workflow_digital_product_v1",
+      "workflowId": "workflow_digital_planner_business_v1",
       "investmentBreakdown": [
         {
           "label": "Creation tools",
@@ -1308,14 +1328,14 @@
         ],
         "firstTest": {
           "title": "Run a small Digital Planner Business test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Choose one planning problem, build only the pages needed to solve it, test the planner with real users, and ask for the first sale before adding dozens of extras.",
           "actions": [
-            "Choose one task and one type of buyer",
-            "Build the smallest useful version",
-            "Show it to five likely buyers",
-            "Ask them to buy or pre-order the product"
+            "Pick One Planning Problem",
+            "Choose Only the Essential Pages",
+            "Let 5 Real People Use It",
+            "Ask for the First Paid Download"
           ],
-          "successSignal": "Goal: Get three real buyers to pay or pre-order."
+          "successSignal": "Goal: Get 5 people to use the planner and at least 1 person to pay for it."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -1561,8 +1581,8 @@
     {
       "id": "ebook_guide_business",
       "slug": "ebook-guide-business",
-      "name": "E-book / Guide Business",
-      "shortDescription": "Turn useful knowledge into a short paid guide for one clear group of readers.",
+      "name": "E-book / Practical Guide",
+      "shortDescription": "Pick one practical problem, build the smallest guide that solves it and test whether someone will pay before writing a huge book.",
       "categoryId": "digital_products",
       "subcategoryId": "knowledge_products",
       "mode": [
@@ -1605,7 +1625,7 @@
       "revenueModels": [
         "one_time"
       ],
-      "workflowId": "workflow_digital_product_v1",
+      "workflowId": "workflow_ebook_guide_business_v1",
       "content": {
         "overview": "Turn useful knowledge into a short paid guide for one clear group of readers. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -1648,15 +1668,15 @@
           "Using assets without checking commercial rights."
         ],
         "firstTest": {
-          "title": "Run a small E-book / Guide Business test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "title": "Run a small E-book / Practical Guide test",
+          "goal": "Pick one practical problem, build the smallest guide that solves it and test whether someone will pay before writing a huge book.",
           "actions": [
-            "Choose one task and one type of buyer",
-            "Build the smallest useful version",
-            "Show it to five likely buyers",
-            "Ask them to buy or pre-order the product"
+            "Pick One Reader and One Outcome",
+            "Review Competing Guides",
+            "Create a Preview or Sample",
+            "Record the First Sale and Feedback"
           ],
-          "successSignal": "Goal: Get three real buyers to pay or pre-order."
+          "successSignal": "Goal: Get your first paid reader."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -1668,6 +1688,17 @@
         "salesApproach": [
           "Show the offer through own website and ask a likely buyer to pay.",
           "Show the offer through publishing platforms and ask a likely buyer to pay."
+        ]
+      },
+      "seo": {
+        "title": "How to Create and Sell an E-book or Practical Guide | SupportStrings",
+        "description": "Turn one useful skill or solution into a short practical guide, test demand before writing too much and aim for your first paid reader.",
+        "keywords": [
+          "sell ebook",
+          "ebook business",
+          "digital guide business",
+          "create ebook",
+          "sell digital guides"
         ]
       }
     },
@@ -1720,7 +1751,7 @@
         "project_based",
         "retainer"
       ],
-      "workflowId": "workflow_service_business_v1",
+      "workflowId": "workflow_ai_automation_service_v1",
       "investmentBreakdown": [
         {
           "label": "Software and automation tools",
@@ -1782,14 +1813,14 @@
         ],
         "firstTest": {
           "title": "Run a small AI Automation Service test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Pick one type of business and one repetitive task, prove the time/cost pain, build a focused demo, and sell a paid pilot instead of promising \"AI automation for everything.\"",
           "actions": [
-            "Choose one customer problem you can solve",
-            "Write a small offer with a clear price",
-            "Speak to five likely clients",
-            "Ask one client to book a paid trial"
+            "Pick One Type of Business",
+            "Look for Signs This Problem Is Real",
+            "Contact 10 Good Prospects",
+            "Ask for a Paid Pilot"
           ],
-          "successSignal": "Goal: Book and deliver your first paid client job."
+          "successSignal": "Goal: Get one paying client for a small automation pilot."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -1808,8 +1839,8 @@
     {
       "id": "website_development",
       "slug": "website-development",
-      "name": "Website Development",
-      "shortDescription": "Build clear websites for one type of local or online business.",
+      "name": "Website Design Service",
+      "shortDescription": "Pick one niche, audit their websites quietly, build one demo and sell a small, clear website package.",
       "categoryId": "services_freelancing",
       "subcategoryId": "development",
       "mode": [
@@ -1854,7 +1885,7 @@
         "project_based",
         "retainer"
       ],
-      "workflowId": "workflow_service_business_v1",
+      "workflowId": "workflow_website_development_v1",
       "content": {
         "overview": "Build clear websites for one type of local or online business. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -1898,15 +1929,15 @@
           "Automating or hiring before delivery is repeatable."
         ],
         "firstTest": {
-          "title": "Run a small Website Development test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "title": "Run a small Website Design Service test",
+          "goal": "Pick one niche, audit their websites quietly, build one demo and sell a small, clear website package.",
           "actions": [
-            "Choose one customer problem you can solve",
-            "Write a small offer with a clear price",
-            "Speak to five likely clients",
-            "Ask one client to book a paid trial"
+            "Pick One Business Niche",
+            "Note Repeated Problems",
+            "Choose an Outreach Path",
+            "Close Your First Paid Client"
           ],
-          "successSignal": "Goal: Book and deliver your first paid client job."
+          "successSignal": "Goal: Get your first paying website client."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -1920,13 +1951,24 @@
           "Show the offer through referrals and ask a likely buyer to pay.",
           "Show the offer through freelance platforms and ask a likely buyer to pay."
         ]
+      },
+      "seo": {
+        "title": "How to Start a Website Design Service | SupportStrings",
+        "description": "Build a focused website design offer for one niche, create a simple proof piece, set a pilot price and aim for your first paying client.",
+        "keywords": [
+          "website design business",
+          "web design service",
+          "freelance web designer",
+          "website design agency",
+          "start web design business"
+        ]
       }
     },
     {
       "id": "seo_service",
       "slug": "seo-service",
-      "name": "SEO Service",
-      "shortDescription": "Help one type of business improve its search results with clear technical and content work.",
+      "name": "Local SEO Service",
+      "shortDescription": "Search like a local customer, compare businesses, build one sample audit and sell a small first audit or pilot.",
       "categoryId": "services_freelancing",
       "subcategoryId": "marketing",
       "mode": [
@@ -1971,7 +2013,7 @@
         "project_based",
         "retainer"
       ],
-      "workflowId": "workflow_service_business_v1",
+      "workflowId": "workflow_seo_service_v1",
       "content": {
         "overview": "Help one type of business improve its search results with clear technical and content work. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -2015,15 +2057,15 @@
           "Automating or hiring before delivery is repeatable."
         ],
         "firstTest": {
-          "title": "Run a small SEO Service test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "title": "Run a small Local SEO Service test",
+          "goal": "Search like a local customer, compare businesses, build one sample audit and sell a small first audit or pilot.",
           "actions": [
-            "Choose one customer problem you can solve",
-            "Write a small offer with a clear price",
-            "Speak to five likely clients",
-            "Ask one client to book a paid trial"
+            "Pick One Local Niche",
+            "Compare 5 Businesses",
+            "Send Targeted Outreach",
+            "Close the First Paid Audit or Pilot"
           ],
-          "successSignal": "Goal: Book and deliver your first paid client job."
+          "successSignal": "Goal: Get your first paying local SEO audit or pilot client."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -2036,6 +2078,17 @@
           "Show the offer through direct outreach and ask a likely buyer to pay.",
           "Show the offer through referrals and ask a likely buyer to pay.",
           "Show the offer through professional networks and ask a likely buyer to pay."
+        ]
+      },
+      "seo": {
+        "title": "How to Start a Local SEO Service | SupportStrings",
+        "description": "Build a local SEO service for one business niche using Google Maps research, a simple audit, a focused offer and your first paid client.",
+        "keywords": [
+          "local SEO business",
+          "local SEO service",
+          "Google Business Profile service",
+          "local SEO agency",
+          "SEO for local businesses"
         ]
       }
     },
@@ -2205,7 +2258,7 @@
         "retainer",
         "project_based"
       ],
-      "workflowId": "workflow_service_business_v1",
+      "workflowId": "workflow_social_media_management_v1",
       "content": {
         "overview": "Plan and create regular social posts for one clear type of client. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -2250,14 +2303,14 @@
         ],
         "firstTest": {
           "title": "Run a small Social Media Management test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Pick one niche, study their accounts, build a sample plan and sell a small pilot or first month.",
           "actions": [
-            "Choose one customer problem you can solve",
-            "Write a small offer with a clear price",
-            "Speak to five likely clients",
-            "Ask one client to book a paid trial"
+            "Pick One Business Niche",
+            "Find Repeated Content Gaps",
+            "Reach Out With a Niche-Specific Message",
+            "Run the First Paid Pilot"
           ],
-          "successSignal": "Goal: Book and deliver your first paid client job."
+          "successSignal": "Goal: Get your first paying monthly or pilot client."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -2270,6 +2323,17 @@
           "Show the offer through direct outreach and ask a likely buyer to pay.",
           "Show the offer through referrals and ask a likely buyer to pay.",
           "Show the offer through professional networks and ask a likely buyer to pay."
+        ]
+      },
+      "seo": {
+        "title": "How to Start a Social Media Management Business | SupportStrings",
+        "description": "Create a simple social media management package for one niche, build sample content, set a pilot price and work toward your first client.",
+        "keywords": [
+          "social media management business",
+          "social media manager",
+          "social media agency",
+          "start social media service",
+          "Instagram management service"
         ]
       }
     },
@@ -2321,7 +2385,7 @@
         "retainer",
         "project_based"
       ],
-      "workflowId": "workflow_service_business_v1",
+      "workflowId": "workflow_lead_generation_service_v1",
       "content": {
         "overview": "Find and check likely customers for businesses that know who they want to reach. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -2366,14 +2430,14 @@
         ],
         "firstTest": {
           "title": "Run a small Lead Generation Service test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Define what a qualified lead means for one niche, build a small sample, set clear rules and sell a small paid pilot.",
           "actions": [
-            "Choose one customer problem you can solve",
-            "Write a small offer with a clear price",
-            "Speak to five likely clients",
-            "Ask one client to book a paid trial"
+            "Pick One Niche",
+            "Research How the Niche Gets Leads Today",
+            "Reach Out to Potential Clients",
+            "Close One Pilot"
           ],
-          "successSignal": "Goal: Book and deliver your first paid client job."
+          "successSignal": "Goal: Get one paying pilot client and deliver the agreed qualified-lead test."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -2385,6 +2449,17 @@
         "salesApproach": [
           "Show the offer through direct outreach and ask a likely buyer to pay.",
           "Show the offer through professional networks and ask a likely buyer to pay."
+        ]
+      },
+      "seo": {
+        "title": "How to Start a Lead Generation Service | SupportStrings",
+        "description": "Build a focused B2B lead generation offer, define a qualified lead, create a small pilot and aim for your first paying client.",
+        "keywords": [
+          "lead generation business",
+          "B2B lead generation service",
+          "lead generation agency",
+          "appointment setting business",
+          "client lead generation"
         ]
       }
     },
@@ -2553,7 +2628,7 @@
       "revenueModels": [
         "subscription"
       ],
-      "workflowId": "workflow_online_business_v1",
+      "workflowId": "workflow_micro_saas_v1",
       "investmentBreakdown": [
         {
           "label": "Prototype and hosting",
@@ -2614,14 +2689,14 @@
         ],
         "firstTest": {
           "title": "Run a small Micro-SaaS test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Choose one narrow user and painful task, study current workarounds, prototype the smallest solution, get real users to try it, and test willingness to pay.",
           "actions": [
-            "Choose one repeated user problem",
-            "Build the smallest usable demo",
-            "Show it to five matching users",
-            "Ask for a paid pilot or pre-order"
+            "Pick One Narrow User",
+            "See What Users Already Say",
+            "Watch 3 Users Try It",
+            "Ask for One Paid Commitment"
           ],
-          "successSignal": "Goal: Get three users to try the product and one to pay for a pilot."
+          "successSignal": "Goal: Get 3 real users to try the product and at least 1 willing to pay."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -3757,7 +3832,7 @@
         "repeat_purchase",
         "retainer"
       ],
-      "workflowId": "workflow_service_business_v1",
+      "workflowId": "workflow_cleaning_service_v1",
       "investmentBreakdown": [
         {
           "label": "Basic equipment",
@@ -3820,14 +3895,14 @@
         ],
         "firstTest": {
           "title": "Run a small Cleaning Service test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "goal": "Choose one customer type and cleaning package, learn the real time and supply cost, get a few paid jobs, and decide whether the work can become repeatable.",
           "actions": [
-            "Choose one customer problem you can solve",
-            "Write a small offer with a clear price",
-            "Speak to five likely clients",
-            "Ask one client to book a paid trial"
+            "Choose One Customer Type",
+            "Create One Starter Package",
+            "Offer It to 10 Local Prospects",
+            "Complete 3 Paid Jobs"
           ],
-          "successSignal": "Goal: Book and deliver your first paid client job."
+          "successSignal": "Goal: Complete 3 paid cleaning jobs and get at least one repeat-booking or referral signal."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -4567,8 +4642,8 @@
     {
       "id": "corporate_gifting",
       "slug": "corporate-gifting",
-      "name": "Corporate Gifting",
-      "shortDescription": "Create branded gift packs for company teams, customers and events.",
+      "name": "Corporate Gift Reselling",
+      "shortDescription": "Pick one buyer and occasion, build 3 package tiers with real costs and margins, and close your first company order.",
       "categoryId": "b2b_agency_businesses",
       "subcategoryId": "corporate_products",
       "relatedCategoryIds": [
@@ -4577,7 +4652,7 @@
       "mode": [
         "hybrid"
       ],
-      "businessType": "physical_product",
+      "businessType": "commerce",
       "tags": [
         "corporate gifts",
         "B2B",
@@ -4616,7 +4691,7 @@
         "bulk_orders",
         "repeat_purchase"
       ],
-      "workflowId": "workflow_physical_product_v1",
+      "workflowId": "workflow_corporate_gifting_v1",
       "content": {
         "overview": "Create branded gift packs for company teams, customers and events. Start with one simple offer for one type of buyer. Keep the first test small so a weak result does not cost too much. Ask real buyers what they need and what they would pay. Try to get a real sale before you spend more. Use what you learn to improve the next test.",
         "whyConsider": [
@@ -4660,15 +4735,15 @@
           "Ignoring packaging, returns or delivery effort."
         ],
         "firstTest": {
-          "title": "Run a small Corporate Gifting test",
-          "goal": "Find out if a real customer will pay before you spend more.",
+          "title": "Run a small Corporate Gift Reselling test",
+          "goal": "Pick one buyer and occasion, build 3 package tiers with real costs and margins, and close your first company order.",
           "actions": [
-            "Choose one product and one type of buyer",
-            "Make or source three sample products",
-            "Work out the full cost of one sale",
-            "Offer the samples to five likely buyers and ask for a paid order"
+            "Pick Buyer and Occasion",
+            "Compare Suppliers and Minimum Orders",
+            "Send a Targeted Offer",
+            "Close Your First Order"
           ],
-          "successSignal": "Goal: Get three paid orders or pre-orders at a price that covers the direct costs."
+          "successSignal": "Goal: Close your first paid corporate gift order."
         },
         "complianceNotes": [
           "You may need to check tax, platform or local rules before you sell. If rules are unclear, check an official source or ask a qualified professional."
@@ -4682,6 +4757,17 @@
           "Show the offer through direct outreach and ask a likely buyer to pay.",
           "Show the offer through referrals and ask a likely buyer to pay.",
           "Show the offer through business networks and ask a likely buyer to pay."
+        ]
+      },
+      "seo": {
+        "title": "How to Start a Corporate Gift Reselling Business | SupportStrings",
+        "description": "Build a small corporate gifting offer with reliable suppliers, clear package pricing, realistic margins and your first B2B order.",
+        "keywords": [
+          "corporate gift business",
+          "corporate gifting business",
+          "corporate gift supplier",
+          "corporate hampers",
+          "B2B gifting business"
         ]
       }
     },
@@ -4799,6 +4885,1705 @@
           "Show the offer through direct outreach and ask a likely buyer to pay.",
           "Show the offer through referrals and ask a likely buyer to pay.",
           "Show the offer through professional networks and ask a likely buyer to pay."
+        ]
+      }
+    },
+    {
+      "id": "natural_skincare_products",
+      "slug": "natural-skincare-products",
+      "name": "Natural Skincare Products",
+      "shortDescription": "Develop one simple, safe skincare product for one buyer and test demand responsibly.",
+      "categoryId": "make_sell_products",
+      "subcategoryId": "beauty_personal_care",
+      "mode": [
+        "hybrid"
+      ],
+      "businessType": "physical_product",
+      "tags": [
+        "skincare",
+        "beauty",
+        "handmade"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "intermediate",
+      "investment": {
+        "min": 15000,
+        "max": 40000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 6,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on product safety work, trust, repeat buyers and pricing."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "high",
+      "skillsRequired": [
+        "product research",
+        "careful record keeping",
+        "selling"
+      ],
+      "salesChannels": [
+        "instagram",
+        "marketplaces",
+        "local stores"
+      ],
+      "revenueModels": [
+        "one_time",
+        "repeat_purchase"
+      ],
+      "workflowId": "workflow_natural_skincare_products_v1",
+      "content": {
+        "overview": "Natural skincare is a trust business. Start with one simple product for one buyer and one need, such as dry hands at work. Treat product safety and business demand as two separate things to prove. Work with qualified, reliable development and supply options, check the current cosmetic rules that apply to you, avoid medical claims, count the real cost and only then run a small, controlled test.",
+        "whyConsider": [
+          "Skincare buyers often rebuy products they trust.",
+          "One well-made product can be enough to start.",
+          "You can learn a lot from a small, careful test."
+        ],
+        "bestFor": [
+          "People who are patient about safety and rules.",
+          "People who can spend ₹15,000 to ₹40,000 on a careful first product.",
+          "People who can give 6 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you want to sell quickly without safety checks.",
+          "Do not choose this if you plan to make medical or treatment claims."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each product sold.",
+          "Earn again when buyers reorder."
+        ],
+        "startupRequirements": [
+          "A safety-first product-development process.",
+          "Reliable, documented suppliers or a licensed manufacturer.",
+          "Suitable containers and clear labels.",
+          "Records for every batch."
+        ],
+        "keyRisks": [
+          "Products can cause reactions if not developed and tested properly.",
+          "Cosmetic rules and licences may apply before you sell.",
+          "Unsupported claims can mislead buyers and break rules."
+        ],
+        "commonMistakes": [
+          "Launching many products at once.",
+          "Copying formulas from the internet.",
+          "Using words like 'cures' or 'treats'."
+        ],
+        "complianceNotes": [
+          "Check the current official requirements that apply to your product and location. If anything is unclear, ask an official source or a qualified professional.",
+          "Cosmetic manufacturing, labelling and claims rules may apply."
+        ],
+        "supplierNeeds": [
+          "Qualified formulators or licensed contract manufacturers.",
+          "Documented ingredient suppliers.",
+          "Containers and labels."
+        ],
+        "salesApproach": [
+          "Show the product through Instagram and ask a likely buyer to pay once safety requirements are met.",
+          "List it on a marketplace after the rules that apply are met."
+        ],
+        "firstTest": {
+          "title": "Run a small Natural Skincare Products test",
+          "goal": "Start with one narrow product, take safety and claims seriously, understand the real cost and test the business without rushing the product.",
+          "actions": [
+            "Pick One Buyer and One Use Case",
+            "Choose One First Product",
+            "Create a Compliant, Simple Presentation",
+            "Record Paid and Interest Signals"
+          ],
+          "successSignal": "Goal: Get one product safe and compliant enough for a controlled market test, then get the first paid order."
+        }
+      },
+      "seo": {
+        "title": "How to Start a Natural Skincare Business | SupportStrings",
+        "description": "Learn how to test a natural skincare business with a narrow product idea, safety checks, compliant claims, real costing and controlled customer testing.",
+        "keywords": [
+          "natural skincare business",
+          "skincare business",
+          "start skincare brand",
+          "skincare products business India",
+          "handmade skincare business"
+        ]
+      }
+    },
+    {
+      "id": "eco_friendly_home_products",
+      "slug": "eco-friendly-home-products",
+      "name": "Eco-Friendly Home Products",
+      "shortDescription": "Sell one lower-waste home product that makes a daily habit easier — and test if people will switch.",
+      "categoryId": "make_sell_products",
+      "subcategoryId": "home_decor",
+      "mode": [
+        "online"
+      ],
+      "businessType": "physical_product",
+      "tags": [
+        "eco friendly",
+        "sustainable",
+        "home"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 5000,
+        "max": 15000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 5,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on whether buyers switch at your price and come back."
+      },
+      "repeatPurchasePotential": "medium",
+      "complianceLevel": "low_medium",
+      "skillsRequired": [
+        "sourcing",
+        "clear writing",
+        "selling"
+      ],
+      "salesChannels": [
+        "instagram",
+        "marketplaces",
+        "social media"
+      ],
+      "revenueModels": [
+        "one_time",
+        "repeat_purchase"
+      ],
+      "workflowId": "workflow_eco_friendly_home_products_v1",
+      "content": {
+        "overview": "Eco-friendly home products work when the better choice is also the easy choice. Pick one household habit, such as kitchen cleaning, and one product that makes it simpler with less waste. Check that every environmental claim can be backed up, find suppliers who can prove what their materials are, count the full landed cost and test whether buyers will actually switch at your price.",
+        "whyConsider": [
+          "Many households want to waste less.",
+          "One useful product is enough to start.",
+          "Repeat buys are possible for everyday items."
+        ],
+        "bestFor": [
+          "People who care about honest sustainability claims.",
+          "People who can spend ₹5,000 to ₹15,000 on a small test.",
+          "People who can give 5 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you cannot check supplier claims.",
+          "Do not choose this if you plan to use vague green claims."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each product sold.",
+          "Earn again from repeat buyers."
+        ],
+        "startupRequirements": [
+          "One product idea for one household habit.",
+          "Suppliers with material documents.",
+          "Simple, low-waste packaging."
+        ],
+        "keyRisks": [
+          "Unsupported eco claims can mislead buyers.",
+          "Buyers may not switch if the price feels too high.",
+          "Shipping costs can eat the margin."
+        ],
+        "commonMistakes": [
+          "Launching a big eco catalogue.",
+          "Saying 'plastic-free' or 'biodegradable' without proof.",
+          "Ignoring how well the product actually works."
+        ],
+        "complianceNotes": [
+          "Check the current official requirements that apply to your product and location. If anything is unclear, ask an official source or a qualified professional."
+        ],
+        "supplierNeeds": [
+          "Material suppliers with documents.",
+          "Low-waste packaging."
+        ],
+        "salesApproach": [
+          "Show the product through Instagram with a clear 'why switch?' message.",
+          "List it on a marketplace with honest claims."
+        ],
+        "firstTest": {
+          "title": "Run a small Eco-Friendly Home Products test",
+          "goal": "Pick one household problem, verify your environmental claims, understand sourcing and test whether buyers will switch at your price.",
+          "actions": [
+            "Pick One Household Habit",
+            "Choose One Product",
+            "Create a 'Why Switch?' Presentation",
+            "Capture Paid Orders and Objections"
+          ],
+          "successSignal": "Goal: Get 3 paid orders from buyers who choose it for both usefulness and the sustainability benefit."
+        }
+      },
+      "seo": {
+        "title": "Eco-Friendly Home Product Business Ideas | SupportStrings",
+        "description": "Build and test an eco-friendly home product business with verified claims, real sourcing costs, simple packaging and first paid orders.",
+        "keywords": [
+          "eco friendly products business",
+          "sustainable home products",
+          "eco friendly business ideas",
+          "zero waste products business",
+          "sustainable products business India"
+        ]
+      }
+    },
+    {
+      "id": "resume_template_business",
+      "slug": "resume-template-business",
+      "name": "Resume Template Business",
+      "shortDescription": "Make a small set of clear, editable resume templates for one type of job seeker.",
+      "categoryId": "digital_products",
+      "subcategoryId": "templates",
+      "mode": [
+        "online"
+      ],
+      "businessType": "digital_product",
+      "tags": [
+        "templates",
+        "careers",
+        "design"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 500,
+        "max": 3000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 4,
+        "maxHours": 8
+      },
+      "incomePotential": {
+        "level": "low",
+        "note": "Depends on niche focus, previews and finding buyers."
+      },
+      "repeatPurchasePotential": "low",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "visual design",
+        "clear writing",
+        "listing creation"
+      ],
+      "salesChannels": [
+        "marketplaces",
+        "social media",
+        "own website"
+      ],
+      "revenueModels": [
+        "one_time"
+      ],
+      "workflowId": "workflow_resume_template_business_v1",
+      "content": {
+        "overview": "A resume template business helps one type of job seeker look clear and professional with less effort. Pick one group, such as fresh graduates, learn readability basics from reliable sources and build two or three clean templates with sample content. Test editing yourself, make simple before-and-after previews, publish one listing and aim for your first paid download — without promising interviews or jobs.",
+        "whyConsider": [
+          "There is no stock to hold.",
+          "A small pack can be enough to test.",
+          "Job seekers look for help at key moments."
+        ],
+        "bestFor": [
+          "People with design or layout skills.",
+          "People who can spend ₹500 to ₹3,000 on a small test.",
+          "People who can give 4 to 8 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you want to promise interviews or jobs.",
+          "Do not choose this if you cannot reach one clear group of job seekers."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each template download."
+        ],
+        "startupRequirements": [
+          "A design tool such as Canva, Figma or a Word-compatible editor.",
+          "One job-seeker niche.",
+          "A listing or simple page."
+        ],
+        "keyRisks": [
+          "Crowded marketplaces make it hard to be found.",
+          "Templates that are hard to edit lead to refunds.",
+          "Overpromising results misleads buyers."
+        ],
+        "commonMistakes": [
+          "Designing for everyone.",
+          "Using decorative layouts that are hard to read.",
+          "Claiming templates guarantee interviews."
+        ],
+        "salesApproach": [
+          "Publish one marketplace listing with clear previews.",
+          "Share before-and-after examples where your job seekers gather."
+        ],
+        "firstTest": {
+          "title": "Run a small Resume Template Business test",
+          "goal": "Choose one job-seeker type, build a small readable template set and test whether people will pay for easier resume creation.",
+          "actions": [
+            "Pick One Job-Seeker Type",
+            "Check Readability and ATS-Friendly Basics",
+            "Create Before-and-After Previews",
+            "Get the First Paid Download"
+          ],
+          "successSignal": "Goal: Get your first paid template download."
+        }
+      },
+      "seo": {
+        "title": "How to Start a Resume Template Business | SupportStrings",
+        "description": "Create and test resume templates for a focused job seeker, build a small useful pack, price it and aim for your first paid download.",
+        "keywords": [
+          "resume template business",
+          "sell resume templates",
+          "CV template business",
+          "Canva resume templates",
+          "digital product business"
+        ]
+      }
+    },
+    {
+      "id": "social_media_content_packs",
+      "slug": "social-media-content-packs",
+      "name": "Social Media Content Packs",
+      "shortDescription": "Create ready-to-use social media content packs for one kind of business.",
+      "categoryId": "digital_products",
+      "subcategoryId": "creative_assets",
+      "mode": [
+        "online"
+      ],
+      "businessType": "digital_product",
+      "tags": [
+        "social media",
+        "content",
+        "templates"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 500,
+        "max": 3000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 5,
+        "maxHours": 8
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on niche focus and how much time the pack saves."
+      },
+      "repeatPurchasePotential": "medium",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "content writing",
+        "visual design",
+        "listing creation"
+      ],
+      "salesChannels": [
+        "marketplaces",
+        "social media",
+        "own website"
+      ],
+      "revenueModels": [
+        "one_time",
+        "repeat_purchase"
+      ],
+      "workflowId": "workflow_social_media_content_packs_v1",
+      "content": {
+        "overview": "Social media content packs save busy businesses thinking time, not just design time. Pick one niche, study the posts they need again and again, and build a 20–30 item pack of posts and captions they can edit and use. Check that everything is original or properly licensed, make delivery simple, create a clear preview and test whether the niche will pay for the pack.",
+        "whyConsider": [
+          "Small businesses post often and run out of ideas.",
+          "There is no stock to hold.",
+          "Packs can be refreshed and sold again."
+        ],
+        "bestFor": [
+          "People who understand one business niche.",
+          "People who can spend ₹500 to ₹3,000 on a small test.",
+          "People who can give 5 to 8 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you cannot keep content original or licensed.",
+          "Do not choose this if you cannot reach one clear niche."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each pack sold.",
+          "Earn again from new monthly packs."
+        ],
+        "startupRequirements": [
+          "A design tool.",
+          "One niche and one content need.",
+          "Simple licence terms."
+        ],
+        "keyRisks": [
+          "Generic packs are easy to ignore.",
+          "Using unlicensed images or fonts.",
+          "Low discovery without a focused channel."
+        ],
+        "commonMistakes": [
+          "Making a pack for everyone.",
+          "Skipping captions and only selling designs.",
+          "Ignoring licence rules."
+        ],
+        "salesApproach": [
+          "Publish one marketplace listing with a clear preview.",
+          "Share sample posts where your niche gathers online."
+        ],
+        "firstTest": {
+          "title": "Run a small Social Media Content Packs test",
+          "goal": "Pick one niche, find the posts they need again and again, and test whether they will pay for a ready-to-use pack.",
+          "actions": [
+            "Pick One Niche",
+            "Review Existing Packs",
+            "Create a Preview",
+            "Record the Paid Result"
+          ],
+          "successSignal": "Goal: Get the first paid content-pack download."
+        }
+      },
+      "seo": {
+        "title": "Sell Social Media Content Packs | SupportStrings",
+        "description": "Create focused social media content packs for one niche, test usefulness, price them clearly and aim for the first paid download.",
+        "keywords": [
+          "social media content templates",
+          "sell content packs",
+          "social media digital products",
+          "Instagram content templates",
+          "content pack business"
+        ]
+      }
+    },
+    {
+      "id": "printable_worksheets_business",
+      "slug": "printable-worksheets-business",
+      "name": "Printable Worksheets",
+      "shortDescription": "Make short printable worksheets that help one user finish one useful task.",
+      "categoryId": "digital_products",
+      "subcategoryId": "printables",
+      "mode": [
+        "online"
+      ],
+      "businessType": "digital_product",
+      "tags": [
+        "printables",
+        "education",
+        "planning"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 500,
+        "max": 3000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 4,
+        "maxHours": 8
+      },
+      "incomePotential": {
+        "level": "low",
+        "note": "Depends on usefulness, previews and finding the right users."
+      },
+      "repeatPurchasePotential": "medium",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "layout design",
+        "clear instructions",
+        "listing creation"
+      ],
+      "salesChannels": [
+        "marketplaces",
+        "social media",
+        "own website"
+      ],
+      "revenueModels": [
+        "one_time"
+      ],
+      "workflowId": "workflow_printable_worksheets_business_v1",
+      "content": {
+        "overview": "Printable worksheets work when one page helps someone finish one real task. Pick one user, such as parents helping with times tables, and one result. Make three to five core pages, print and use them yourself, improve the layout and instructions, then share a free sample and watch whether real people use it. Aim for five real users and one paid buyer, without claiming learning outcomes you cannot support.",
+        "whyConsider": [
+          "There is no stock to hold.",
+          "A few useful pages can be enough.",
+          "Real use is easy to test with a free sample."
+        ],
+        "bestFor": [
+          "People who can design clear, simple pages.",
+          "People who can spend ₹500 to ₹3,000 on a small test.",
+          "People who can give 4 to 8 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you want to sell large bundles first.",
+          "Do not choose this if you plan to promise learning results."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each download."
+        ],
+        "startupRequirements": [
+          "A design tool.",
+          "A printer for testing.",
+          "One user and use case."
+        ],
+        "keyRisks": [
+          "Crowded marketplaces.",
+          "Pages that look nice but are hard to use.",
+          "Claims about learning results you cannot support."
+        ],
+        "commonMistakes": [
+          "Making a 100-page bundle first.",
+          "Skipping a real print test.",
+          "Unclear instructions."
+        ],
+        "salesApproach": [
+          "Publish one marketplace listing with clear previews.",
+          "Share a free sample page and invite people to buy the full set."
+        ],
+        "firstTest": {
+          "title": "Run a small Printable Worksheets test",
+          "goal": "Pick one user and one result, make 3–5 useful pages, test them in real use and see whether people will pay.",
+          "actions": [
+            "Pick One User and Use Case",
+            "Choose One Result",
+            "Create a Preview",
+            "Record the Paid Result"
+          ],
+          "successSignal": "Goal: Get 5 real users to try the worksheet and at least 1 paid buyer."
+        }
+      },
+      "seo": {
+        "title": "How to Sell Printable Worksheets | SupportStrings",
+        "description": "Create useful printable worksheets for one clear audience, test usability, build a simple listing and aim for your first paid download.",
+        "keywords": [
+          "printable worksheets business",
+          "sell printables",
+          "printable business",
+          "educational printables",
+          "digital downloads business"
+        ]
+      }
+    },
+    {
+      "id": "appointment_reminder_saas",
+      "slug": "appointment-reminder-saas",
+      "name": "Appointment Reminder Micro-SaaS",
+      "shortDescription": "Build a tiny reminder tool that helps one appointment-based niche reduce manual follow-ups.",
+      "categoryId": "online_assets_software",
+      "subcategoryId": "micro_saas",
+      "mode": [
+        "online"
+      ],
+      "businessType": "software",
+      "tags": [
+        "software",
+        "saas",
+        "appointments"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "intermediate",
+      "investment": {
+        "min": 5000,
+        "max": 20000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 6,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on reliability, retention and keeping support time low."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "medium",
+      "skillsRequired": [
+        "software or no-code building",
+        "customer research",
+        "product support"
+      ],
+      "salesChannels": [
+        "direct outreach",
+        "local referrals",
+        "own website"
+      ],
+      "revenueModels": [
+        "subscription"
+      ],
+      "workflowId": "workflow_appointment_reminder_saas_v1",
+      "content": {
+        "overview": "An appointment reminder tool helps one kind of business stop chasing every booking by hand. Start with a narrow niche such as salons or tutors, look for public signs that missed appointments really hurt, check existing tools and map one simple flow: reminder sent, customer confirms or cancels, business sees status. Build a consent-safe demo, run it with three pilot businesses and ask one to pay for continued use.",
+        "whyConsider": [
+          "Missed appointments cost businesses real money.",
+          "A tiny tool can solve one clear job.",
+          "Subscriptions can build steady income if users stay."
+        ],
+        "bestFor": [
+          "People who can build software or use no-code tools.",
+          "People who can spend ₹5,000 to ₹20,000 on a small test.",
+          "People who can give 6 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you do not want to support users.",
+          "Do not choose this if you will not follow messaging and consent rules."
+        ],
+        "howItMakesMoney": [
+          "Get paid a monthly subscription for continued use."
+        ],
+        "startupRequirements": [
+          "A way to build and host a small tool.",
+          "A messaging provider test account.",
+          "3 pilot businesses."
+        ],
+        "keyRisks": [
+          "Messaging rules and consent requirements apply.",
+          "Reliability problems lose trust fast.",
+          "Many existing tools compete."
+        ],
+        "commonMistakes": [
+          "Building scheduling and CRM features too early.",
+          "Messaging people without consent.",
+          "Claiming results from tiny samples."
+        ],
+        "complianceNotes": [
+          "Follow your messaging provider's rules and get consent before sending reminders.",
+          "Check the current official requirements that apply to your product and location. If anything is unclear, ask an official source or a qualified professional."
+        ],
+        "salesApproach": [
+          "Offer free pilots to a few businesses in one niche, then ask for a paid plan.",
+          "Use local referrals from happy pilot users."
+        ],
+        "firstTest": {
+          "title": "Run a small Appointment Reminder Micro-SaaS test",
+          "goal": "Start with a narrow niche such as salons, tutors or consultants, confirm missed/reminder pain, prototype automated reminders, and test with a few businesses before adding scheduling, CRM and other features.",
+          "actions": [
+            "Pick One Appointment Niche",
+            "Check Existing Tools",
+            "Run It With 3 Pilot Businesses",
+            "Ask One Pilot to Pay"
+          ],
+          "successSignal": "Goal: Get 3 businesses to test the reminder flow and 1 willing to pay for continued use."
+        }
+      }
+    },
+    {
+      "id": "whatsapp_lead_follow_up_tool",
+      "slug": "whatsapp-lead-follow-up-tool",
+      "name": "WhatsApp Lead Follow-Up Tool",
+      "shortDescription": "Build a small tool that helps businesses stop forgetting WhatsApp leads — within platform rules.",
+      "categoryId": "online_assets_software",
+      "subcategoryId": "micro_saas",
+      "mode": [
+        "online"
+      ],
+      "businessType": "software",
+      "tags": [
+        "software",
+        "saas",
+        "whatsapp"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "intermediate",
+      "investment": {
+        "min": 5000,
+        "max": 25000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 8,
+        "maxHours": 12
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on usage, retention and platform costs."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "medium",
+      "skillsRequired": [
+        "software or no-code building",
+        "API integration",
+        "product support"
+      ],
+      "salesChannels": [
+        "direct outreach",
+        "business networks",
+        "own website"
+      ],
+      "revenueModels": [
+        "subscription"
+      ],
+      "workflowId": "workflow_whatsapp_lead_follow_up_tool_v1",
+      "content": {
+        "overview": "A WhatsApp lead follow-up tool helps businesses that get enquiries on WhatsApp stop losing leads because someone forgot the next message. Map how one business type follows up today, find the moment leads are usually forgotten and check the current WhatsApp and Meta messaging rules before you build. Make the smallest prototype — lead, reminder and an approved follow-up message — and see if three businesses use it and one will pay.",
+        "whyConsider": [
+          "Many small businesses run sales on WhatsApp.",
+          "Forgotten leads are easy to understand as a problem.",
+          "A focused tool can stand out from big CRMs."
+        ],
+        "bestFor": [
+          "People who can build software or integrate APIs.",
+          "People who can spend ₹5,000 to ₹25,000 on a small test.",
+          "People who can give 8 to 12 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you want to get around platform rules.",
+          "Do not choose this if you cannot handle API costs and changes."
+        ],
+        "howItMakesMoney": [
+          "Get paid a monthly subscription."
+        ],
+        "startupRequirements": [
+          "A way to build a prototype.",
+          "WhatsApp Business Platform access or a provider.",
+          "Test businesses."
+        ],
+        "keyRisks": [
+          "Platform rules and pricing can change.",
+          "Breaking messaging rules can get accounts blocked.",
+          "Big CRM tools compete."
+        ],
+        "commonMistakes": [
+          "Promising unrestricted messaging.",
+          "Building a full CRM first.",
+          "Skipping opt-in and template rules."
+        ],
+        "complianceNotes": [
+          "Follow current WhatsApp and Meta messaging rules, including opt-in and approved templates."
+        ],
+        "salesApproach": [
+          "Invite a few businesses in one niche to try the prototype.",
+          "Ask users who keep using it to pay."
+        ],
+        "firstTest": {
+          "title": "Run a small WhatsApp Lead Follow-Up Tool test",
+          "goal": "Map how one business type follows up today, respect platform rules, build a tiny prototype and see if businesses keep using and paying for it.",
+          "actions": [
+            "Pick One Business Type",
+            "Research Competitor Tools and Reviews",
+            "Find 3 Real Businesses to Try It",
+            "Ask Willingness to Pay"
+          ],
+          "successSignal": "Goal: Get 3 businesses to try the prototype and at least 1 willing to pay."
+        }
+      },
+      "seo": {
+        "title": "WhatsApp Lead Follow-Up Tool Business Idea | SupportStrings",
+        "description": "Test a small WhatsApp lead follow-up software idea by studying missed follow-ups, building a tiny prototype and finding the first user willing to pay.",
+        "keywords": [
+          "WhatsApp lead follow up",
+          "WhatsApp CRM",
+          "WhatsApp sales follow up",
+          "lead follow up software",
+          "WhatsApp automation tool"
+        ]
+      }
+    },
+    {
+      "id": "review_request_tool",
+      "slug": "review-request-tool",
+      "name": "Review Request Tool",
+      "shortDescription": "Build a simple, rule-following tool that helps local businesses ask every customer for a review.",
+      "categoryId": "online_assets_software",
+      "subcategoryId": "micro_saas",
+      "mode": [
+        "online"
+      ],
+      "businessType": "software",
+      "tags": [
+        "software",
+        "saas",
+        "reviews"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "intermediate",
+      "investment": {
+        "min": 5000,
+        "max": 20000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 6,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on consistent use and retention."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "low_medium",
+      "skillsRequired": [
+        "software or no-code building",
+        "customer research",
+        "product support"
+      ],
+      "salesChannels": [
+        "direct outreach",
+        "local referrals",
+        "own website"
+      ],
+      "revenueModels": [
+        "subscription"
+      ],
+      "workflowId": "workflow_review_request_tool_v1",
+      "content": {
+        "overview": "A review request tool helps local businesses ask every customer for an honest review at the right moment. Read the current Google and platform review rules first: no fake reviews, no asking only happy customers and no prohibited incentives. Choose one compliant workflow, build a simple prototype, let three businesses try it and measure how many requests turn into reviews before asking one to pay.",
+        "whyConsider": [
+          "Local businesses depend on reviews.",
+          "The job is simple and easy to explain.",
+          "A focused tool can be cheap to run."
+        ],
+        "bestFor": [
+          "People who can build software or use no-code tools.",
+          "People who can spend ₹5,000 to ₹20,000 on a small test.",
+          "People who can give 6 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you are tempted by fake or gated reviews.",
+          "Do not choose this if you cannot support local business users."
+        ],
+        "howItMakesMoney": [
+          "Get paid a monthly subscription."
+        ],
+        "startupRequirements": [
+          "A way to build a prototype.",
+          "An SMS or messaging provider.",
+          "Test businesses."
+        ],
+        "keyRisks": [
+          "Breaking review policies can harm your users.",
+          "Messaging costs and rules apply.",
+          "Many reputation tools compete."
+        ],
+        "commonMistakes": [
+          "Asking only happy customers (review gating).",
+          "Offering rewards for reviews.",
+          "Building dashboards before the core flow works."
+        ],
+        "complianceNotes": [
+          "Follow current Google review policies: no fake reviews, review gating or prohibited incentives.",
+          "Follow messaging consent rules."
+        ],
+        "salesApproach": [
+          "Offer free trials to a few businesses in one niche.",
+          "Ask businesses that keep using it to pay."
+        ],
+        "firstTest": {
+          "title": "Run a small Review Request Tool test",
+          "goal": "Learn the review rules first, build one compliant request flow and see if local businesses use and pay for it.",
+          "actions": [
+            "Pick One Local-Business Type",
+            "Read Google and Platform Rules",
+            "Invite 3 Businesses to Try It",
+            "Ask Willingness to Pay"
+          ],
+          "successSignal": "Goal: Get 3 businesses to test the workflow and at least 1 willing to pay."
+        }
+      },
+      "seo": {
+        "title": "Review Request Software Business Idea | SupportStrings",
+        "description": "Build and test a simple review request tool for local businesses, respecting platform rules and proving whether businesses will pay for easier follow-up.",
+        "keywords": [
+          "review request software",
+          "Google review request tool",
+          "reputation management tool",
+          "review automation software",
+          "customer review tool"
+        ]
+      }
+    },
+    {
+      "id": "quote_proposal_generator",
+      "slug": "quote-proposal-generator",
+      "name": "Quote / Proposal Generator",
+      "shortDescription": "Build a tiny tool that turns job details into a polished quote in minutes for one service niche.",
+      "categoryId": "online_assets_software",
+      "subcategoryId": "micro_saas",
+      "mode": [
+        "online"
+      ],
+      "businessType": "software",
+      "tags": [
+        "software",
+        "saas",
+        "quotes"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "intermediate",
+      "investment": {
+        "min": 3000,
+        "max": 15000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 6,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on time saved for users and retention."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "software or no-code building",
+        "customer research",
+        "product support"
+      ],
+      "salesChannels": [
+        "direct outreach",
+        "communities",
+        "own website"
+      ],
+      "revenueModels": [
+        "subscription"
+      ],
+      "workflowId": "workflow_quote_proposal_generator_v1",
+      "content": {
+        "overview": "A quote and proposal generator makes one painful admin task disappear for one kind of service business. Study how they make quotes today and what users complain about in current tools, then define the minimum flow from job details to a polished quote. Build a prototype, test it with realistic data, let three users create real quotes and see whether at least one will pay.",
+        "whyConsider": [
+          "Service businesses send quotes all the time.",
+          "Time saved is easy to measure.",
+          "A narrow tool can beat complex software for one niche."
+        ],
+        "bestFor": [
+          "People who can build software or use no-code tools.",
+          "People who can spend ₹3,000 to ₹15,000 on a small test.",
+          "People who can give 6 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you want to build every feature first.",
+          "Do not choose this if you cannot reach one service niche."
+        ],
+        "howItMakesMoney": [
+          "Get paid a monthly subscription."
+        ],
+        "startupRequirements": [
+          "A way to build a prototype.",
+          "Realistic sample quote data.",
+          "3 test users."
+        ],
+        "keyRisks": [
+          "General tools already exist.",
+          "Users may stay with spreadsheets.",
+          "Support time can grow."
+        ],
+        "commonMistakes": [
+          "Adding 50 features.",
+          "Testing with fake data only.",
+          "Picking a niche you cannot reach."
+        ],
+        "salesApproach": [
+          "Recruit 3 users in one niche to create real quotes.",
+          "Ask users who saved time to pay."
+        ],
+        "firstTest": {
+          "title": "Run a small Quote / Proposal Generator test",
+          "goal": "Study how one service niche makes quotes, build the smallest quote flow and see if real users save time and will pay.",
+          "actions": [
+            "Pick One Service Niche",
+            "Study Competitor Complaints",
+            "Recruit 3 Users to Create Real Quotes",
+            "Ask Willingness to Pay"
+          ],
+          "successSignal": "Goal: Get 3 users to create real quotes and 1 user willing to pay."
+        }
+      },
+      "seo": {
+        "title": "Quote and Proposal Generator SaaS Idea | SupportStrings",
+        "description": "Test a simple quote and proposal generator for one service niche by solving slow quote creation, building a tiny prototype and finding the first paying user.",
+        "keywords": [
+          "proposal generator",
+          "quote software",
+          "quotation generator",
+          "proposal software for small business",
+          "quote SaaS"
+        ]
+      }
+    },
+    {
+      "id": "social_media_approval_tool",
+      "slug": "social-media-approval-tool",
+      "name": "Social Media Approval Tool",
+      "shortDescription": "Build a small tool where agencies and clients preview, comment on and approve posts in one place.",
+      "categoryId": "online_assets_software",
+      "subcategoryId": "micro_saas",
+      "mode": [
+        "online"
+      ],
+      "businessType": "software",
+      "tags": [
+        "software",
+        "saas",
+        "agencies"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "intermediate",
+      "investment": {
+        "min": 5000,
+        "max": 20000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 8,
+        "maxHours": 12
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on agency adoption and retention."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "software or no-code building",
+        "customer research",
+        "product support"
+      ],
+      "salesChannels": [
+        "direct outreach",
+        "professional networks",
+        "own website"
+      ],
+      "revenueModels": [
+        "subscription"
+      ],
+      "workflowId": "workflow_social_media_approval_tool_v1",
+      "content": {
+        "overview": "A social media approval tool replaces endless 'approved?' messages with one clean review-and-approve flow. Study how small agencies get client approvals today and what they dislike about current tools. Build the smallest flow — post preview, comment, approve or request a change — let two or three teams try it on real posts and see if at least one will pay.",
+        "whyConsider": [
+          "Agencies waste time chasing approvals.",
+          "The flow is small and easy to demo.",
+          "Teams that adopt it tend to keep using it."
+        ],
+        "bestFor": [
+          "People who can build software or use no-code tools.",
+          "People who can spend ₹5,000 to ₹20,000 on a small test.",
+          "People who can give 8 to 12 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you want to build a full planning suite.",
+          "Do not choose this if you cannot reach agencies."
+        ],
+        "howItMakesMoney": [
+          "Get paid a monthly subscription per agency."
+        ],
+        "startupRequirements": [
+          "A way to build a prototype.",
+          "A demo.",
+          "2–3 test teams."
+        ],
+        "keyRisks": [
+          "Big planning tools include approvals.",
+          "Clients may resist a new tool.",
+          "Support time can grow."
+        ],
+        "commonMistakes": [
+          "Building scheduling and analytics first.",
+          "Testing without real posts.",
+          "Ignoring the client side of the flow."
+        ],
+        "salesApproach": [
+          "Recruit 2–3 agencies to try it on real posts.",
+          "Ask teams that keep using it to pay."
+        ],
+        "firstTest": {
+          "title": "Run a small Social Media Approval Tool test",
+          "goal": "Study how agencies get approvals today, build the smallest approval flow and see if teams use it and will pay.",
+          "actions": [
+            "Pick One Agency or Team Type",
+            "Review Competing Tools and Complaints",
+            "Recruit 2–3 Test Teams",
+            "Ask Willingness to Pay"
+          ],
+          "successSignal": "Goal: Get 2–3 agency or client teams to try the prototype and at least 1 willing to pay."
+        }
+      },
+      "seo": {
+        "title": "Social Media Approval Tool SaaS Idea | SupportStrings",
+        "description": "Test a social media approval software idea for agencies and clients by simplifying content review, comments and approvals in one focused workflow.",
+        "keywords": [
+          "social media approval tool",
+          "content approval software",
+          "social media client approval",
+          "agency approval workflow",
+          "content review software"
+        ]
+      }
+    },
+    {
+      "id": "indoor_plant_reselling",
+      "slug": "indoor-plant-reselling",
+      "name": "Indoor Plant Reselling",
+      "shortDescription": "Resell a small range of easy-care indoor plants to local buyers without a nursery-sized stock.",
+      "categoryId": "reselling_commerce",
+      "subcategoryId": "marketplace_reselling",
+      "mode": [
+        "hybrid"
+      ],
+      "businessType": "commerce",
+      "tags": [
+        "plants",
+        "local business",
+        "reselling"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 3000,
+        "max": 8000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 5,
+        "maxHours": 8
+      },
+      "incomePotential": {
+        "level": "low",
+        "note": "Depends on margin after damage and delivery, and repeat buyers."
+      },
+      "repeatPurchasePotential": "medium",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "sourcing",
+        "plant care basics",
+        "local selling"
+      ],
+      "salesChannels": [
+        "local referrals",
+        "instagram",
+        "marketplaces"
+      ],
+      "revenueModels": [
+        "one_time",
+        "repeat_purchase"
+      ],
+      "workflowId": "workflow_indoor_plant_reselling_v1",
+      "content": {
+        "overview": "Indoor plant reselling helps local buyers get easy-care plants without overwhelming choice. Pick one local buyer type, such as new apartment residents, check local prices and demand, choose five to ten hardy plants and compare two suppliers. Count the real delivered cost including pots, damage and travel, set simple prices, make clear listings and complete five paid sales before buying more.",
+        "whyConsider": [
+          "Plants are popular local purchases.",
+          "A small range is enough to start.",
+          "You can test with little money."
+        ],
+        "bestFor": [
+          "People who like plants and local selling.",
+          "People who can spend ₹3,000 to ₹8,000 on test stock.",
+          "People who can give 5 to 8 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you cannot store and care for plants.",
+          "Do not choose this if delivery in your area is hard."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each plant sold.",
+          "Earn from repeat and gift buyers."
+        ],
+        "startupRequirements": [
+          "A reliable plant supplier.",
+          "A small holding area.",
+          "Pots and packing.",
+          "A local pickup or delivery plan."
+        ],
+        "keyRisks": [
+          "Plants can be damaged or die before sale.",
+          "Delivery effort can eat the margin.",
+          "Local competition from nurseries."
+        ],
+        "commonMistakes": [
+          "Buying too many varieties.",
+          "Forgetting damage and travel in the cost.",
+          "Unclear care information."
+        ],
+        "supplierNeeds": [
+          "Wholesale nurseries.",
+          "Pots and packing material."
+        ],
+        "salesApproach": [
+          "Sell through one local channel, such as an apartment group.",
+          "Offer pickup or simple local delivery."
+        ],
+        "firstTest": {
+          "title": "Run a small Indoor Plant Reselling test",
+          "goal": "Choose one local buyer type, source a tiny set of healthy easy-care plants, calculate delivered cost, and test sales through one local channel before expanding.",
+          "actions": [
+            "Pick One Local Buyer",
+            "Choose a Tiny Assortment",
+            "Create Clear Listings",
+            "Complete 5 Paid Sales"
+          ],
+          "successSignal": "Goal: Complete 5 paid plant sales while keeping damage and delivery effort under control."
+        }
+      }
+    },
+    {
+      "id": "used_books_reselling",
+      "slug": "used-books-reselling",
+      "name": "Used Books Reselling",
+      "shortDescription": "Buy a small, smart batch of used books in one niche and learn what readers actually pay for.",
+      "categoryId": "reselling_commerce",
+      "subcategoryId": "used_refurbished",
+      "mode": [
+        "hybrid"
+      ],
+      "businessType": "commerce",
+      "tags": [
+        "books",
+        "reselling",
+        "second hand"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 2000,
+        "max": 6000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 4,
+        "maxHours": 7
+      },
+      "incomePotential": {
+        "level": "low",
+        "note": "Depends on sourcing cost, condition and fees."
+      },
+      "repeatPurchasePotential": "low",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "sourcing",
+        "honest listing",
+        "packing"
+      ],
+      "salesChannels": [
+        "marketplaces",
+        "local referrals",
+        "social media"
+      ],
+      "revenueModels": [
+        "one_time"
+      ],
+      "workflowId": "workflow_used_books_reselling_v1",
+      "content": {
+        "overview": "Used books reselling is a low-risk way to learn buying and selling. Choose one reader niche, check real selling prices, set a buy rule for the most you will pay per book and source a small batch of fifteen to thirty books. Grade condition honestly, price with all costs included, list on one main channel, complete five sales and learn which titles actually move before buying more.",
+        "whyConsider": [
+          "You can start with very little money.",
+          "You learn sourcing and pricing quickly.",
+          "Books are easy to store and ship."
+        ],
+        "bestFor": [
+          "People who enjoy books and careful listing.",
+          "People who can spend ₹2,000 to ₹6,000 on a test batch.",
+          "People who can give 4 to 7 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you dislike packing and shipping.",
+          "Do not choose this if you want large profits per sale."
+        ],
+        "howItMakesMoney": [
+          "Earn the difference between buying and selling price on each book."
+        ],
+        "startupRequirements": [
+          "A small sourcing budget.",
+          "Storage shelves or boxes.",
+          "Packing materials.",
+          "A pickup or shipping plan."
+        ],
+        "keyRisks": [
+          "Books can sit unsold.",
+          "Fees and shipping can eat the margin.",
+          "Condition disputes."
+        ],
+        "commonMistakes": [
+          "Buying random mixed stock.",
+          "Paying too much per book.",
+          "Hiding defects in listings."
+        ],
+        "supplierNeeds": [
+          "Second-hand book markets, library sales and online lots."
+        ],
+        "salesApproach": [
+          "List on one marketplace with honest condition photos.",
+          "Sell sets to local groups in your niche."
+        ],
+        "firstTest": {
+          "title": "Run a small Used Books Reselling test",
+          "goal": "Choose one reader niche, source a small batch at the right cost, grade condition clearly, test one sales channel, and learn which titles actually move.",
+          "actions": [
+            "Pick One Reader Niche",
+            "Set Your Buy Rule",
+            "List on One Main Channel",
+            "Complete 5 Sales"
+          ],
+          "successSignal": "Goal: Sell 5 books at a positive contribution after packing and selling costs."
+        }
+      }
+    },
+    {
+      "id": "organic_products_reselling",
+      "slug": "organic-products-reselling",
+      "name": "Organic Products Reselling",
+      "shortDescription": "Resell a small range of trusted organic products, with verified suppliers and claims.",
+      "categoryId": "reselling_commerce",
+      "subcategoryId": "marketplace_reselling",
+      "mode": [
+        "hybrid"
+      ],
+      "businessType": "commerce",
+      "tags": [
+        "organic",
+        "food",
+        "reselling"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 10000,
+        "max": 30000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 6,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on trust, repeat buyers and margin after costs."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "medium",
+      "skillsRequired": [
+        "sourcing",
+        "supplier checks",
+        "local selling"
+      ],
+      "salesChannels": [
+        "local referrals",
+        "whatsapp",
+        "marketplaces"
+      ],
+      "revenueModels": [
+        "one_time",
+        "repeat_purchase"
+      ],
+      "workflowId": "workflow_organic_products_reselling_v1",
+      "content": {
+        "overview": "Organic products reselling is built on trust before variety. Pick one buyer and use case, choose only three to five products, research demand and prices and shortlist suppliers who can show certificates or evidence. Check the current organic labelling rules, count the landed cost, buy the smallest practical test stock and sell through one channel. Aim for five paid transactions and a repeat-buy signal.",
+        "whyConsider": [
+          "Buyers pay for products they trust.",
+          "Staples are bought again and again.",
+          "A small range is enough to start."
+        ],
+        "bestFor": [
+          "People who can check suppliers carefully.",
+          "People who can spend ₹10,000 to ₹30,000 on a small test.",
+          "People who can give 6 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you cannot verify supplier claims.",
+          "Do not choose this if you want to label products organic without evidence."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each product sold.",
+          "Earn again from repeat buyers."
+        ],
+        "startupRequirements": [
+          "3–5 product ideas.",
+          "Verified suppliers with evidence.",
+          "Storage suitable for food.",
+          "One sales channel."
+        ],
+        "keyRisks": [
+          "Unsupported organic claims mislead buyers and may break rules.",
+          "Food storage and expiry problems.",
+          "Thin margins after transport."
+        ],
+        "commonMistakes": [
+          "Starting with too many products.",
+          "Trusting supplier claims without evidence.",
+          "Ignoring expiry dates."
+        ],
+        "complianceNotes": [
+          "Do not label products organic without the supplier evidence or certification the rules require.",
+          "Check the current official requirements that apply to your product and location. If anything is unclear, ask an official source or a qualified professional."
+        ],
+        "supplierNeeds": [
+          "Certified wholesalers or farmer producer organisations."
+        ],
+        "salesApproach": [
+          "Sell through one local channel with clear source information.",
+          "Offer monthly reorders to happy buyers."
+        ],
+        "firstTest": {
+          "title": "Run a small Organic Products Reselling test",
+          "goal": "Choose 3–5 products, verify suppliers and claims, count the real landed cost and run a small first sales test before holding large stock.",
+          "actions": [
+            "Pick One Buyer and Use Case",
+            "Research Demand and Prices",
+            "Sell Through One Channel",
+            "Track 5 Transactions and Repeat Interest"
+          ],
+          "successSignal": "Goal: Complete your first 5 paid transactions and get at least one repeat-buy signal."
+        }
+      },
+      "seo": {
+        "title": "How to Start an Organic Products Reselling Business | SupportStrings",
+        "description": "Start small with trusted organic products, supplier verification, real landed costs and a controlled first sales test before holding large inventory.",
+        "keywords": [
+          "organic products business",
+          "organic products reselling",
+          "organic food reselling",
+          "organic store business",
+          "sell organic products India"
+        ]
+      }
+    },
+    {
+      "id": "mobile_accessories_reselling",
+      "slug": "mobile-accessories-reselling",
+      "name": "Mobile Accessories Reselling",
+      "shortDescription": "Resell a small range of fast-moving phone accessories without getting stuck with dead stock.",
+      "categoryId": "reselling_commerce",
+      "subcategoryId": "marketplace_reselling",
+      "mode": [
+        "hybrid"
+      ],
+      "businessType": "commerce",
+      "tags": [
+        "mobile accessories",
+        "reselling",
+        "electronics"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 10000,
+        "max": 25000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 6,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on stock movement, defects and returns."
+      },
+      "repeatPurchasePotential": "medium",
+      "complianceLevel": "low",
+      "skillsRequired": [
+        "sourcing",
+        "quality checks",
+        "selling"
+      ],
+      "salesChannels": [
+        "local stores",
+        "marketplaces",
+        "social media"
+      ],
+      "revenueModels": [
+        "one_time"
+      ],
+      "workflowId": "workflow_mobile_accessories_reselling_v1",
+      "content": {
+        "overview": "Mobile accessories reselling works when you stock what moves and keep defects under control. Pick one device and customer segment, research which accessories sell fastest, compare local and online prices and shortlist a supplier with a clear defect policy. Test sample quality, count landed cost including returns, choose five to ten items, buy a small first stock and work toward ten transactions.",
+        "whyConsider": [
+          "Phone accessories are bought often.",
+          "Small items are easy to store.",
+          "Fast feedback on what sells."
+        ],
+        "bestFor": [
+          "People who can check product quality.",
+          "People who can spend ₹10,000 to ₹25,000 on test stock.",
+          "People who can give 6 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you cannot handle returns.",
+          "Do not choose this if you want to stock everything a supplier offers."
+        ],
+        "howItMakesMoney": [
+          "Earn the margin on each accessory sold."
+        ],
+        "startupRequirements": [
+          "A supplier with a defect policy.",
+          "Sample units for testing.",
+          "A small stock budget.",
+          "One sales channel."
+        ],
+        "keyRisks": [
+          "Defective products and returns.",
+          "Dead stock when models change.",
+          "Heavy price competition."
+        ],
+        "commonMistakes": [
+          "Buying too many items.",
+          "Skipping sample tests.",
+          "Forgetting returns in the cost."
+        ],
+        "supplierNeeds": [
+          "Local wholesale markets or verified distributors."
+        ],
+        "salesApproach": [
+          "Sell through one channel, such as a local shop or marketplace.",
+          "Track which items move fastest and restock only those."
+        ],
+        "firstTest": {
+          "title": "Run a small Mobile Accessories Reselling test",
+          "goal": "Pick one device segment, test supplier quality, count landed cost including returns and sell a small first stock.",
+          "actions": [
+            "Pick Devices and Customer Segment",
+            "Compare Local and Online Prices",
+            "Sell Through One Channel",
+            "Track Transactions, Defects and Stock Movement"
+          ],
+          "successSignal": "Goal: Complete your first 10 transactions while keeping defect and return problems under control."
+        }
+      },
+      "seo": {
+        "title": "Mobile Accessories Reselling Business | SupportStrings",
+        "description": "Test a mobile accessories reselling business with a focused product range, supplier quality checks, landed-cost calculation and small inventory.",
+        "keywords": [
+          "mobile accessories business",
+          "phone accessories reselling",
+          "mobile accessories shop",
+          "accessories business India",
+          "reselling business"
+        ]
+      }
+    },
+    {
+      "id": "pet_supplies_reselling",
+      "slug": "pet-supplies-reselling",
+      "name": "Pet Supplies Reselling",
+      "shortDescription": "Resell a small range of products pet owners buy again and again.",
+      "categoryId": "reselling_commerce",
+      "subcategoryId": "marketplace_reselling",
+      "mode": [
+        "hybrid"
+      ],
+      "businessType": "commerce",
+      "tags": [
+        "pets",
+        "reselling",
+        "repeat purchase"
+      ],
+      "featured": false,
+      "trending": false,
+      "new": true,
+      "difficulty": "beginner",
+      "investment": {
+        "min": 10000,
+        "max": 25000,
+        "currency": "INR"
+      },
+      "weeklyTime": {
+        "minHours": 6,
+        "maxHours": 10
+      },
+      "incomePotential": {
+        "level": "medium",
+        "note": "Depends on repeat buyers and margin after costs."
+      },
+      "repeatPurchasePotential": "high",
+      "complianceLevel": "low_medium",
+      "skillsRequired": [
+        "sourcing",
+        "safety checks",
+        "local selling"
+      ],
+      "salesChannels": [
+        "pet communities",
+        "local referrals",
+        "marketplaces"
+      ],
+      "revenueModels": [
+        "one_time",
+        "repeat_purchase"
+      ],
+      "workflowId": "workflow_pet_supplies_reselling_v1",
+      "content": {
+        "overview": "Pet supplies reselling can grow on repeat needs rather than a huge catalogue. Pick one pet type and need, research what owners buy again and again, check reviews and safety concerns, choose three to five products and shortlist reliable suppliers. Check the requirements that apply, count landed cost, buy a small first stock and work toward five paid transactions and a repeat-purchase signal.",
+        "whyConsider": [
+          "Pet owners buy some items every month.",
+          "A small range can be enough.",
+          "Repeat buyers build steady sales."
+        ],
+        "bestFor": [
+          "People who understand pets and owners.",
+          "People who can spend ₹10,000 to ₹25,000 on test stock.",
+          "People who can give 6 to 10 hours each week."
+        ],
+        "notIdealFor": [
+          "Skip this if you cannot check product safety and expiry.",
+          "Do not choose this if you want to stock everything at once."
+        ],
+        "howItMakesMoney": [
+          "Get paid for each product sold.",
+          "Earn again from repeat buyers."
+        ],
+        "startupRequirements": [
+          "Reliable suppliers.",
+          "Storage that protects products and expiry dates.",
+          "One sales channel."
+        ],
+        "keyRisks": [
+          "Unsafe or expired products harm pets and trust.",
+          "Thin margins on popular items.",
+          "Big online stores compete."
+        ],
+        "commonMistakes": [
+          "Stocking too many products.",
+          "Ignoring safety complaints and recalls.",
+          "Forgetting storage and expiry."
+        ],
+        "complianceNotes": [
+          "Check the current official requirements that apply to your product and location. If anything is unclear, ask an official source or a qualified professional."
+        ],
+        "supplierNeeds": [
+          "Authorised distributors or verified wholesalers."
+        ],
+        "salesApproach": [
+          "Sell through pet owner communities nearby.",
+          "Offer monthly reorders for repeat items."
+        ],
+        "firstTest": {
+          "title": "Run a small Pet Supplies Reselling test",
+          "goal": "Pick one pet type and need, check safety and suppliers, count landed cost and sell a small first stock.",
+          "actions": [
+            "Pick Pet Type and Need",
+            "Check Reviews and Safety Concerns",
+            "Sell",
+            "Track 5 Transactions and Repeat Intent"
+          ],
+          "successSignal": "Goal: Complete 5 paid transactions and get at least one repeat-purchase signal."
+        }
+      },
+      "seo": {
+        "title": "How to Start a Pet Supplies Reselling Business | SupportStrings",
+        "description": "Test a focused pet supplies business with reliable suppliers, repeat-purchase products, small inventory and first paid transactions.",
+        "keywords": [
+          "pet supplies business",
+          "pet products reselling",
+          "pet store business",
+          "sell pet supplies",
+          "pet business India"
         ]
       }
     }

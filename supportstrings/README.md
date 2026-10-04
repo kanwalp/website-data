@@ -6,11 +6,11 @@ Canonical, public, curated content for the SupportStrings website. This folder i
 | --- | --- |
 | `categories.json` | Category and subcategory taxonomy |
 | `ideas.json` | Curated business ideas |
-| `workflows.json` | Reusable workflow templates |
-| `workflow-content.json` | Idea-specific workflow content profiles |
+| `workflows.json` | Four reusable workflow templates plus the 30 dedicated production Guided Execution journeys (`workflow_<ideaId>_v1`, 6 per archetype, each with a `replaces` migration map) |
+| `workflow-content.json` | Idea-specific workflow content profiles for ideas that use a template |
 | `filters.json` | Discovery filter definitions |
 | `guides.json` | Editorial guides |
-| `guided-execution.json` | Phase 7.5 guided experience: experience archetypes, per-workflow task overlays (keyed by stable step, checklist and decision-gate IDs) and per-idea 60-Second Starter trailers |
+| `guided-execution.json` | Phase 7.5 guided experience: experience archetypes, per-workflow task overlays (keyed by stable step, checklist and decision-gate IDs) and per-idea 60-Second Starter trailers (hook, mission, starter kit, First Win, CTA) |
 
 `manifest.json` lists the files and their schema versions. `schemaVersion` is the dataset layout version; `fileSchemaVersions` records each file's own `schemaVersion`.
 
@@ -21,3 +21,4 @@ Canonical, public, curated content for the SupportStrings website. This folder i
 - The website consumes this at **build time** (`scripts/sync-website-data.mjs` in `support-strings-website`). Visitors never fetch it.
 - The website owns the validation schema (`npm run validate:data` there). Run it against your change before merging: `WEBSITE_DATA_LOCAL_PATH=<this repo> npm run sync:data`.
 - Update `manifest.json` (`contentVersion`, `updatedAt`, and `fileSchemaVersions` if a file's schema changes) with every content change.
+- The 30 production guided journeys are authored from the Guided Execution workbook (the human-readable source of truth). Keep the workbook and this JSON in step, and keep early validation low-friction: quiet research and optional light feedback first, real customer action later.

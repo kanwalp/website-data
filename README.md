@@ -46,6 +46,6 @@ npm run status
 
 ## SupportStrings
 
-[`supportstrings/`](supportstrings/README.md) holds the curated catalogue for supportstrings.com: categories, business ideas, workflow templates and content profiles, filters and guides, described by [`manifest.json`](supportstrings/manifest.json). The website syncs it at build time (`WEBSITE_DATA_LOCAL_PATH` locally, this repo at `WEBSITE_DATA_REF` otherwise) and validates it with `npm run validate:data` in the `support-strings-website` repo. IDs, slugs, workflow IDs and step IDs are stable because returning visitors' saved guest workspaces refer to them.
+[`supportstrings/`](supportstrings/README.md) holds the curated catalogue for supportstrings.com: categories, business ideas, workflow templates, the 30 production Guided Execution journeys, content profiles, filters, guides and the guided-execution overlay, described by [`manifest.json`](supportstrings/manifest.json). The website syncs it at build time (`WEBSITE_DATA_LOCAL_PATH` locally, this repo at `WEBSITE_DATA_REF` otherwise) and validates it with `npm run validate:data` in the `support-strings-website` repo. IDs, slugs, workflow IDs and step IDs are stable because returning visitors' saved guest workspaces refer to them.
 
 This content stays here long-term; SupportStrings' future Supabase backend (Phase 8) stores only user/runtime data.
