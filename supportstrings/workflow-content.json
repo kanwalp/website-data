@@ -138,45 +138,6 @@
       }
     },
     {
-      "ideaId": "spreadsheet_template_business",
-      "status": "published",
-      "firstTestStepId": "create_prototype",
-      "firstTest": {
-        "title": "Build one working spreadsheet tracker",
-        "goal": "Test whether people you want to help can replace a repeated manual tracking task safely and clearly.",
-        "actions": [
-          "Choose one plan such as cash tracking, projects or inventory",
-          "Build the minimum inputs, formulas and summary",
-          "Add realistic sample data and setup instructions",
-          "Observe five people you want to help entering data and interpreting the result"
-        ],
-        "successSignal": "Goal: most users complete the plan without formula help and confirm that the template saves meaningful time or reduces errors."
-      },
-      "variables": {
-        "customer": "small-business operators managing one repeated financial, project or operations task",
-        "problem": "tracking important work manually or across inconsistent spreadsheets",
-        "product": "one reliable spreadsheet template",
-        "competitorFocus": "plan covered, formulas, setup effort, examples, price and user complaints",
-        "formatFocus": "the intended spreadsheet application with realistic sample data",
-        "usabilityFocus": "whether users can enter their own data and interpret outputs without formula errors",
-        "rightsFocus": "included examples, documentation, usage terms and compatibility claims",
-        "pricingFocus": "time saved, error reduction, buyer complexity and support burden",
-        "salesChannels": "one template marketplace or direct small-business audience",
-        "firstPaidMilestone": "first five paid spreadsheet users",
-        "distributionFocus": "the channel producing buyers who complete setup and continue using the sheet",
-        "riskWarning": "Do not market a spreadsheet as financial, legal or professional advice.",
-        "validationTargetCount": 5,
-        "validationCriteria": "confirm the tracking problem and show that a working template saves meaningful effort"
-      },
-      "milestones": {
-        "validation": "Five users confirm the tracking problem",
-        "firstTest": "Working template tested with realistic data",
-        "firstPaid": "First five paid spreadsheet users",
-        "finalDecision": "Reliability, usability and support burden reviewed"
-      },
-      "stepOverrides": {}
-    },
-    {
       "ideaId": "developer_starter_kits",
       "status": "published",
       "firstTestStepId": "create_prototype",
@@ -212,45 +173,6 @@
         "firstTest": "Independent installation succeeds",
         "firstPaid": "First three paid developer buyers",
         "finalDecision": "Code quality, support and maintenance proof reviewed"
-      },
-      "stepOverrides": {}
-    },
-    {
-      "ideaId": "video_editing",
-      "status": "published",
-      "firstTestStepId": "paid_pilot",
-      "firstTest": {
-        "title": "Create a niche sample reel and paid trial offer",
-        "goal": "Test whether specialization in one video format earns qualified client interest.",
-        "actions": [
-          "Choose one niche and format such as short-form, YouTube or ads",
-          "Create two or three relevant sample edits using permitted material",
-          "Define turnaround, included revisions and file requirements",
-          "Send the reel and trial offer to 10 likely customers"
-        ],
-        "successSignal": "Goal: possible customers recognize the format fit and at least one agrees to a paid trial with clear revision boundaries."
-      },
-      "variables": {
-        "customer": "one creator or business niche publishing a repeatable video format",
-        "problem": "turning raw footage into consistent audience-ready videos on schedule",
-        "offer": "a clearly scoped editing package for one format",
-        "proofAsset": "two or three before-and-after sample edits using permitted footage",
-        "pricingFocus": "video length, footage volume, complexity, turnaround, revisions and asset handling",
-        "outreachChannel": "direct creator outreach, referrals and relevant portfolio platforms",
-        "outreachTarget": 20,
-        "pilotOutcome": "one video delivered on brief, on time and within revision boundaries",
-        "deliveryFocus": "brief quality, file transfer, asset rights, turnaround, feedback and revisions",
-        "firstPaidMilestone": "one paid editing trial",
-        "scalePath": "a repeatable editing package with templates, handoff and capacity limits",
-        "riskWarning": "Do not offer unlimited revisions or use footage, music or assets without permission.",
-        "validationTargetCount": 3,
-        "validationCriteria": "confirm recurring editing demand and accept the proposed format and turnaround"
-      },
-      "milestones": {
-        "validation": "Three possible customers confirm recurring editing demand",
-        "firstTest": "Niche sample reel and package completed",
-        "firstPaid": "First paid editing trial",
-        "finalDecision": "Delivery time, revisions and recurring demand reviewed"
       },
       "stepOverrides": {}
     },
