@@ -5,8 +5,8 @@ Canonical, public, curated content for the SupportStrings website. This folder i
 | File | Content |
 | --- | --- |
 | `categories.json` | Category and subcategory taxonomy |
-| `ideas.json` | Curated business ideas |
-| `workflows.json` | Four reusable workflow templates plus the 30 dedicated production Guided Execution journeys (`workflow_<ideaId>_v1`, 6 per archetype, each with a `replaces` migration map) |
+| `ideas.json` | Curated business ideas, with `seo` (title, description, H1, search phrases) for every guided idea |
+| `workflows.json` | Four reusable workflow templates plus the 70 dedicated production Guided Execution journeys (`workflow_<ideaId>_v1`, 14 per archetype; upgraded ideas carry a `replaces` migration map) |
 | `workflow-content.json` | Idea-specific workflow content profiles for ideas that use a template |
 | `filters.json` | Discovery filter definitions |
 | `guides.json` | Editorial guides |
@@ -21,4 +21,4 @@ Canonical, public, curated content for the SupportStrings website. This folder i
 - The website consumes this at **build time** (`scripts/sync-website-data.mjs` in `support-strings-website`). Visitors never fetch it.
 - The website owns the validation schema (`npm run validate:data` there). Run it against your change before merging: `WEBSITE_DATA_LOCAL_PATH=<this repo> npm run sync:data`.
 - Update `manifest.json` (`contentVersion`, `updatedAt`, and `fileSchemaVersions` if a file's schema changes) with every content change.
-- The 30 production guided journeys are authored from the Guided Execution workbook (the human-readable source of truth). Keep the workbook and this JSON in step, and keep early validation low-friction: quiet research and optional light feedback first, real customer action later.
+- The 70 production guided journeys (14 per archetype) are authored from the Guided Execution workbook (the human-readable source of truth). Keep the workbook and this JSON in step, and keep early validation low-friction: quiet research and optional light feedback first, real customer action later.
