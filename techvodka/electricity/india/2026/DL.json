@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "currency": "INR",
   "stateCode": "DL",
@@ -15,7 +15,8 @@
   "productionEnabled": true,
   "sourceKeys": [
     "BSES_DELHI_INFO_GUIDE_2025",
-    "BRPL_FPPAS_CURRENT"
+    "BRPL_FPPAS_CURRENT",
+    "DERC_TRUEUP_FY2022_23_PREFACE"
   ],
   "discoms": [
     "BRPL",

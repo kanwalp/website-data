@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "currency": "INR",
   "stateCode": "AP",
@@ -11,9 +11,10 @@
   "effectiveFrom": "2026-04-01",
   "effectiveTo": "2027-03-31",
   "calculationEngine": "AP_TELESCOPIC",
-  "verificationStatus": "VERIFIED_CURRENT_ORDER_RATES_CROSSCHECKED",
+  "verificationStatus": "VERIFIED_OFFICIAL",
   "productionEnabled": true,
   "sourceKeys": [
+    "APERC_RSTO_FY2026_27",
     "APERC_TARIFF_ORDERS_FY2026_27",
     "APEPDCL_ARR_RST_FY2026_27",
     "APERC_RST_FY2025_26_CORRECTED"
@@ -79,5 +80,5 @@
       "dynamic": true
     }
   },
-  "verificationNote": "The APERC tariff-order index confirms the FY2026-27 order. The FY2026-27 APEPDCL official filing and prior corrected APERC rate table agree on the domestic retail schedule encoded here."
+  "verificationNote": "Domestic slabs, fixed charge and EV charging station rate verified directly against the final APERC FY2026-27 Retail Supply Tariff Order dated 25-03-2026, Table 9.7 Reference Tariff Schedule (rates consumers are billed). The Full Cost Recovery Tariff Schedule in the same order is not a consumer billing rate and is not used."
 }

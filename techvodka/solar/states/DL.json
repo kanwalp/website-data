@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "stateCode": "DL",
   "stateName": "Delhi",
@@ -10,19 +10,23 @@
   "verificationStatus": "VERIFIED_OFFICIAL_CURRENT",
   "sourceKeys": [
     "DELHI_SOLAR_STATE_SUBSIDY",
+    "DELHI_SOLAR_SCHEME_OVERVIEW",
+    "DELHI_SOLAR_POLICY_PAGE",
     "DELHI_SOLAR_POLICY_AMENDED",
     "DELHI_SOLAR_CALCULATOR"
   ],
   "stateCapitalSubsidy": {
     "residentialHousehold": {
-      "subsidyPerKW": 10000,
+      "subsidyPerKW": 26000,
       "maximumEligibleCapacityKW": 3,
-      "maximumSubsidy": 30000
+      "maximumSubsidy": 78000,
+      "message": "₹26,000/kW is a maximum. The state subsidy is the lower of (DISCOM trusteeship-model bid cost minus PM Surya Ghar subsidy) or ₹26,000 × plant capacity in kW, capped at ₹78,000. No additional state subsidy above 3 kW."
     },
     "ghsRwaCommonFacilities": {
-      "subsidyPerKW": 2000,
+      "subsidyPerKW": 11000,
       "maximumTotalCapacityKW": 500,
-      "includesEVCharging": true
+      "includesEVCharging": true,
+      "message": "₹11,000/kWp, up to 500 kWp at 3 kWp per house, capped at the differential of total plant cost/kW and PM Surya Ghar subsidy/kW as discovered through bidding."
     }
   },
   "generationBasedIncentive": {

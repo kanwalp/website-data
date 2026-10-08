@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "currency": "INR",
   "stateCode": "TN",
@@ -14,7 +14,9 @@
   "verificationStatus": "PARTIAL_DIRECT_FY2026_27_SOURCE_PENDING",
   "productionEnabled": false,
   "sourceKeys": [
-    "TNERC_ORDER_6_2025"
+    "TNERC_ORDER_6_2025",
+    "TNERC_ORDER_4_2026",
+    "TNERC_ORDER_5_2026"
   ],
   "distributionCompany": "TNPDCL",
   "domestic": {
@@ -57,7 +59,7 @@
     "currentSubsidyPolicy": {
       "productionEnabled": false,
       "verificationStatus": "PENDING_DIRECT_FY2026_27_ORDER_ARTIFACT",
-      "message": "Do not calculate final consumer payable Tamil Nadu domestic bills until the current FY2026-27 TNERC/GoTN subsidy artifact is captured and verified."
+      "message": "Do not calculate final consumer payable Tamil Nadu domestic bills. TNERC's FY2026-27 subsidy orders are provisional (Order No. 4 of 2026) and the free-unit structure changed mid-year (Order No. 5 of 2026: 200 free units bimonthly for consumers up to 500 units bimonthly from 10-05-2026, 100 free units above that). The calculator does not model this date-dependent structure."
     }
   },
   "fallbackMode": "CUSTOM_RATE"
