@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "currency": "INR",
   "stateCode": "KL",
@@ -14,7 +14,7 @@
   "verificationStatus": "VERIFIED_OFFICIAL",
   "productionEnabled": true,
   "sourceKeys": [
-    "KSERC_CURRENT_TARIFF_SCHEDULE"
+    "KSERC_TARIFF_SCHEDULE_GAZETTE_2024"
   ],
   "distributionCompany": "KSEB Ltd",
   "domestic": {
@@ -113,7 +113,7 @@
           },
           {
             "upToKWh": null,
-            "ratePerKWh": 8.2,
+            "ratePerKWh": 9.2,
             "singlePhaseFixed": 310,
             "threePhaseFixed": 310
           }
@@ -142,5 +142,5 @@
       "dynamic": true
     }
   },
-  "sourceDiscrepancyNote": "The detailed LT-I tariff schedule page shows ₹8.20/unit above 500 units; TechVodka uses the detailed schedule value."
+  "sourceDiscrepancyNote": "The KSERC gazetted schedule (w.e.f. 01.04.2025 to 31.03.2027) sets ₹9.20/unit above 500 units. An earlier secondary reprint showed ₹8.20; that value was a reprint error and has been corrected to the gazetted rate."
 }

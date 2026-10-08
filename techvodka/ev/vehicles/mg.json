@@ -1,12 +1,13 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "manufacturer": "JSW MG Motor India",
   "productionEnabled": true,
   "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
   "sourceKeys": [
+    "MG_WINDSOR_BROCHURE",
     "MG_WINDSOR_CURRENT"
   ],
   "dataPolicy": {

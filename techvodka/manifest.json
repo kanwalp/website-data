@@ -1,10 +1,10 @@
 {
   "site": "techvodka",
   "schemaVersion": "1.2.0",
-  "contentVersion": "2026.09.20",
-  "updatedAt": "2026-09-20",
-  "dataVersion": "2026.09.20",
-  "generatedAt": "2026-09-20",
+  "contentVersion": "2026.10.08",
+  "updatedAt": "2026-10-08",
+  "dataVersion": "2026.10.08",
+  "generatedAt": "2026-10-08",
   "country": "IN",
   "phase": "TechVodka Phase 1 - Energy, Solar, EV",
   "coverage": {
@@ -46,33 +46,33 @@
     {
       "path": "appliances/official-policy.json",
       "type": "appliance-policy-data",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "verificationStatus": "VERIFIED_OFFICIAL_POLICY",
       "productionEnabled": true
     },
     {
       "path": "dynamic-inputs.json",
       "type": "dynamic-input-policy",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20"
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08"
     },
     {
       "path": "electricity/india/2026/AP.json",
       "type": "electricity-tariff",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "AP",
       "effectiveFrom": "2026-04-01",
       "effectiveTo": "2027-03-31",
-      "verificationStatus": "VERIFIED_CURRENT_ORDER_RATES_CROSSCHECKED",
+      "verificationStatus": "VERIFIED_OFFICIAL",
       "productionEnabled": true
     },
     {
       "path": "electricity/india/2026/DL.json",
       "type": "electricity-tariff",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "DL",
       "effectiveFrom": "2025-01-01",
       "effectiveTo": null,
@@ -82,8 +82,8 @@
     {
       "path": "electricity/india/2026/KA.json",
       "type": "electricity-tariff",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "KA",
       "effectiveFrom": "2026-04-01",
       "effectiveTo": "2027-03-31",
@@ -93,8 +93,8 @@
     {
       "path": "electricity/india/2026/KL.json",
       "type": "electricity-tariff",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "KL",
       "effectiveFrom": "2024-12-05",
       "effectiveTo": "2027-03-31",
@@ -104,8 +104,8 @@
     {
       "path": "electricity/india/2026/MH.json",
       "type": "electricity-tariff",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "MH",
       "effectiveFrom": "2026-04-01",
       "effectiveTo": "2027-03-31",
@@ -115,8 +115,8 @@
     {
       "path": "electricity/india/2026/TG.json",
       "type": "electricity-tariff",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "TG",
       "effectiveFrom": "2026-04-01",
       "effectiveTo": "2027-03-31",
@@ -126,8 +126,8 @@
     {
       "path": "electricity/india/2026/TN.json",
       "type": "electricity-tariff",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "TN",
       "effectiveFrom": "2025-07-01",
       "effectiveTo": null,
@@ -137,16 +137,16 @@
     {
       "path": "ev/charging-policy.json",
       "type": "ev-policy-data",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "verificationStatus": "VERIFIED_OFFICIAL",
       "productionEnabled": true
     },
     {
       "path": "ev/vehicles/hyundai.json",
       "type": "ev-vehicle-data",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "manufacturer": "Hyundai",
       "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
       "productionEnabled": true
@@ -154,8 +154,8 @@
     {
       "path": "ev/vehicles/mahindra.json",
       "type": "ev-vehicle-data",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "manufacturer": "Mahindra",
       "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER_PARTIAL_VARIANTS",
       "productionEnabled": true
@@ -163,8 +163,8 @@
     {
       "path": "ev/vehicles/mg.json",
       "type": "ev-vehicle-data",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "manufacturer": "JSW MG Motor India",
       "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
       "productionEnabled": true
@@ -172,8 +172,8 @@
     {
       "path": "ev/vehicles/tata.json",
       "type": "ev-vehicle-data",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "manufacturer": "Tata Motors",
       "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
       "productionEnabled": true
@@ -181,16 +181,16 @@
     {
       "path": "solar/pm-surya-ghar.json",
       "type": "solar-policy-data",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "verificationStatus": "VERIFIED_OFFICIAL",
       "productionEnabled": true
     },
     {
       "path": "solar/states/DL.json",
       "type": "state-solar-policy",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20",
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08",
       "stateCode": "DL",
       "verificationStatus": "VERIFIED_OFFICIAL_CURRENT",
       "productionEnabled": true
@@ -206,8 +206,8 @@
     {
       "path": "sources.json",
       "type": "source-registry",
-      "dataVersion": "2026.09.20",
-      "verifiedOn": "2026-09-20"
+      "dataVersion": "2026.10.08",
+      "verifiedOn": "2026-10-08"
     }
   ]
 }

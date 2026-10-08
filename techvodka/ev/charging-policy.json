@@ -1,13 +1,14 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "currency": "INR",
   "productionEnabled": true,
   "verificationStatus": "VERIFIED_OFFICIAL",
   "sourceKeys": [
     "MOP_EVCI_2024",
+    "PIB_EVCI_STATUS_DEC_2025",
     "MOP_ANNUAL_REPORT_2024_25"
   ],
   "guidelineEffectiveFrom": "2024-09-17",

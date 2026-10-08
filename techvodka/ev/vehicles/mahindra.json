@@ -1,13 +1,14 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "manufacturer": "Mahindra",
   "productionEnabled": true,
   "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER_PARTIAL_VARIANTS",
   "sourceKeys": [
-    "MAHINDRA_BE6_XEV9E"
+    "MAHINDRA_BE6_XEV9E",
+    "MAHINDRA_BE6_BROCHURE_V29"
   ],
   "dataPolicy": {
     "purchasePrice": "USER_INPUT",
@@ -28,10 +29,10 @@
         {
           "name": "59 kWh",
           "batteryKWh": 59,
-          "midcP1P2RangeKm": null,
-          "note": "Battery option is manufacturer-confirmed; range intentionally null until directly verified from a current official specification source."
+          "midcP1P2RangeKm": 548
         }
-      ]
+      ],
+      "note": "Original BE 6 specifications. Mahindra's current line-up markets the successor BE 6 SPORTEQ, which is not yet represented in this dataset."
     },
     {
       "model": "XEV 9e",

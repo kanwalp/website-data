@@ -1,13 +1,14 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "manufacturer": "Tata Motors",
   "productionEnabled": true,
   "verificationStatus": "VERIFIED_OFFICIAL_MANUFACTURER",
   "sourceKeys": [
-    "TATA_EV_SUPPORT"
+    "TATA_EV_SUPPORT",
+    "TATA_EV_BROCHURES"
   ],
   "dataPolicy": {
     "purchasePrice": "USER_INPUT",

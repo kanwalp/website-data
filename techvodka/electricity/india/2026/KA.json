@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.2.0",
-  "dataVersion": "2026.09.20",
-  "verifiedOn": "2026-09-20",
+  "dataVersion": "2026.10.08",
+  "verifiedOn": "2026-10-08",
   "country": "IN",
   "currency": "INR",
   "stateCode": "KA",
@@ -14,7 +14,9 @@
   "verificationStatus": "VERIFIED_OFFICIAL",
   "productionEnabled": true,
   "sourceKeys": [
-    "KERC_TARIFF_ORDER_2025_HRECS"
+    "KERC_TARIFF_ORDER_2025_CHARGES",
+    "KERC_TARIFF_ORDER_2025_HRECS",
+    "KERC_BESCOM_APR_FY2024_25"
   ],
   "discoms": [
     "BESCOM",
@@ -45,6 +47,11 @@
     "taxesAndAdjustments": {
       "included": false,
       "dynamic": true
+    },
+    "fy25TrueUpCharges": {
+      "included": false,
+      "dynamic": true,
+      "message": "BESCOM recovers the FY2024-25 revenue deficit as separate 'FY25 True up Charges' from May 2026 to April 2027, calculated per consumer from that consumer's FY2024-25 consumption. It is not a per-kWh surcharge on current consumption and is not part of the base LT-1 tariff."
     }
   }
 }
